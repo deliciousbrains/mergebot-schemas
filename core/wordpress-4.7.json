@@ -1,0 +1,287 @@
+{
+	"primaryKeys": {
+		"commentmeta": "meta_id",
+		"comments": "comment_ID",
+		"links": "link_id",
+		"options": "option_id",
+		"postmeta": "meta_id",
+		"posts": "ID",
+		"term_relationships": [
+			"object_id",
+			"term_taxonomy_id"
+		],
+		"term_taxonomy": "term_taxonomy_id",
+		"termmeta": "meta_id",
+		"terms": "term_id",
+		"usermeta": "umeta_id",
+		"users": "ID"
+	},
+	"foreignKeys": {
+		"commentmeta:comment_id": "comments:comment_ID",
+		"comments:comment_post_ID": "posts:ID",
+		"comments:user_id": "users:ID",
+		"postmeta:post_id": "posts:ID",
+		"posts:post_author": "users:ID",
+		"posts:post_parent": "posts:ID",
+		"term_relationships:object_id": "posts:ID",
+		"term_relationships:term_taxonomy_id": "term_taxonomy:term_taxonomy_id",
+		"term_taxonomy:term_id": "terms:term_id",
+		"term_taxonomy:parent": "term_taxonomy:term_taxonomy_id",
+		"termmeta:term_id": "terms:term_id",
+		"usermeta:user_id": "users:ID"
+	},
+	"relationships": {
+		"options": [
+			{
+				"option_name": "%category_children",
+				"option_value": "terms",
+				"serialized": {
+					"key": "terms:term_id",
+					"val": {
+						"key": "ignore",
+						"val": "terms:term_id"
+					}
+				}
+			},
+			{
+				"option_name": "default_category",
+				"option_value": "terms"
+			},
+			{
+				"option_name": "default_email_category",
+				"option_value": "terms"
+			},
+			{
+				"option_name": "default_link_category",
+				"option_value": "terms"
+			},
+			{
+				"option_name": "nav_menu_options",
+				"option_value": "terms",
+				"serialized": {
+					"key": "auto_add",
+					"val": {
+						"key": "ignore",
+						"val": "terms:term_id"
+					}
+				}
+			},
+			{
+				"option_name": "page_for_posts",
+				"option_value": "posts"
+			},
+			{
+				"option_name": "page_on_front",
+				"option_value": "posts"
+			},
+			{
+				"option_name": "site_icon",
+				"option_value": "posts"
+			},
+			{
+				"option_name": "sticky_posts",
+				"option_value": "posts",
+				"serialized": {
+					"key": "ignore",
+					"val": "posts:ID"
+				}
+			},
+			{
+				"option_name": "theme_mods_%",
+				"option_value": "posts",
+				"serialized": {
+					"key": "header_image_data",
+					"val": {
+						"key": "attachment_id",
+						"val": "posts:ID"
+					}
+				}
+			},
+			{
+				"option_name": "theme_mods_%",
+				"option_value": "terms",
+				"serialized": {
+					"key": "nav_menu_locations",
+					"val": {
+						"key": "ignore",
+						"val": "terms:term_id"
+					}
+				}
+			},
+			{
+				"option_name": "widget_nav_menu",
+				"option_value": "terms",
+				"serialized": {
+					"key": "ignore",
+					"val": {
+						"key": "nav_menu",
+						"val": "terms:term_id"
+					}
+				}
+			},
+			{
+				"option_name": "widget_pages",
+				"option_value": "posts",
+				"serialized": {
+					"key": "ignore",
+					"val": {
+						"key": "exclude",
+						"val": "posts:ID"
+					}
+				}
+			}
+		],
+		"postmeta": [
+			{
+				"meta_key": "_thumbnail_id",
+				"meta_value": "posts"
+			},
+			{
+				"meta_key": "_menu_item_menu_item_parent",
+				"meta_value": "posts"
+			}
+		],
+		"usermeta": [
+			{
+				"meta_key": "wp_dashboard_quick_press_last_post_id",
+				"meta_value": "posts"
+			}
+		]
+	},
+	"content": [
+		{
+			"posts:guid": "(?<=\\=)\\d+"
+		},
+		{
+			"posts:guid": "\\d+(?=\\-autosave-v)"
+		},
+		{
+			"posts:guid": "\\d+(?=\\-revision-v)"
+		},
+		{
+			"posts:post_name": "(?<=\\ID-revision-)\\d+"
+		},
+		{
+			"posts:post_content": "(?<=wp-image-)\\d+"
+		}
+	],
+	"shortcodes": {
+		"gallery": {
+			"parameters": [
+				"id",
+				"ids",
+				"include",
+				"exclude"
+			]
+		},
+		"playlist": {
+			"parameters": [
+				"id",
+				"ids",
+				"include",
+				"exclude"
+			]
+		}
+	},
+	"tablePrefixes": [
+		{
+			"options:option_name": "user_roles"
+		},
+		{
+			"usermeta:meta_key": "capabilities"
+		},
+		{
+			"usermeta:meta_key": "user_level"
+		},
+		{
+			"usermeta:meta_key": "dashboard_quick_press_last_post_id"
+		},
+		{
+			"usermeta:meta_key": "user-settings"
+		},
+		{
+			"usermeta:meta_key": "user-settings-time"
+		},
+		{
+			"usermeta:meta_key": "media_library_mode"
+		}
+	],
+	"ignore": [
+		{
+			"options:option_name": "_transient_(.*)"
+		},
+		{
+			"options:option_name": "_site_transient_(.*)"
+		},
+		{
+			"options:option_name": "cron_(.*)"
+		},
+		{
+			"options:option_name": "cron"
+		},
+		{
+			"options:option_name": "(.*).lock"
+		},
+		{
+			"options:option_name": "rewrite_rules"
+		},
+		{
+			"options:option_name": "(auth_|secure_auth_|nonce_|logged_in_)(key|salt)"
+		},
+		{
+			"options:option_name": "(auto_core_update_)(notified|failed)"
+		},
+		{
+			"options:option_name": "(auto|core)(_updater.lock)"
+		},
+		{
+			"postmeta:meta_key": "_edit_lock"
+		},
+		{
+			"postmeta:meta_key": "_edit_last"
+		},
+		{
+			"postmeta:meta_key": "(.*).lock"
+		},
+		{
+			"postmeta:meta_key": "_pingme"
+		},
+		{
+			"postmeta:meta_key": "_encloseme"
+		},
+		{
+			"usermeta:meta_key": "session_tokens"
+		}
+	],
+	"files": [
+		"jpg",
+		"jpeg",
+		"png",
+		"gif",
+		"ico",
+		"pdf",
+		"doc",
+		"docx",
+		"ppt",
+		"pptx",
+		"pps",
+		"ppsx",
+		"odt",
+		"xls",
+		"xlsx",
+		"psd",
+		"mp3",
+		"m4a",
+		"ogg",
+		"wav",
+		"mp4",
+		"m4v",
+		"mov",
+		"wmv",
+		"avi",
+		"mpg",
+		"ogv",
+		"3gp",
+		"3g2"
+	]
+}
