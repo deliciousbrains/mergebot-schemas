@@ -1,0 +1,14 @@
+{
+    "relationships": {
+        "options": [
+            {
+                "option_name": "posts:ID_%",
+                "option_value": "posts"
+            },
+            {
+                "option_name": "_posts:ID_%",
+                "option_value": "posts"
+            }
+        ]
+    }
+}
