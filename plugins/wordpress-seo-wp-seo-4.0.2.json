@@ -1,0 +1,34 @@
+{
+    "relationships": {
+        "options": [
+            {
+                "option_name": "wpseo_taxonomy_meta",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "ignore",
+                    "val": {
+                        "key": "terms:term_id",
+                        "val": "ignore"
+                    }
+                }
+            },
+            {
+                "option_name": "wpseo_taxonomy_meta",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "ignore",
+                    "val": {
+                        "key": "terms:term_id",
+                        "val": "ignore"
+                    }
+                }
+            }
+        ],
+        "postmeta": [
+            {
+                "meta_key": "_yoast_wpseo_primary_%",
+                "meta_value": "terms"
+            }
+        ]
+    }
+}
