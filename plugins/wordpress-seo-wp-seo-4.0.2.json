@@ -34,7 +34,7 @@
             "options:option_name": "wpseo_sitemap_revision_cache_validator"
         },
         {
-            "options:option_name": "\_transient\_(.*)"
+            "options:option_name": "\\_transient\\_(.*)"
         }
     ]
 }
