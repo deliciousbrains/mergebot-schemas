@@ -11,17 +11,6 @@
                         "val": "ignore"
                     }
                 }
-            },
-            {
-                "option_name": "wpseo_taxonomy_meta",
-                "option_value": "terms",
-                "serialized": {
-                    "key": "ignore",
-                    "val": {
-                        "key": "terms:term_id",
-                        "val": "ignore"
-                    }
-                }
             }
         ],
         "postmeta": [
