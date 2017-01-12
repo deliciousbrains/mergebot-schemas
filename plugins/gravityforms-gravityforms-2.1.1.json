@@ -1,0 +1,24 @@
+{
+    "primaryKeys": {
+        "rg_form": "id",
+        "rg_form_view": "id",
+        "rg_lead": "id",
+        "rg_lead_detail": "id",
+        "rg_lead_meta": "id",
+        "rg_lead_notes": "id"
+    },
+    "foreignKeys": {
+        "rg_form_meta:form_id": "rg_form:id",
+        "rg_form_view:form_id": "rg_form:id",
+        "rg_incomplete_submissions:form_id": "rg_form:id",
+        "rg_lead:form_id": "rg_form:id",
+        "rg_lead:post_id": "posts:ID",
+        "rg_lead_detail:lead_id": "rg_lead:id",
+        "rg_lead_detail:form_id": "rg_form:id",
+        "rg_lead_detail_long:lead_detail_id": "rg_lead_detail:id",
+        "rg_lead_meta:form_id": "rg_form:id",
+        "rg_lead_meta:lead_id": "rg_lead:id",
+        "rg_lead_notes:lead_id": "rg_lead:id",
+        "rg_lead_notes:user_id": "users:ID"
+    }
+}
