@@ -38,5 +38,36 @@
                 }
             ]
         }
+    },
+    "relationships": {
+        "postmeta": [
+            {
+                "meta_key": "_gform-form-id",
+                "meta_value": "rg_form"
+            }
+        ],
+        "usermeta": [
+            {
+                "meta_key": "gform_recent_forms",
+                "meta_value": "rg_form",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "rg_form:id"
+                }
+            }
+        ],
+        "options": [
+            {
+                "option_name": "(.*)_children",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": {
+                        "key": "ignore",
+                        "val": "terms:term_id"
+                    }
+                }
+            }
+        ]
     }
 }
