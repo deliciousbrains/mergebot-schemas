@@ -101,12 +101,12 @@
                 }
             },
             {
-                "meta_key": "_customer_user",
-                "meta_value": "users"
-            },
-            {
                 "meta_key": "_product_image_gallery",
                 "meta_value": "posts"
+            },
+            {
+                "meta_key": "_customer_user",
+                "meta_value": "users"
             }
         ]
     }
