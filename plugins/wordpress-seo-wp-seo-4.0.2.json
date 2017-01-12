@@ -19,5 +19,22 @@
                 "meta_value": "terms"
             }
         ]
-    }
+    },
+    "ignore": [
+        {
+            "options:option_name": "wpseo_sitemap_(.*)_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_category_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_post_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_revision_cache_validator"
+        },
+        {
+            "options:option_name": "\_transient\_(.*)"
+        }
+    ]
 }
