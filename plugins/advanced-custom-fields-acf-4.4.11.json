@@ -1,4 +1,11 @@
 {
+    "shortcodes": {
+        "acf": {
+            "parameters": [
+                "post_id"
+            ]
+        }
+    },
     "relationships": {
         "options": [
             {
