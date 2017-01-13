@@ -1,0 +1,14 @@
+{
+    "shortcodes": {
+        "contact-form-7": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "contact-form": {
+            "parameters": [
+                "id"
+            ]
+        }
+    }
+}
