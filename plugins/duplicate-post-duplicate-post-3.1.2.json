@@ -1,0 +1,15 @@
+{
+    "relationships": {
+        "postmeta": [
+            {
+                "meta_key": "_dp_original",
+                "meta_value": "posts"
+            }
+        ]
+    },
+    "ignore": [
+        {
+            "options:option_name": "duplicate_post_version"
+        }
+    ]
+}
