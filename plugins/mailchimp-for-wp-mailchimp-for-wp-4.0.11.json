@@ -1,0 +1,21 @@
+{
+    "shortcodes": {
+        "mc4wp_form": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "options": [
+            {
+                "option_name": "mc4wp_default_form_id",
+                "option_value": "posts"
+            },
+            {
+                "option_name": "mc4wp_form_preview_id",
+                "option_value": "posts"
+            }
+        ]
+    }
+}
