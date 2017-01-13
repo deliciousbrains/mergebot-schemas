@@ -43,7 +43,7 @@
         "product_categories": {
             "parameters": [
                 "ids",
-                " parent"
+                "parent"
             ]
         },
         "add_to_cart": {
