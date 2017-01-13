@@ -1,0 +1,14 @@
+{
+    "relationships": {
+        "postmeta": [
+            {
+                "meta_key": "_menu_item_menu_item_parent",
+                "meta_value": "posts"
+            },
+            {
+                "meta_key": "_thumbnail_id",
+                "meta_value": "posts"
+            }
+        ]
+    }
+}
