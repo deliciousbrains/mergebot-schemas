@@ -1,0 +1,32 @@
+{
+    "shortcodes": {
+        "gallery": {
+            "parameters": [
+                "id",
+                "include",
+                "exclude"
+            ]
+        },
+        "slideshow": {
+            "parameters": [
+                "id",
+                "include",
+                "exclude"
+            ]
+        }
+    },
+    "relationships": {
+        "options": [
+            {
+                "option_name": "post_by_email_address{users:ID}",
+                "option_value": "ignore"
+            }
+        ],
+        "postmeta": [
+            {
+                "meta_key": "_thumbnail_id",
+                "meta_value": "posts"
+            }
+        ]
+    }
+}
