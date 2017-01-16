@@ -16,3 +16,4 @@ If you require another plugin to be compatible with Mergebot, you can create you
 
 ## Plugin Developers
 
+If you are a developer of a WordPress plugin we would love to have Mergebot compatible with your plugin. You are more than welcome to submit a PR with a schema for your plugin.
