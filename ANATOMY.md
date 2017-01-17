@@ -1,3 +1,13 @@
+## Anatomy of a Schema
+
+1. [Primary Keys](#primary-keys)
+1. [Foreign Keys](#foreign-keys)
+1. [Key/Value Relationships](#keyvalue-relationships)
+1. [Shortcodes](#shortcodes)
+1. [Content](#content)
+1. [Ignored Queries](#ignored-queries)
+1. [Table Prefix in Keys](#table-prefixes-in-keys)
+
 Schemas are a piece of JSON used by Mergebot to describe the database relationships of a part of a site (e.g. WordPress core, a plugin etc.). Schemas include information on primary/foreign keys, relationships of IDs in key/value pair tables, content replacements and shortcodes. For example, if your plugin uses custom tables, inserts data into the options table, inserts IDs into the post content, or implements custom shortcodes you can create a custom schema to tell Mergebot how to handle this data.
 
 You can define schemas from the [Schemas page](/settings/teams/[team_id]#/schemas) in your team settings.
