@@ -15,7 +15,7 @@
         ],
         "postmeta": [
             {
-                "meta_key": "_yoast_wpseo_primary_%",
+                "meta_key": "_yoast_wpseo_primary_(.*)",
                 "meta_value": "terms"
             }
         ]

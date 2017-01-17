@@ -31,7 +31,7 @@
 	"relationships": {
 		"options": [
 			{
-				"option_name": "%category_children",
+				"option_name": "(.*)category_children",
 				"option_value": "terms",
 				"serialized": {
 					"key": "terms:term_id",
@@ -85,7 +85,7 @@
 				}
 			},
 			{
-				"option_name": "theme_mods_%",
+				"option_name": "theme_mods_(.*)",
 				"option_value": "posts",
 				"serialized": {
 					"key": "header_image_data",
@@ -96,7 +96,7 @@
 				}
 			},
 			{
-				"option_name": "theme_mods_%",
+				"option_name": "theme_mods_(.*)",
 				"option_value": "terms",
 				"serialized": {
 					"key": "nav_menu_locations",
