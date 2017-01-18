@@ -12,7 +12,7 @@ Schemas are a piece of JSON used by Mergebot to describe the database relationsh
 
 We currently support these [plugins](https://github.com/deliciousbrains/mergebot-schemas/tree/master/plugins), but you can add custom schemas you have written by going to the [team settings page](/settings/teams/[team_id]#/schemas) and navigating to the "Schemas" tab.
 
-### Primary keys
+### Primary Keys
 
 If you have custom tables, primary keys can be defined in a schema using the following format:
 
@@ -56,7 +56,7 @@ Compound primary keys are also supported:
 }
 ```
 
-### Foreign keys
+### Foreign Keys
 
 If you have custom tables, foreign keys can be defined in a schema using the following format:
 
@@ -76,7 +76,7 @@ If you have custom tables, foreign keys can be defined in a schema using the fol
 }
 ```
 
-### Relationships
+### Key/Value Relationships
 
 Sometimes an ID is stored in the value of a row in a key/value table (e.g. `options`, `postmeta` etc.). Mergebot needs to know what table and column this ID maps to so it can handle it properly. They can be defined using the following format:
 
@@ -276,7 +276,7 @@ However you can add custom search locations by specifying them in a `search` obj
 }
 ```
 
-### Content replacements
+### Content
 
 
 Sometimes IDs can be found in post content and must be handled by Mergebot. The *content* schema allows you to define what table/column to search and what to search for. Mergebot assumes the ID found relates to the primary key of the table searched.
