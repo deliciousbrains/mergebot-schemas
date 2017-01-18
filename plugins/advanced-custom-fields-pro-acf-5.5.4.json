@@ -1,0 +1,21 @@
+{
+    "shortcodes": {
+        "acf": {
+            "parameters": [
+                "post_id"
+            ]
+        }
+    },
+    "relationships": {
+        "options": [
+            {
+                "option_name": "{posts:ID}_(.*)",
+                "option_value": "ignore"
+            },
+            {
+                "option_name": "_{posts:ID}_(.*)",
+                "option_value": "ignore"
+            }
+        ]
+    }
+}
