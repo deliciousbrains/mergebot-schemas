@@ -10,9 +10,9 @@
 
 Schemas are a piece of JSON used by Mergebot to describe the database relationships of a part of a site (e.g. WordPress core, a plugin etc.). Schemas include information on primary/foreign keys, relationships of IDs in key/value pair tables, content replacements and shortcodes. For example, if your plugin uses custom tables, inserts data into the options table, inserts IDs into the post content, or implements custom shortcodes you can create a custom schema to tell Mergebot how to handle this data.
 
-You can define schemas from the [Schemas page](/settings/teams/[team_id]#/schemas) in your team settings.
+We currently support these [plugins](https://github.com/deliciousbrains/mergebot-schemas/tree/master/plugins), but you can add custom schemas you have written by going to the [team settings page](/settings/teams/[team_id]#/schemas) and navigating to the "Schemas" tab.
 
-### Primary Keys
+### Primary keys
 
 If you have custom tables, primary keys can be defined in a schema using the following format:
 
@@ -56,7 +56,7 @@ Compound primary keys are also supported:
 }
 ```
 
-### Foreign Keys
+### Foreign keys
 
 If you have custom tables, foreign keys can be defined in a schema using the following format:
 
@@ -76,7 +76,7 @@ If you have custom tables, foreign keys can be defined in a schema using the fol
 }
 ```
 
-### Key/Value Relationships
+### Relationships
 
 Sometimes an ID is stored in the value of a row in a key/value table (e.g. `options`, `postmeta` etc.). Mergebot needs to know what table and column this ID maps to so it can handle it properly. They can be defined using the following format:
 
@@ -87,20 +87,6 @@ Sometimes an ID is stored in the value of a row in a key/value table (e.g. `opti
             {
                 "{key column}": "{key value}",
                 "{value column}": "{table name of primary key without prefix}",
-            }
-        ]
-    }
-}
-```
-In the following example, we're defining a relationship between certain rows in the `postmeta` table to rows in the `users` table. This happens to be relationship in WooCommerce.
-
-```
-{
-    "relationships": {
-        "postmeta": [
-            {
-                "meta_key": "_customer_user",
-                "meta_value": "users",
             }
         ]
     }
@@ -126,14 +112,14 @@ Serialized data is also supported:
 }
 ```
 
-Note that key values can also use `%` as a wildcard search token. When mapping serialized data you can use `ignore` to specify an ignored key or value.
+Note that key values can also use regex for wildcard searching. When mapping serialized data you can use `ignore` to specify an ignored key or value.
 
 ```
 {
     "relationships": {
         "options": [
             {
-                "option_name": "%category_children",
+                "option_name": "(.*)category_children",
                 "option_value": "terms",
                 "serialized": {
                     "key": "terms:term_id",
@@ -148,24 +134,17 @@ Note that key values can also use `%` as a wildcard search token. When mapping s
 }
 ```
 
-### Content
-
-Sometimes IDs can be found in post content and must be handled by Mergebot. The *content* schema allows you to define what table/column to search and what to search for. Mergebot assumes the ID found relates to the primary key of the table searched.
+We also support keys that have IDs embedded within the string, using a `{table:column}` notation. For example:
 
 ```
 {
-    "content": {
-        "{table name without prefix}:{column}": "{regex}"
-    }
-}
-```
-
-Although Mergebot already handles this out of the box, a good real-world example of this is WordPress core adding IDs in the class attributes of images. If Mergebot didn't already know about this, we could define the following schema:
-
-```
-{
-    "content": {
-        "posts:post_content": "(?<=wp-image-)\\d+"
+    "relationships": {
+        "options": [
+            {
+                "option_name": "_{posts:ID}_custom_data",
+                "option_value": "ignore",
+            }
+        ]
     }
 }
 ```
@@ -224,7 +203,6 @@ By default the parameters assume that you are using a post ID, but you can chang
     }
 }
 ```
-
 Again, Mergebot already knows the *gallery* shortcode, but it is a good example:
 
 ```
@@ -295,5 +273,77 @@ However you can add custom search locations by specifying them in a `search` obj
             ]
         }
     }
+}
+```
+
+### Content replacements
+
+
+Sometimes IDs can be found in post content and must be handled by Mergebot. The *content* schema allows you to define what table/column to search and what to search for. Mergebot assumes the ID found relates to the primary key of the table searched.
+
+
+```
+{
+    "content": {
+        "{table name without prefix}:{column}": "{regex}"
+    }
+}
+```
+
+Although Mergebot already handles this out of the box, a good real-world example of this is WordPress core adding IDs in the class attributes of images. If Mergebot didn't already know about this, we could define the following schema:
+
+```
+{
+    "content": {
+        "posts:post_content": "(?<=wp-image-)\\d+"
+    }
+}
+```
+
+### Ignored Queries
+
+Sometimes plugins and themes run queries on the database that are specific to the environment and don’t need to be included in a changeset to be applied later to production. We can describe these types of queries in the ‘ignore’ section of the schema. E.g.
+
+```
+{
+    "ignore": [
+        {
+            "{table name without prefix}:{column}": "{regex}"
+        },
+    ]
+}
+```
+
+```
+{
+    "ignore": [
+        {
+            "options:option_name": "_transient_(.*)"
+        },
+    ]
+}
+```
+
+### Table Prefixes in Keys
+
+There are times when data is stored which includes the database’s table prefix at the start of data keys. Although this mainly happens in WordPress core, the schema allows you to describe these instances:
+
+```
+{
+    "tablePrefixes": [
+        {
+            "{table name without prefix}:{column}": "{key without prefix}"
+        },
+    ]
+}
+```
+
+```
+{
+    "tablePrefixes": [
+        {
+            "options:option_name": "user_roles"
+        },
+    ]
 }
 ```
