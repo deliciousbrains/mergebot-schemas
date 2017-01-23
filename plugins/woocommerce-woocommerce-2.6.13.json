@@ -1,0 +1,113 @@
+{
+    "primaryKeys": {
+        "woocommerce_sessions": "session_id",
+        "woocommerce_api_keys": "key_id",
+        "woocommerce_attribute_taxonomies": "attribute_id",
+        "woocommerce_downloadable_product_permissions": "permission_id",
+        "woocommerce_order_items": "order_item_id",
+        "woocommerce_order_itemmeta": "meta_id",
+        "woocommerce_tax_rates": "tax_rate_id",
+        "woocommerce_tax_rate_locations": "location_id",
+        "woocommerce_shipping_zones": "zone_id",
+        "woocommerce_shipping_zone_locations": "location_id",
+        "woocommerce_shipping_zone_methods": "instance_id",
+        "woocommerce_payment_tokens": "token_id",
+        "woocommerce_payment_tokenmeta": "meta_id",
+        "woocommerce_termmeta": "meta_id"
+    },
+    "foreignKeys": {
+        "woocommerce_api_keys:user_id": "users:ID",
+        "woocommerce_downloadable_product_permissions:product_id": "posts:ID",
+        "woocommerce_downloadable_product_permissions:order_id": "posts:ID",
+        "woocommerce_downloadable_product_permissions:user_id": "users:ID",
+        "woocommerce_order_items:order_id": "posts:ID",
+        "woocommerce_order_itemmeta:order_item_id": "woocommerce_order_items:order_item_id",
+        "woocommerce_tax_rate_locations:tax_rate_id": "woocommerce_tax_rates:tax_rate_id",
+        "woocommerce_shipping_zone_locations:zone_id": "woocommerce_shipping_zones:zone_id",
+        "woocommerce_shipping_zone_methods:zone_id": "woocommerce_shipping_zones:zone_id",
+        "woocommerce_payment_tokens:user_id": "users:ID",
+        "woocommerce_payment_tokenmeta:payment_token_id": "woocommerce_payment_tokens:token_id",
+        "woocommerce_termmeta:woocommerce_term_id": "terms:term_id"
+    },
+    "shortcodes": {
+        "product": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "product_page": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "product_categories": {
+            "parameters": [
+                "ids",
+                "parent"
+            ]
+        },
+        "add_to_cart": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "add_to_cart_url": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "products": {
+            "parameters": [
+                "ids"
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": [
+            {
+                "meta_key": "_payment_tokens",
+                "meta_value": "woocommerce_payment_tokens"
+            },
+            {
+                "meta_key": "product_ids",
+                "meta_value": "posts"
+            },
+            {
+                "meta_key": "exclude_product_ids",
+                "meta_value": "posts"
+            },
+            {
+                "meta_key": "product_categories",
+                "meta_value": "terms"
+            },
+            {
+                "meta_key": "exclude_product_categories",
+                "meta_value": "terms"
+            },
+            {
+                "meta_key": "_upsell_ids",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            },
+            {
+                "meta_key": "_crosssell_ids",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            },
+            {
+                "meta_key": "_product_image_gallery",
+                "meta_value": "posts"
+            },
+            {
+                "meta_key": "_customer_user",
+                "meta_value": "users"
+            }
+        ]
+    }
+}
