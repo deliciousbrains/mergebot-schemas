@@ -1,0 +1,16 @@
+{
+    "primaryKeys": {
+        "wfBlocksAdv": "id",
+        "wfHits": "id",
+        "wfHoover": "id",
+        "wfIssues": "id",
+        "wfKnownFileList": "id",
+        "wfLogins": "id",
+        "wfSNIPCache": "id",
+        "wfStatus": "id"
+    },
+    "foreignKeys": {
+        "wfHits:userID": "users:ID",
+        "wfLogins:userID": "users:ID"
+    }
+}
