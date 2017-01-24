@@ -6,10 +6,17 @@ $plugins = array_diff( scandir( $schema_dir), array( '..', '.' ) );
 $plugins_index = array();
 
 foreach( $plugins as $plugin  ) {
-	$contents = file_get_contents( $schema_dir . $plugin );
+	$file = $schema_dir . $plugin;
+	$contents = file_get_contents( $file );
 	$schema   = json_decode( $contents );
 
 	if ( ! isset( $schema->name ) ) {
+		continue;
+	}
+
+	$in_git = exec( sprintf( 'git status %s', $file ) );
+	if ( 'nothing added to commit but untracked files present (use "git add" to track)' === $in_git ) {
+		// Schema not committed, WIP
 		continue;
 	}
 
