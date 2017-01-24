@@ -1,0 +1,9 @@
+{
+    "shortcodes": {
+        "file_modified": {
+            "parameters": [
+                "id"
+            ]
+        }
+    }
+}
