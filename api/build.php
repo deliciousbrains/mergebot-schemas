@@ -7,13 +7,13 @@ $plugins_index = array();
 
 foreach( $plugins as $plugin  ) {
 	$contents = file_get_contents( $schema_dir . $plugin );
-	$schema = json_decode( $contents );
+	$schema   = json_decode( $contents );
 
 	if ( ! isset( $schema->name ) ) {
 		continue;
 	}
 
-	$plugins_index[] = array(
+	$plugins_index[ $plugin ] = array(
 		'name'      => $schema->name,
 		'version'   => $schema->version,
 		'pluginURL' => $schema->url,
