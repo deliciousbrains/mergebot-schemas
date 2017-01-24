@@ -1,4 +1,7 @@
 {
+    "name": "WooCommerce",
+    "version": "2.6.13",
+    "url": "https:\/\/wordpress.org\/plugins\/woocommerce",
     "primaryKeys": {
         "woocommerce_sessions": "session_id",
         "woocommerce_api_keys": "key_id",

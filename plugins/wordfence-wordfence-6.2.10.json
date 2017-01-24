@@ -1,4 +1,7 @@
 {
+    "name": "Wordfence Security",
+    "version": "6.2.10",
+    "url": "https:\/\/wordpress.org\/plugins\/wordfence",
     "primaryKeys": {
         "wfBlocksAdv": "id",
         "wfHits": "id",

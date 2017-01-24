@@ -1,4 +1,7 @@
 {
+    "name": "WordPress Importer",
+    "version": "0.6.3",
+    "url": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
     "relationships": {
         "postmeta": [
             {

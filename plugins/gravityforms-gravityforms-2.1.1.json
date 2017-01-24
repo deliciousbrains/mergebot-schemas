@@ -1,4 +1,7 @@
 {
+    "name": "Gravity Forms",
+    "version": "2.1.1",
+    "url": "http:\/\/www.gravityforms.com\/",
     "primaryKeys": {
         "rg_form": "id",
         "rg_form_view": "id",

@@ -1,15 +1,18 @@
 {
-	"relationships": {
-		"postmeta": [
-			{
-				"meta_key": "_dp_original",
-				"meta_value": "posts"
-			}
-		]
-	},
-	"ignore": [
-		{
-			"options:option_name": "duplicate_post_version"
-		}
-	]
+    "name": "Duplicate Post",
+    "version": "3.0.3",
+    "url": "https:\/\/wordpress.org\/plugins\/duplicate-post",
+    "relationships": {
+        "postmeta": [
+            {
+                "meta_key": "_dp_original",
+                "meta_value": "posts"
+            }
+        ]
+    },
+    "ignore": [
+        {
+            "options:option_name": "duplicate_post_version"
+        }
+    ]
 }
