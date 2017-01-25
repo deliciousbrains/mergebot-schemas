@@ -13,7 +13,12 @@
         "term_taxonomy": "term_taxonomy_id",
         "terms": "term_id",
         "usermeta": "umeta_id",
-        "users": "ID"
+        "users": "ID",
+        "blogs": "blog_id",
+        "registration_log": "ID",
+        "site": "id",
+        "sitemeta": "meta_id",
+        "signups": "signup_id"
     },
     "foreignKeys": {
         "commentmeta:comment_id": "comments:comment_ID",
@@ -26,7 +31,11 @@
         "term_relationships:term_taxonomy_id": "term_taxonomy:term_taxonomy_id",
         "term_taxonomy:term_id": "terms:term_id",
         "term_taxonomy:parent": "term_taxonomy:term_taxonomy_id",
-        "usermeta:user_id": "users:ID"
+        "usermeta:user_id": "users:ID",
+        "blogs:site_id": "site:id",
+        "blog_versions:blog_id": "blogs:blog_id",
+        "registration_log:blog_id": "blogs:blog_id",
+        "sitemeta:site_id": "site:id"
     },
     "shortcodes": {
         "gallery": {
