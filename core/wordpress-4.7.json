@@ -156,6 +156,40 @@
                         "val": "posts:ID"
                     }
                 }
+            },
+            {
+                "option_name": "new_user_(.*)",
+                "option_value": "users",
+                "serialized": {
+                    "key": "user_id",
+                    "val": "users:ID"
+                }
+            },
+            {
+                "option_name": "upload_path",
+                "option_value": "(.*)\/{blogs:blog_id}\/files"
+            },
+            {
+                "option_name": "(.*)_children",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": {
+                        "key": "ignore",
+                        "val": "terms:term_id"
+                    }
+                }
+            },
+            {
+                "option_name": "_split_terms",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": {
+                        "key": "ignore",
+                        "val": "terms:term_id"
+                    }
+                }
             }
         ],
         "postmeta": [
@@ -166,12 +200,24 @@
             {
                 "meta_key": "_menu_item_menu_item_parent",
                 "meta_value": "posts"
+            },
+            {
+                "meta_key": "_menu_item_object_id",
+                "meta_value": "terms"
             }
         ],
         "usermeta": [
             {
                 "meta_key": "wp_dashboard_quick_press_last_post_id",
                 "meta_value": "posts"
+            },
+            {
+                "meta_key": "primary_blog",
+                "meta_value": "blogs"
+            },
+            {
+                "meta_key": "nav_menu_recently_edited",
+                "meta_value": "terms"
             }
         ]
     },
