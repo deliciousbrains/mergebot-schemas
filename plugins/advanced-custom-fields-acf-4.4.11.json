@@ -10,15 +10,15 @@
         }
     },
     "relationships": {
-        "options": [
-            {
-                "option_name": "{posts:ID}_(.*)",
-                "option_value": "ignore"
-            },
-            {
+        "options": {
+            "_{posts:ID}_(.*)": {
                 "option_name": "_{posts:ID}_(.*)",
                 "option_value": "ignore"
+            },
+            "{posts:ID}_(.*)": {
+                "option_name": "{posts:ID}_(.*)",
+                "option_value": "ignore"
             }
-        ]
+        }
     }
 }

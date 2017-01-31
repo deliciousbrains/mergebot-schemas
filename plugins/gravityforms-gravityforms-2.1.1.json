@@ -16,8 +16,8 @@
         "rg_incomplete_submissions:form_id": "rg_form:id",
         "rg_lead:form_id": "rg_form:id",
         "rg_lead:post_id": "posts:ID",
-        "rg_lead_detail:lead_id": "rg_lead:id",
         "rg_lead_detail:form_id": "rg_form:id",
+        "rg_lead_detail:lead_id": "rg_lead:id",
         "rg_lead_detail_long:lead_detail_id": "rg_lead_detail:id",
         "rg_lead_meta:form_id": "rg_form:id",
         "rg_lead_meta:lead_id": "rg_lead:id",
@@ -43,24 +43,8 @@
         }
     },
     "relationships": {
-        "postmeta": [
-            {
-                "meta_key": "_gform-form-id",
-                "meta_value": "rg_form"
-            }
-        ],
-        "usermeta": [
-            {
-                "meta_key": "gform_recent_forms",
-                "meta_value": "rg_form",
-                "serialized": {
-                    "key": "ignore",
-                    "val": "rg_form:id"
-                }
-            }
-        ],
-        "options": [
-            {
+        "options": {
+            "(.*)_children": {
                 "option_name": "(.*)_children",
                 "option_value": "terms",
                 "serialized": {
@@ -71,6 +55,22 @@
                     }
                 }
             }
-        ]
+        },
+        "postmeta": {
+            "_gform-form-id": {
+                "meta_key": "_gform-form-id",
+                "meta_value": "rg_form"
+            }
+        },
+        "usermeta": {
+            "gform_recent_forms": {
+                "meta_key": "gform_recent_forms",
+                "meta_value": "rg_form",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "rg_form:id"
+                }
+            }
+        }
     }
 }

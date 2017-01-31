@@ -3,12 +3,12 @@
     "version": "4.6",
     "url": "https:\/\/wordpress.org\/plugins\/contact-form-7",
     "shortcodes": {
-        "contact-form-7": {
+        "contact-form": {
             "parameters": [
                 "id"
             ]
         },
-        "contact-form": {
+        "contact-form-7": {
             "parameters": [
                 "id"
             ]

@@ -11,20 +11,6 @@
         "edd_customers:user_id": "users:ID"
     },
     "shortcodes": {
-        "purchase_link": {
-            "parameters": [
-                "download_id",
-                "id"
-            ]
-        },
-        "purchase_collection": {
-            "parameters": [
-                {
-                    "name": "terms",
-                    "table": "terms"
-                }
-            ]
-        },
         "downloads": {
             "parameters": [
                 {
@@ -46,14 +32,28 @@
             "parameters": [
                 "id"
             ]
+        },
+        "purchase_collection": {
+            "parameters": [
+                {
+                    "name": "terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "purchase_link": {
+            "parameters": [
+                "download_id",
+                "id"
+            ]
         }
     },
     "relationships": {
-        "postmeta": [
-            {
+        "postmeta": {
+            "_edd_payment_customer_id": {
                 "meta_key": "_edd_payment_customer_id",
                 "meta_value": "edd_customers"
             }
-        ]
+        }
     }
 }

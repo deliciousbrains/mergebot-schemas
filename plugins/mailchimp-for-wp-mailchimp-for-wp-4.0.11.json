@@ -10,15 +10,15 @@
         }
     },
     "relationships": {
-        "options": [
-            {
+        "options": {
+            "mc4wp_default_form_id": {
                 "option_name": "mc4wp_default_form_id",
                 "option_value": "posts"
             },
-            {
+            "mc4wp_form_preview_id": {
                 "option_name": "mc4wp_form_preview_id",
                 "option_value": "posts"
             }
-        ]
+        }
     }
 }

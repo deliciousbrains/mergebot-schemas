@@ -3,15 +3,15 @@
     "version": "0.6.3",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
     "relationships": {
-        "postmeta": [
-            {
+        "postmeta": {
+            "_menu_item_menu_item_parent": {
                 "meta_key": "_menu_item_menu_item_parent",
                 "meta_value": "posts"
             },
-            {
+            "_thumbnail_id": {
                 "meta_key": "_thumbnail_id",
                 "meta_value": "posts"
             }
-        ]
+        }
     }
 }

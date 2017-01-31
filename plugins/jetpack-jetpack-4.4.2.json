@@ -19,17 +19,17 @@
         }
     },
     "relationships": {
-        "options": [
-            {
+        "options": {
+            "post_by_email_address{users:ID}": {
                 "option_name": "post_by_email_address{users:ID}",
                 "option_value": "ignore"
             }
-        ],
-        "postmeta": [
-            {
+        },
+        "postmeta": {
+            "_thumbnail_id": {
                 "meta_key": "_thumbnail_id",
                 "meta_value": "posts"
             }
-        ]
+        }
     }
 }
