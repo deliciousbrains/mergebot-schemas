@@ -59,8 +59,30 @@
     },
     "relationships": {
         "options": {
+            "(.*)_children": {
+                "option_name": "(.*)_children",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": {
+                        "key": "ignore",
+                        "val": "terms:term_id"
+                    }
+                }
+            },
             "(.*)category_children": {
                 "option_name": "(.*)category_children",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": {
+                        "key": "ignore",
+                        "val": "terms:term_id"
+                    }
+                }
+            },
+            "_split_terms": {
+                "option_name": "_split_terms",
                 "option_value": "terms",
                 "serialized": {
                     "key": "terms:term_id",
@@ -93,6 +115,14 @@
                     }
                 }
             },
+            "new_user_(.*)": {
+                "option_name": "new_user_(.*)",
+                "option_value": "users",
+                "serialized": {
+                    "key": "user_id",
+                    "val": "users:ID"
+                }
+            },
             "page_for_posts": {
                 "option_name": "page_for_posts",
                 "option_value": "posts"
@@ -115,14 +145,28 @@
             },
             "theme_mods_(.*)": {
                 "option_name": "theme_mods_(.*)",
-                "option_value": "terms",
-                "serialized": {
-                    "key": "nav_menu_locations",
-                    "val": {
-                        "key": "ignore",
-                        "val": "terms:term_id"
+                "serialized": [
+                    {
+                        "table": "posts",
+                        "key": "header_image_data",
+                        "val": {
+                            "key": "attachment_id",
+                            "val": "posts:ID"
+                        }
+                    },
+                    {
+                        "table": "terms",
+                        "key": "nav_menu_locations",
+                        "val": {
+                            "key": "ignore",
+                            "val": "terms:term_id"
+                        }
                     }
-                }
+                ]
+            },
+            "upload_path": {
+                "option_name": "upload_path",
+                "option_value": "(.*)\/{blogs:blog_id}\/files"
             },
             "widget_nav_menu": {
                 "option_name": "widget_nav_menu",
@@ -152,12 +196,24 @@
                 "meta_key": "_menu_item_menu_item_parent",
                 "meta_value": "posts"
             },
+            "_menu_item_object_id": {
+                "meta_key": "_menu_item_object_id",
+                "meta_value": "terms"
+            },
             "_thumbnail_id": {
                 "meta_key": "_thumbnail_id",
                 "meta_value": "posts"
             }
         },
         "usermeta": {
+            "nav_menu_recently_edited": {
+                "meta_key": "nav_menu_recently_edited",
+                "meta_value": "terms"
+            },
+            "primary_blog": {
+                "meta_key": "primary_blog",
+                "meta_value": "blogs"
+            },
             "wp_dashboard_quick_press_last_post_id": {
                 "meta_key": "wp_dashboard_quick_press_last_post_id",
                 "meta_value": "posts"
