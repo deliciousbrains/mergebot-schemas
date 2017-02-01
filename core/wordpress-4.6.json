@@ -265,7 +265,7 @@
             "options:option_name": "_transient_(.*)"
         },
         {
-            "options:option_name": "_site_transient_(.*)"
+            "sitemeta:meta_key": "_site_transient_(.*)"
         },
         {
             "options:option_name": "cron_(.*)"
