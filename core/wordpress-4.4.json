@@ -147,7 +147,7 @@
                 "option_name": "theme_mods_(.*)",
                 "serialized": [
                     {
-                        "table": "posts",
+                        "option_value": "posts",
                         "key": "header_image_data",
                         "val": {
                             "key": "attachment_id",
@@ -155,7 +155,7 @@
                         }
                     },
                     {
-                        "table": "terms",
+                        "option_value": "terms",
                         "key": "nav_menu_locations",
                         "val": {
                             "key": "ignore",
