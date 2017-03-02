@@ -30,7 +30,7 @@
         },
         "options": {
             "keys": [
-                "option_id"
+                "option_name"
             ],
             "unique": true
         },
