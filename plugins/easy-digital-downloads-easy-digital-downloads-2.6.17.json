@@ -10,6 +10,14 @@
         "edd_customermeta:customer_id": "edd_customers:id",
         "edd_customers:user_id": "users:ID"
     },
+    "metaTables": {
+        "edd_customermeta": {
+            "keys": [
+                "customer_id",
+                "meta_key"
+            ]
+        }
+    },
     "shortcodes": {
         "downloads": {
             "parameters": [
