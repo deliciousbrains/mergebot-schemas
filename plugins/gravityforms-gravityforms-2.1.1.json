@@ -24,6 +24,15 @@
         "rg_lead_notes:lead_id": "rg_lead:id",
         "rg_lead_notes:user_id": "users:ID"
     },
+    "metaTables": {
+        "rg_lead_meta": {
+            "keys": [
+                "form_id",
+                "lead_id",
+                "meta_key"
+            ]
+        }
+    },
     "shortcodes": {
         "gravityform": {
             "parameters": [

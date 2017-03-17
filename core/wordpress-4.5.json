@@ -21,6 +21,44 @@
         "usermeta": "umeta_id",
         "users": "ID"
     },
+    "metaTables": {
+        "commentmeta": {
+            "keys": [
+                "comment_id",
+                "meta_key"
+            ]
+        },
+        "options": {
+            "keys": [
+                "option_name"
+            ],
+            "unique": true
+        },
+        "postmeta": {
+            "keys": [
+                "post_id",
+                "meta_key"
+            ]
+        },
+        "sitemeta": {
+            "keys": [
+                "site_id",
+                "meta_key"
+            ]
+        },
+        "termmeta": {
+            "keys": [
+                "term_id",
+                "meta_key"
+            ]
+        },
+        "usermeta": {
+            "keys": [
+                "user_id",
+                "meta_key"
+            ]
+        }
+    },
     "foreignKeys": {
         "blog_versions:blog_id": "blogs:blog_id",
         "blogs:site_id": "site:id",

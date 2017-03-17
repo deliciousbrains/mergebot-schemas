@@ -39,6 +39,44 @@
         "termmeta:term_id": "terms:term_id",
         "usermeta:user_id": "users:ID"
     },
+    "metaTables": {
+        "commentmeta": {
+            "keys": [
+                "comment_id",
+                "meta_key"
+            ]
+        },
+        "options": {
+            "keys": [
+                "option_name"
+            ],
+            "unique": true
+        },
+        "postmeta": {
+            "keys": [
+                "post_id",
+                "meta_key"
+            ]
+        },
+        "sitemeta": {
+            "keys": [
+                "site_id",
+                "meta_key"
+            ]
+        },
+        "termmeta": {
+            "keys": [
+                "term_id",
+                "meta_key"
+            ]
+        },
+        "usermeta": {
+            "keys": [
+                "user_id",
+                "meta_key"
+            ]
+        }
+    },
     "shortcodes": {
         "gallery": {
             "parameters": [
