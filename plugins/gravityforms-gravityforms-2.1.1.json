@@ -3,14 +3,56 @@
     "version": "2.1.1",
     "url": "http:\/\/www.gravityforms.com\/",
     "primaryKeys": {
-        "rg_form": "id",
-        "rg_form_view": "id",
-        "rg_lead": "id",
-        "rg_lead_detail": "id",
-        "rg_lead_meta": "id",
-        "rg_lead_notes": "id"
+        "gf_addon_feed": {
+            "key": [
+                "id"
+            ]
+        },
+        "gf_addon_payment_callback": {
+            "key": [
+                "id"
+            ]
+        },
+        "gf_addon_payment_transaction": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_form": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_form_view": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_lead": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_lead_detail": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_lead_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_lead_notes": {
+            "key": [
+                "id"
+            ]
+        }
     },
     "foreignKeys": {
+        "gf_addon_feed:form_id": "rg_form:id",
+        "gf_addon_payment_callback:lead_id": "rg_lead:id",
+        "gf_addon_payment_transaction:lead_id": "rg_lead:id",
         "rg_form_meta:form_id": "rg_form:id",
         "rg_form_view:form_id": "rg_form:id",
         "rg_incomplete_submissions:form_id": "rg_form:id",
