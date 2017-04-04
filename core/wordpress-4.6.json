@@ -1,37 +1,59 @@
 {
     "primaryKeys": {
         "blogs": {
-            "key": "blog_id"
+            "key": [
+                "blog_id"
+            ]
         },
         "commentmeta": {
-            "key": "meta_id"
+            "key": [
+                "meta_id"
+            ]
         },
         "comments": {
-            "key": "comment_ID"
+            "key": [
+                "comment_ID"
+            ]
         },
         "links": {
-            "key": "link_id"
+            "key": [
+                "link_id"
+            ]
         },
         "options": {
-            "key": "option_id"
+            "key": [
+                "option_id"
+            ]
         },
         "postmeta": {
-            "key": "meta_id"
+            "key": [
+                "meta_id"
+            ]
         },
         "posts": {
-            "key": "ID"
+            "key": [
+                "ID"
+            ]
         },
         "registration_log": {
-            "key": "ID"
+            "key": [
+                "ID"
+            ]
         },
         "signups": {
-            "key": "signup_id"
+            "key": [
+                "signup_id"
+            ]
         },
         "site": {
-            "key": "id"
+            "key": [
+                "id"
+            ]
         },
         "sitemeta": {
-            "key": "meta_id"
+            "key": [
+                "meta_id"
+            ]
         },
         "term_relationships": {
             "key": [
@@ -41,19 +63,29 @@
             "auto_increment": false
         },
         "term_taxonomy": {
-            "key": "term_taxonomy_id"
+            "key": [
+                "term_taxonomy_id"
+            ]
         },
         "termmeta": {
-            "key": "meta_id"
+            "key": [
+                "meta_id"
+            ]
         },
         "terms": {
-            "key": "term_id"
+            "key": [
+                "term_id"
+            ]
         },
         "usermeta": {
-            "key": "umeta_id"
+            "key": [
+                "umeta_id"
+            ]
         },
         "users": {
-            "key": "ID"
+            "key": [
+                "ID"
+            ]
         }
     },
     "foreignKeys": {
