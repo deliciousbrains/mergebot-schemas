@@ -3,20 +3,76 @@
     "version": "2.6.13",
     "url": "https:\/\/wordpress.org\/plugins\/woocommerce",
     "primaryKeys": {
-        "woocommerce_api_keys": "key_id",
-        "woocommerce_attribute_taxonomies": "attribute_id",
-        "woocommerce_downloadable_product_permissions": "permission_id",
-        "woocommerce_order_itemmeta": "meta_id",
-        "woocommerce_order_items": "order_item_id",
-        "woocommerce_payment_tokenmeta": "meta_id",
-        "woocommerce_payment_tokens": "token_id",
-        "woocommerce_sessions": "session_id",
-        "woocommerce_shipping_zone_locations": "location_id",
-        "woocommerce_shipping_zone_methods": "instance_id",
-        "woocommerce_shipping_zones": "zone_id",
-        "woocommerce_tax_rate_locations": "location_id",
-        "woocommerce_tax_rates": "tax_rate_id",
-        "woocommerce_termmeta": "meta_id"
+        "woocommerce_api_keys": {
+            "key": [
+                "key_id"
+            ]
+        },
+        "woocommerce_attribute_taxonomies": {
+            "key": [
+                "attribute_id"
+            ]
+        },
+        "woocommerce_downloadable_product_permissions": {
+            "key": [
+                "permission_id"
+            ]
+        },
+        "woocommerce_order_itemmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "woocommerce_order_items": {
+            "key": [
+                "order_item_id"
+            ]
+        },
+        "woocommerce_payment_tokenmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "woocommerce_payment_tokens": {
+            "key": [
+                "token_id"
+            ]
+        },
+        "woocommerce_sessions": {
+            "key": [
+                "session_id"
+            ]
+        },
+        "woocommerce_shipping_zone_locations": {
+            "key": [
+                "location_id"
+            ]
+        },
+        "woocommerce_shipping_zone_methods": {
+            "key": [
+                "instance_id"
+            ]
+        },
+        "woocommerce_shipping_zones": {
+            "key": [
+                "zone_id"
+            ]
+        },
+        "woocommerce_tax_rate_locations": {
+            "key": [
+                "location_id"
+            ]
+        },
+        "woocommerce_tax_rates": {
+            "key": [
+                "tax_rate_id"
+            ]
+        },
+        "woocommerce_termmeta": {
+            "key": [
+                "meta_id"
+            ]
+        }
     },
     "foreignKeys": {
         "woocommerce_api_keys:user_id": "users:ID",

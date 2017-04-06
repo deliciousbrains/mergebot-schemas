@@ -3,8 +3,16 @@
     "version": "2.6.17",
     "url": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
     "primaryKeys": {
-        "edd_customermeta": "meta_id",
-        "edd_customers": "id"
+        "edd_customermeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "edd_customers": {
+            "key": [
+                "id"
+            ]
+        }
     },
     "foreignKeys": {
         "edd_customermeta:customer_id": "edd_customers:id",

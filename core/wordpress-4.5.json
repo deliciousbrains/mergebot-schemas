@@ -1,25 +1,110 @@
 {
     "primaryKeys": {
-        "blogs": "blog_id",
-        "commentmeta": "meta_id",
-        "comments": "comment_ID",
-        "links": "link_id",
-        "options": "option_id",
-        "postmeta": "meta_id",
-        "posts": "ID",
-        "registration_log": "ID",
-        "signups": "signup_id",
-        "site": "id",
-        "sitemeta": "meta_id",
-        "term_relationships": [
-            "object_id",
-            "term_taxonomy_id"
-        ],
-        "term_taxonomy": "term_taxonomy_id",
-        "termmeta": "meta_id",
-        "terms": "term_id",
-        "usermeta": "umeta_id",
-        "users": "ID"
+        "blogs": {
+            "key": [
+                "blog_id"
+            ]
+        },
+        "commentmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "comments": {
+            "key": [
+                "comment_ID"
+            ]
+        },
+        "links": {
+            "key": [
+                "link_id"
+            ]
+        },
+        "options": {
+            "key": [
+                "option_id"
+            ]
+        },
+        "postmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "posts": {
+            "key": [
+                "ID"
+            ]
+        },
+        "registration_log": {
+            "key": [
+                "ID"
+            ]
+        },
+        "signups": {
+            "key": [
+                "signup_id"
+            ]
+        },
+        "site": {
+            "key": [
+                "id"
+            ]
+        },
+        "sitemeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "term_relationships": {
+            "key": [
+                "object_id",
+                "term_taxonomy_id"
+            ],
+            "auto_increment": false
+        },
+        "term_taxonomy": {
+            "key": [
+                "term_taxonomy_id"
+            ]
+        },
+        "termmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "terms": {
+            "key": [
+                "term_id"
+            ]
+        },
+        "usermeta": {
+            "key": [
+                "umeta_id"
+            ]
+        },
+        "users": {
+            "key": [
+                "ID"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "blog_versions:blog_id": "blogs:blog_id",
+        "blogs:site_id": "site:id",
+        "commentmeta:comment_id": "comments:comment_ID",
+        "comments:comment_post_ID": "posts:ID",
+        "comments:user_id": "users:ID",
+        "postmeta:post_id": "posts:ID",
+        "posts:post_author": "users:ID",
+        "posts:post_parent": "posts:ID",
+        "registration_log:blog_id": "blogs:blog_id",
+        "sitemeta:site_id": "site:id",
+        "term_relationships:object_id": "posts:ID",
+        "term_relationships:term_taxonomy_id": "term_taxonomy:term_taxonomy_id",
+        "term_taxonomy:parent": "term_taxonomy:term_taxonomy_id",
+        "term_taxonomy:term_id": "terms:term_id",
+        "termmeta:term_id": "terms:term_id",
+        "usermeta:user_id": "users:ID"
     },
     "metaTables": {
         "commentmeta": {
@@ -58,24 +143,6 @@
                 "meta_key"
             ]
         }
-    },
-    "foreignKeys": {
-        "blog_versions:blog_id": "blogs:blog_id",
-        "blogs:site_id": "site:id",
-        "commentmeta:comment_id": "comments:comment_ID",
-        "comments:comment_post_ID": "posts:ID",
-        "comments:user_id": "users:ID",
-        "postmeta:post_id": "posts:ID",
-        "posts:post_author": "users:ID",
-        "posts:post_parent": "posts:ID",
-        "registration_log:blog_id": "blogs:blog_id",
-        "sitemeta:site_id": "site:id",
-        "term_relationships:object_id": "posts:ID",
-        "term_relationships:term_taxonomy_id": "term_taxonomy:term_taxonomy_id",
-        "term_taxonomy:parent": "term_taxonomy:term_taxonomy_id",
-        "term_taxonomy:term_id": "terms:term_id",
-        "termmeta:term_id": "terms:term_id",
-        "usermeta:user_id": "users:ID"
     },
     "shortcodes": {
         "gallery": {

@@ -3,14 +3,82 @@
     "version": "6.2.10",
     "url": "https:\/\/wordpress.org\/plugins\/wordfence",
     "primaryKeys": {
-        "wfBlocksAdv": "id",
-        "wfHits": "id",
-        "wfHoover": "id",
-        "wfIssues": "id",
-        "wfKnownFileList": "id",
-        "wfLogins": "id",
-        "wfSNIPCache": "id",
-        "wfStatus": "id"
+        "wfBadLeechers": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfBlockedIPLog": {
+            "key": [
+                "IP",
+                "unixday",
+                "blockType"
+            ],
+            "auto_increment": false
+        },
+        "wfBlocksAdv": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfCrawlers": {
+            "key": [
+                "IP",
+                "patternSig"
+            ],
+            "auto_increment": false
+        },
+        "wfHits": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfHoover": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfIssues": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfKnownFileList": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfLeechers": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfLogins": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfSNIPCache": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfScanners": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfStatus": {
+            "key": [
+                "id"
+            ]
+        }
     },
     "foreignKeys": {
         "wfHits:userID": "users:ID",
