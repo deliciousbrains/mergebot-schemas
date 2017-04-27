@@ -1,0 +1,23 @@
+{
+    "name": "WordPress MU Domain Mapping",
+    "version": "0.5.5.1",
+    "url": "https:\/\/wordpress.org\/plugins\/wordpress-mu-domain-mapping",
+    "primaryKeys": {
+        "domain_mapping": {
+            "key": [
+                "id"
+            ]
+        },
+        "domain_mapping_logins": {
+            "key": [
+                "id"
+            ],
+            "auto_increment": false
+        }
+    },
+    "foreignKeys": {
+        "domain_mapping:blog_id": "blogs:blog_id",
+        "domain_mapping_logins:blog_id": "blogs:blog_id",
+        "domain_mapping_logins:user_id": "users:ID"
+    }
+}
