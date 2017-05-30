@@ -2,6 +2,7 @@
 
 1. [Primary Keys](#primary-keys)
 1. [Foreign Keys](#foreign-keys)
+1. [Meta Tables](#meta-tables)
 1. [Key/Value Relationships](#keyvalue-relationships)
 1. [Shortcodes](#shortcodes)
 1. [Content](#content)
@@ -19,7 +20,11 @@ If you have custom tables, primary keys can be defined in a schema using the fol
 ```
 {
     "primaryKeys": {
-        "{table name without prefix}": "{primary key column}"
+        "{table name without prefix}": {
+            "key": [
+                "{primary key column}"
+            ]
+        }
     }
 }
 ```
@@ -27,7 +32,26 @@ If you have custom tables, primary keys can be defined in a schema using the fol
 ```
 {
     "primaryKeys": {
-        "orders": "order_id"
+        "orders": {
+            "key": [
+                "order_id"
+            ]
+        }
+    }
+}
+```
+
+Mergebot assumes a single key is an AUTO INCREMENT column. You can turn this off using the `auto_increment` attribute:
+
+```
+{
+    "primaryKeys": {
+        "log": {
+            "key": [
+                "name"
+            ],
+            "auto_increment": false
+        }
     }
 }
 ```
@@ -37,10 +61,13 @@ Compound primary keys are also supported:
 ```
 {
     "primaryKeys": {
-        "{table name without prefix}": [
-            "{compound key column 1}",
-            "{compound key column 2}"
-        ]
+        "{table name without prefix}": {
+            "key": [
+                "{compound key column 1}",
+                "{compound key column 2}"
+             ],
+             "auto_increment": false
+         },
     }
 }
 ```
@@ -48,10 +75,13 @@ Compound primary keys are also supported:
 ```
 {
     "primaryKeys": {
-        "term_relationships": [
-            "object_id",
-            "term_taxonomy_id"
-        ]
+        "term_relationships": {
+            "key": [
+                "object_id",
+                "term_taxonomy_id"
+             ],
+             "auto_increment": false
+         },
     }
 }
 ```
@@ -72,6 +102,64 @@ If you have custom tables, foreign keys can be defined in a schema using the fol
 {
     "foreignKeys": {
         "orders:user_id": "users:ID"
+    }
+}
+```
+
+### Meta Tables
+
+Tables that contain key/value data (e.g. `options`, `postmeta`) need to have their 'key' column defined so Mergebot can use it for conflict processing. If the table has a foreign key reference to another table, like `post_id`, this needs to be included in the key definition. Custom meta tables can be defined in the following way:
+
+```
+{
+    "metaTables": {
+        "{table name without prefix}": {
+            "keys": [
+                "{key column 1}",
+                "{key column 2}"
+             ],
+         },
+    }
+}
+```
+
+```
+{
+    "metaTables": {
+        "woocommerce_payment_tokenmeta": {
+            "keys": [
+                "payment_token_id",
+                "meta_key"
+             ],
+         },
+    }
+}
+```
+
+If a meta table has only one key column, no reference to another table, and enforces uniqueness based on that column (like the WordPress `options` table), the table can be defined like:
+
+```
+{
+    "metaTables": {
+        "{table name without prefix}": {
+            "keys": [
+                "{key column}"
+             ],
+             "unique": true
+         },
+    }
+}
+```
+
+```
+{
+    "metaTables": {
+        "settings": {
+            "keys": [
+                "settings_key"
+             ],
+             "unique": true
+         },
     }
 }
 ```
@@ -117,8 +205,8 @@ Note that key values can also use regex for wildcard searching. When mapping ser
 ```
 {
     "relationships": {
-        "options": [
-            {
+        "options": {
+            "(.*)category_children": {
                 "option_name": "(.*)category_children",
                 "option_value": "terms",
                 "serialized": {
@@ -129,7 +217,7 @@ Note that key values can also use regex for wildcard searching. When mapping ser
                     }
                 }
             }
-        ]
+        }
     }
 }
 ```
@@ -139,12 +227,12 @@ We also support keys that have IDs embedded within the string, using a `{table:c
 ```
 {
     "relationships": {
-        "options": [
-            {
+        "options": {
+            "_{posts:ID}_custom_data": {
                 "option_name": "_{posts:ID}_custom_data",
                 "option_value": "ignore",
             }
-        ]
+        }
     }
 }
 ```
@@ -319,6 +407,18 @@ Sometimes plugins and themes run queries on the database that are specific to th
     "ignore": [
         {
             "options:option_name": "_transient_(.*)"
+        },
+    ]
+}
+```
+
+If you want to ignore queries based on just the table name you can simply exclude the `:{column}` section of the key. For example:
+
+```
+{
+    "ignore": [
+        {
+            "table_name": "(.*)"
         },
     ]
 }
