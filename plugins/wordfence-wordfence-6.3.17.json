@@ -1,0 +1,152 @@
+{
+    "name": "Wordfence Security",
+    "version": "6.3.17",
+    "url": "https:\/\/wordpress.org\/plugins\/wordfence",
+    "primaryKeys": {
+        "wfBadLeechers": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfBlockedIPLog": {
+            "key": [
+                "IP",
+                "unixday",
+                "blockType"
+            ],
+            "auto_increment": false
+        },
+        "wfBlocks": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfBlocksAdv": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfConfig": {
+            "key": [
+                "name"
+            ],
+            "auto_increment": false
+        },
+        "wfCrawlers": {
+            "key": [
+                "IP",
+                "patternSig"
+            ],
+            "auto_increment": false
+        },
+        "wfFileMods": {
+            "key": [
+                "filenameMD5"
+            ],
+            "auto_increment": false
+        },
+        "wfHits": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfHoover": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfIssues": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfKnownFileList": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfLeechers": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfLockedOut": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfLocs": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfLogins": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfNet404s": {
+            "key": [
+                "sig"
+            ],
+            "auto_increment": false
+        },
+        "wfNotifications": {
+            "key": [
+                "id"
+            ],
+            "auto_increment": false
+        },
+        "wfPendingIssues": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfReverseCache": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfSNIPCache": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfScanners": {
+            "key": [
+                "eMin",
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfStatus": {
+            "key": [
+                "id"
+            ]
+        },
+        "wfThrottleLog": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        },
+        "wfVulnScanners": {
+            "key": [
+                "IP"
+            ],
+            "auto_increment": false
+        }
+    },
+    "foreignKeys": {
+        "wfHits:userID": "users:ID",
+        "wfLogins:userID": "users:ID"
+    }
+}
