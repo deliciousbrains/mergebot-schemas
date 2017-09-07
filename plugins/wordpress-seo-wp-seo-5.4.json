@@ -2,6 +2,23 @@
     "name": "Yoast SEO",
     "version": "5.4",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
+    "primaryKeys": {
+        "yoast_seo_links": {
+            "key": [
+                "id"
+            ]
+        },
+        "yoast_seo_meta": {
+            "key": [
+                "object_id"
+            ],
+            "auto_increment": false
+        }
+    },
+    "foreignKeys": {
+        "yoast_seo_links:post_id": "posts:ID",
+        "yoast_seo_links:target_post_id": "posts:ID"
+    },
     "relationships": {
         "options": {
             "wpseo_taxonomy_meta": {
