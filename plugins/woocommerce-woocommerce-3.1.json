@@ -198,6 +198,26 @@
                 "meta_key": "product_ids",
                 "meta_value": "posts"
             }
+        },
+        "termmeta": {
+            "thumbnail_id": {
+                "meta_key": "thumbnail_id",
+                "meta_value": "posts"
+            },
+            "product_ids": {
+                "meta_key": "product_ids",
+                "meta_value": "posts"
+            }
+        },
+        "woocommerce_term": {
+            "thumbnail_id": {
+                "meta_key": "thumbnail_id",
+                "meta_value": "posts"
+            },
+            "product_ids": {
+                "meta_key": "product_ids",
+                "meta_value": "posts"
+            }
         }
     }
 }
