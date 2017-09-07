@@ -107,6 +107,39 @@
             ]
         }
     },
+    "shortcodes": {
+        "add_to_cart": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "add_to_cart_url": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "product": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "product_categories": {
+            "parameters": [
+                "ids",
+                "parent"
+            ]
+        },
+        "product_page": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "products": {
+            "parameters": [
+                "ids"
+            ]
+        }
+    },
     "relationships": {
         "postmeta": {
             "_children": {
