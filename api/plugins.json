@@ -29,6 +29,12 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.6.json"
     },
+    "contact-form-7-wp-contact-form-7-4.7.json": {
+        "name": "Contact Form 7",
+        "version": "4.7",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.7.json"
+    },
     "duplicate-post-duplicate-post-3.0.3.json": {
         "name": "Duplicate Post",
         "version": "3.0.3",
@@ -95,6 +101,12 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.0.11.json"
     },
+    "mailchimp-for-wp-mailchimp-for-wp-4.1.0.json": {
+        "name": "MailChimp for WordPress",
+        "version": "4.1.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
+    },
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",
@@ -137,11 +149,17 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.13.json"
     },
-    "woocommerce-woocommerce-3.1.json": {
+    "woocommerce-woocommerce-3.0.0.json": {
         "name": "WooCommerce",
-        "version": "3.1.2",
+        "version": "3.0.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
-        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.json"
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.0.0.json"
+    },
+    "woocommerce-woocommerce-3.1.0.json": {
+        "name": "WooCommerce",
+        "version": "3.1.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
     "wordfence-wordfence-6.2.10.json": {
         "name": "Wordfence Security",
@@ -149,11 +167,11 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.2.10.json"
     },
-    "wordfence-wordfence-6.3.json": {
+    "wordfence-wordfence-6.3.0.json": {
         "name": "Wordfence Security",
-        "version": "6.3.17",
+        "version": "6.3.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
-        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.json"
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.0.json"
     },
     "wordpress-importer-wordpress-importer-0.6.3.json": {
         "name": "WordPress Importer",
@@ -185,10 +203,10 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.4.8.json"
     },
-    "wp-super-cache-wp-cache-1.5.json": {
+    "wp-super-cache-wp-cache-1.5.0.json": {
         "name": "WP Super Cache",
-        "version": "1.5.5",
+        "version": "1.5.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
-        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.json"
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
     }
 }
