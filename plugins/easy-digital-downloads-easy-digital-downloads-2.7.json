@@ -1,0 +1,80 @@
+{
+    "name": "Easy Digital Downloads",
+    "version": "2.7",
+    "url": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
+    "primaryKeys": {
+        "edd_customermeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "edd_customers": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "edd_customermeta:customer_id": "edd_customers:id",
+        "edd_customers:user_id": "users:ID"
+    },
+    "metaTables": {
+        "edd_customermeta": {
+            "keys": [
+                "customer_id",
+                "meta_key"
+            ]
+        }
+    },
+    "shortcodes": {
+        "downloads": {
+            "parameters": [
+                {
+                    "name": "tags",
+                    "table": "terms"
+                },
+                {
+                    "name": "exclude_tags",
+                    "table": "terms"
+                },
+                {
+                    "name": "author",
+                    "table": "users"
+                },
+                "ids"
+            ]
+        },
+        "edd_login": {
+            "parameters": [
+                "exi"
+            ]
+        },
+        "edd_price": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "purchase_collection": {
+            "parameters": [
+                {
+                    "name": "terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "purchase_link": {
+            "parameters": [
+                "download_id",
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_edd_payment_customer_id": {
+                "meta_key": "_edd_payment_customer_id",
+                "meta_value": "edd_customers"
+            }
+        }
+    }
+}

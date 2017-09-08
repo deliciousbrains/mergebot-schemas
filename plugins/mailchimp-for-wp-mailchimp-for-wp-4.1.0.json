@@ -1,0 +1,24 @@
+{
+    "name": "MailChimp for WordPress",
+    "version": "4.1.0",
+    "url": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
+    "shortcodes": {
+        "mc4wp_form": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "options": {
+            "mc4wp_default_form_id": {
+                "option_name": "mc4wp_default_form_id",
+                "option_value": "posts"
+            },
+            "mc4wp_form_preview_id": {
+                "option_name": "mc4wp_form_preview_id",
+                "option_value": "posts"
+            }
+        }
+    }
+}

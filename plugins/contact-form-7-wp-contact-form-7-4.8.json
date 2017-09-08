@@ -1,0 +1,17 @@
+{
+    "name": "Contact Form 7",
+    "version": "4.8",
+    "url": "https:\/\/wordpress.org\/plugins\/contact-form-7",
+    "shortcodes": {
+        "contact-form": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "contact-form-7": {
+            "parameters": [
+                "id"
+            ]
+        }
+    }
+}
