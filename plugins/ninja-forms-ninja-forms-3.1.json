@@ -63,6 +63,11 @@
                 "id"
             ]
         },
+        "ninja_forms": {
+            "key": [
+                "id"
+            ]
+        },
         "ninja_forms_fav_fields": {
             "key": [
                 "id"
@@ -82,7 +87,7 @@
         "nf3_form_meta:parent_id": "nf3_forms:id",
         "nf3_object_meta:parent_id": "nf3_objects:id",
         "nf_objectmeta:object_id": "nf3_objects:id",
-        "ninja_forms_fields:form_id": "nf3_forms:id"
+        "ninja_forms_fields:form_id": "ninja_forms:id"
     },
     "shortcodes": {
         "nf_preview": {
