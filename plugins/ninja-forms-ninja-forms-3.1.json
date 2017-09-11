@@ -1,0 +1,144 @@
+{
+    "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
+    "version": "3.1",
+    "url": "https:\/\/wordpress.org\/plugins\/ninja-forms",
+    "primaryKeys": {
+        "nf3_action_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_actions": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_field_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_fields": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_form_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_forms": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_object_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_objects": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_relationships": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_objectmeta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_objects": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_relationships": {
+            "key": [
+                "id"
+            ]
+        },
+        "ninja_forms_fav_fields": {
+            "key": [
+                "id"
+            ]
+        },
+        "ninja_forms_fields": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "nf3_actions:parent_id": "nf3_forms:id",
+        "nf3_action_meta:parent_id": "nf3_actions:id",
+        "nf3_fields:parent_id": "nf3_forms:id",
+        "nf3_field_meta:parent_id": "nf3_fields:id",
+        "nf3_form_meta:parent_id": "nf3_forms:id",
+        "nf3_object_meta:parent_id": "nf3_objects:id",
+        "nf_objectmeta:object_id": "nf3_objects:id",
+        "ninja_forms_fields:form_id": "nf3_forms:id"
+    },
+    "shortcodes": {
+        "nf_preview": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_form": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms_display_form": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms_display_sub_limit_number": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_display_sub_number": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_display_sub_number_remaining": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_field": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "ninja_forms_fields"
+                }
+            ]
+        }
+    }
+}
