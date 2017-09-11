@@ -145,5 +145,39 @@
                 }
             ]
         }
+    },
+    "relationships": {
+        "options": {
+            "nf_convert_notifications_forms": {
+                "option_name": "nf_convert_notifications_forms",
+                "option_value": "ninja_forms"
+            },
+            "nf_converted_forms": {
+                "option_name": "nf_converted_forms",
+                "option_value": "ninja_forms"
+            },
+            "nf_converted_subs": {
+                "option_name": "nf_converted_subs",
+                "option_value": "posts"
+            },
+            "nf_form_{nf3_forms:id}": {
+                "option_name": "nf_form_{nf3_forms:id}",
+                "option_value": "ignore"
+            }
+        },
+        "postmeta": {
+            "_field_{nf3_fields:id}": {
+                "meta_key": "_field_{nf3_fields:id}",
+                "meta_value": "ignore"
+            },
+            "_form_id": {
+                "meta_key": "_form_id",
+                "meta_value": "nf3_forms"
+            },
+            "ninja_forms_form": {
+                "meta_key": "ninja_forms_form",
+                "meta_value": "ninja_forms"
+            }
+        }
     }
 }
