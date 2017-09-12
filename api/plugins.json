@@ -59,6 +59,12 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.6.17.json"
     },
+    "easy-digital-downloads-easy-digital-downloads-2.7.json": {
+        "name": "Easy Digital Downloads",
+        "version": "2.7",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
+    },
     "enable-media-replace-enable-media-replace-3.0.5.json": {
         "name": "Enable Media Replace",
         "version": "3.0.5",
@@ -112,6 +118,12 @@
         "version": "4.1.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
+    },
+    "ninja-forms-ninja-forms-3.1.json": {
+        "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
+        "version": "3.1",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/ninja-forms",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ninja-forms-ninja-forms-3.1.json"
     },
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",

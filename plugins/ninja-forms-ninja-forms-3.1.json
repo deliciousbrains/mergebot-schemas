@@ -1,0 +1,183 @@
+{
+    "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
+    "version": "3.1",
+    "url": "https:\/\/wordpress.org\/plugins\/ninja-forms",
+    "primaryKeys": {
+        "nf3_action_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_actions": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_field_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_fields": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_form_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_forms": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_object_meta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_objects": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf3_relationships": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_objectmeta": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_objects": {
+            "key": [
+                "id"
+            ]
+        },
+        "nf_relationships": {
+            "key": [
+                "id"
+            ]
+        },
+        "ninja_forms": {
+            "key": [
+                "id"
+            ]
+        },
+        "ninja_forms_fav_fields": {
+            "key": [
+                "id"
+            ]
+        },
+        "ninja_forms_fields": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "nf3_actions:parent_id": "nf3_forms:id",
+        "nf3_action_meta:parent_id": "nf3_actions:id",
+        "nf3_fields:parent_id": "nf3_forms:id",
+        "nf3_field_meta:parent_id": "nf3_fields:id",
+        "nf3_form_meta:parent_id": "nf3_forms:id",
+        "nf3_object_meta:parent_id": "nf3_objects:id",
+        "nf_objectmeta:object_id": "nf3_objects:id",
+        "ninja_forms_fields:form_id": "ninja_forms:id"
+    },
+    "shortcodes": {
+        "nf_preview": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_form": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms_display_form": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "nf3_forms"
+                }
+            ]
+        },
+        "ninja_forms_display_sub_limit_number": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_display_sub_number": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_display_sub_number_remaining": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "ninja_forms_field": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "ninja_forms_fields"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "options": {
+            "nf_convert_notifications_forms": {
+                "option_name": "nf_convert_notifications_forms",
+                "option_value": "ninja_forms"
+            },
+            "nf_converted_forms": {
+                "option_name": "nf_converted_forms",
+                "option_value": "ninja_forms"
+            },
+            "nf_converted_subs": {
+                "option_name": "nf_converted_subs",
+                "option_value": "posts"
+            },
+            "nf_form_{nf3_forms:id}": {
+                "option_name": "nf_form_{nf3_forms:id}",
+                "option_value": "ignore"
+            }
+        },
+        "postmeta": {
+            "_field_{nf3_fields:id}": {
+                "meta_key": "_field_{nf3_fields:id}",
+                "meta_value": "ignore"
+            },
+            "_form_id": {
+                "meta_key": "_form_id",
+                "meta_value": "nf3_forms"
+            },
+            "ninja_forms_form": {
+                "meta_key": "ninja_forms_form",
+                "meta_value": "ninja_forms"
+            }
+        }
+    }
+}
