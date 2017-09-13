@@ -80,10 +80,10 @@
         }
     },
     "foreignKeys": {
-        "nf3_actions:parent_id": "nf3_forms:id",
         "nf3_action_meta:parent_id": "nf3_actions:id",
-        "nf3_fields:parent_id": "nf3_forms:id",
+        "nf3_actions:parent_id": "nf3_forms:id",
         "nf3_field_meta:parent_id": "nf3_fields:id",
+        "nf3_fields:parent_id": "nf3_forms:id",
         "nf3_form_meta:parent_id": "nf3_forms:id",
         "nf3_object_meta:parent_id": "nf3_objects:id",
         "nf_objectmeta:object_id": "nf3_objects:id",
