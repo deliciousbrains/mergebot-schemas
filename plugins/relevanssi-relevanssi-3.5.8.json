@@ -15,6 +15,12 @@
             "key": [
                 "id"
             ]
+        },
+        "relevanssi_stopwords": {
+            "key": [
+                "stopword"
+            ],
+            "auto_increment": false
         }
     },
     "foreignKeys": {
