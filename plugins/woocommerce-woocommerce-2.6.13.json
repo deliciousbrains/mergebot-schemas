@@ -18,6 +18,11 @@
                 "permission_id"
             ]
         },
+        "woocommerce_log": {
+            "key": [
+                "log_id"
+            ]
+        },
         "woocommerce_order_itemmeta": {
             "key": [
                 "meta_id"
