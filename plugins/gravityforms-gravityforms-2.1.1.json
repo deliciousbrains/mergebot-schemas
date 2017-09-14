@@ -1,6 +1,7 @@
 {
     "name": "Gravity Forms",
     "version": "2.1.1",
+    "testedUpTo": "2.1.1",
     "url": "http:\/\/www.gravityforms.com\/",
     "primaryKeys": {
         "gf_addon_feed": {

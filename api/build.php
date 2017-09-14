@@ -21,10 +21,11 @@ foreach( $plugins as $plugin  ) {
 	}
 
 	$plugins_index[ $plugin ] = array(
-		'name'      => $schema->name,
-		'version'   => $schema->version,
-		'pluginURL' => $schema->url,
-		'schemaURL' => 'https://github.com/deliciousbrains/mergebot-schemas/blob/master/plugins/' . $plugin,
+		'name'       => $schema->name,
+		'version'    => $schema->version,
+		'testedUpTo' => $schema->testedUpTo,
+		'pluginURL'  => $schema->url,
+		'schemaURL'  => 'https://github.com/deliciousbrains/mergebot-schemas/blob/master/plugins/' . $plugin,
 	);
 }
 

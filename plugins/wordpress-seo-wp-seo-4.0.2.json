@@ -1,6 +1,7 @@
 {
     "name": "Yoast SEO",
     "version": "4.0.2",
+    "testedUpTo": "4.0.2",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
     "relationships": {
         "options": {

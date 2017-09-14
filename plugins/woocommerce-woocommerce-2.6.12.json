@@ -1,6 +1,7 @@
 {
     "name": "WooCommerce",
     "version": "2.6.12",
+    "testedUpTo": "2.6.12",
     "url": "https:\/\/wordpress.org\/plugins\/woocommerce",
     "primaryKeys": {
         "woocommerce_api_keys": {

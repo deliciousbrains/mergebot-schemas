@@ -1,6 +1,7 @@
 {
     "name": "Duplicate Post",
     "version": "3.0.3",
+    "testedUpTo": "3.0.3",
     "url": "https:\/\/wordpress.org\/plugins\/duplicate-post",
     "relationships": {
         "postmeta": {

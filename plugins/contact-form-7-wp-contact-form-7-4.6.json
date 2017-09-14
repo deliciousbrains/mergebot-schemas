@@ -1,6 +1,7 @@
 {
     "name": "Contact Form 7",
     "version": "4.6",
+    "testedUpTo": "4.6",
     "url": "https:\/\/wordpress.org\/plugins\/contact-form-7",
     "shortcodes": {
         "contact-form": {

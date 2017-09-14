@@ -1,6 +1,7 @@
 {
     "name": "Relevanssi - A Better Search",
     "version": "3.5.6.1",
+    "testedUpTo": "3.5.6.1",
     "url": "https:\/\/wordpress.org\/plugins\/relevanssi",
     "primaryKeys": {
         "relevanssi": {

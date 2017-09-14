@@ -1,6 +1,7 @@
 {
     "name": "Advanced Custom Fields Pro",
     "version": "5.5.4",
+    "testedUpTo": "5.5.4",
     "url": "https:\/\/www.advancedcustomfields.com\/pro\/",
     "shortcodes": {
         "acf": {

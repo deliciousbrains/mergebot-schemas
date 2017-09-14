@@ -2,228 +2,266 @@
     "advanced-custom-fields-acf-4.4.11.json": {
         "name": "Advanced Custom Fields",
         "version": "4.4.11",
+        "testedUpTo": "4.4.11",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/advanced-custom-fields",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/advanced-custom-fields-acf-4.4.11.json"
     },
     "advanced-custom-fields-pro-acf-5.5.4.json": {
         "name": "Advanced Custom Fields Pro",
         "version": "5.5.4",
+        "testedUpTo": "5.5.4",
         "pluginURL": "https:\/\/www.advancedcustomfields.com\/pro\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/advanced-custom-fields-pro-acf-5.5.4.json"
     },
     "akismet-akismet-3.2.json": {
         "name": "Akismet",
         "version": "3.2",
+        "testedUpTo": "3.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/akismet",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/akismet-akismet-3.2.json"
     },
     "all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json": {
         "name": "All in One SEO Pack",
         "version": "2.3.11.3",
+        "testedUpTo": "2.3.11.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
     "contact-form-7-wp-contact-form-7-4.6.json": {
         "name": "Contact Form 7",
         "version": "4.6",
+        "testedUpTo": "4.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.6.json"
     },
     "contact-form-7-wp-contact-form-7-4.7.json": {
         "name": "Contact Form 7",
         "version": "4.7",
+        "testedUpTo": "4.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.7.json"
     },
     "contact-form-7-wp-contact-form-7-4.8.json": {
         "name": "Contact Form 7",
         "version": "4.8",
+        "testedUpTo": "4.8",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.8.json"
     },
     "duplicate-post-duplicate-post-3.0.3.json": {
         "name": "Duplicate Post",
         "version": "3.0.3",
+        "testedUpTo": "3.0.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/duplicate-post",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/duplicate-post-duplicate-post-3.0.3.json"
     },
     "duplicate-post-duplicate-post-3.1.2.json": {
         "name": "Duplicate Post",
         "version": "3.1.2",
+        "testedUpTo": "3.1.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/duplicate-post",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/duplicate-post-duplicate-post-3.1.2.json"
     },
     "easy-digital-downloads-easy-digital-downloads-2.6.17.json": {
         "name": "Easy Digital Downloads",
         "version": "2.6.17",
+        "testedUpTo": "2.6.17",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.6.17.json"
     },
     "easy-digital-downloads-easy-digital-downloads-2.7.json": {
         "name": "Easy Digital Downloads",
         "version": "2.7",
+        "testedUpTo": "2.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
     "enable-media-replace-enable-media-replace-3.0.5.json": {
         "name": "Enable Media Replace",
         "version": "3.0.5",
+        "testedUpTo": "3.0.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/enable-media-replace",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/enable-media-replace-enable-media-replace-3.0.5.json"
     },
     "google-analytics-for-wordpress-googleanalytics-5.5.4.json": {
         "name": "Google Analytics by MonsterInsights",
         "version": "5.5.4",
+        "testedUpTo": "5.5.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/google-analytics-for-wordpress",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/google-analytics-for-wordpress-googleanalytics-5.5.4.json"
     },
     "google-sitemap-generator-sitemap-4.0.8.json": {
         "name": "Google XML Sitemaps",
         "version": "4.0.8",
+        "testedUpTo": "4.0.8",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/google-sitemap-generator",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/google-sitemap-generator-sitemap-4.0.8.json"
     },
     "gravityforms-gravityforms-2.1.1.json": {
         "name": "Gravity Forms",
         "version": "2.1.1",
+        "testedUpTo": "2.1.1",
         "pluginURL": "http:\/\/www.gravityforms.com\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityforms-gravityforms-2.1.1.json"
     },
     "gravityformsstripe-stripe-2.2.2.json": {
         "name": "Gravity Forms Stripe Add-On",
         "version": "2.2.2",
+        "testedUpTo": "2.2.2",
         "pluginURL": "http:\/\/www.gravityforms.com\/add-ons\/stripe\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformsstripe-stripe-2.2.2.json"
     },
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",
+        "testedUpTo": "4.4.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
     "limit-login-attempts-limit-login-attempts-1.7.1.json": {
         "name": "Limit Login Attempts",
         "version": "1.7.1",
+        "testedUpTo": "1.7.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/limit-login-attempts",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/limit-login-attempts-limit-login-attempts-1.7.1.json"
     },
     "mailchimp-for-wp-mailchimp-for-wp-4.0.11.json": {
         "name": "MailChimp for WordPress",
         "version": "4.0.11",
+        "testedUpTo": "4.0.11",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.0.11.json"
     },
     "mailchimp-for-wp-mailchimp-for-wp-4.1.0.json": {
         "name": "MailChimp for WordPress",
         "version": "4.1.0",
+        "testedUpTo": "4.1.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
     },
     "ninja-forms-ninja-forms-3.1.json": {
         "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
         "version": "3.1",
+        "testedUpTo": "3.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/ninja-forms",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ninja-forms-ninja-forms-3.1.json"
     },
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",
+        "testedUpTo": "2.2.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/regenerate-thumbnails-regenerate-thumbnails-2.2.6.json"
     },
     "relevanssi-relevanssi-3.5.6.1.json": {
         "name": "Relevanssi - A Better Search",
         "version": "3.5.6.1",
+        "testedUpTo": "3.5.6.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.6.1.json"
     },
     "relevanssi-relevanssi-3.5.8.json": {
         "name": "Relevanssi - A Better Search",
         "version": "3.5.8",
+        "testedUpTo": "3.5.8",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
     "tinymce-advanced-tinymce-advanced-4.4.3.json": {
         "name": "TinyMCE Advanced",
         "version": "4.4.3",
+        "testedUpTo": "4.4.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
     "woocommerce-woocommerce-2.6.11.json": {
         "name": "WooCommerce",
         "version": "2.6.11",
+        "testedUpTo": "2.6.11",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.11.json"
     },
     "woocommerce-woocommerce-2.6.12.json": {
         "name": "WooCommerce",
         "version": "2.6.12",
+        "testedUpTo": "2.6.12",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.12.json"
     },
     "woocommerce-woocommerce-2.6.13.json": {
         "name": "WooCommerce",
         "version": "2.6.13",
+        "testedUpTo": "2.6.13",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.13.json"
     },
     "woocommerce-woocommerce-3.0.0.json": {
         "name": "WooCommerce",
         "version": "3.0.0",
+        "testedUpTo": "3.0.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.0.0.json"
     },
     "woocommerce-woocommerce-3.1.0.json": {
         "name": "WooCommerce",
         "version": "3.1.0",
+        "testedUpTo": "3.1.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
     "wordfence-wordfence-6.2.10.json": {
         "name": "Wordfence Security",
         "version": "6.2.10",
+        "testedUpTo": "6.2.10",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.2.10.json"
     },
     "wordfence-wordfence-6.3.0.json": {
         "name": "Wordfence Security",
         "version": "6.3.0",
+        "testedUpTo": "6.3.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.0.json"
     },
     "wordpress-importer-wordpress-importer-0.6.3.json": {
         "name": "WordPress Importer",
         "version": "0.6.3",
+        "testedUpTo": "0.6.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-importer-wordpress-importer-0.6.3.json"
     },
     "wordpress-mu-domain-mapping-domain_mapping-0.5.5.1.json": {
         "name": "WordPress MU Domain Mapping",
         "version": "0.5.5.1",
+        "testedUpTo": "0.5.5.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-mu-domain-mapping",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-mu-domain-mapping-domain_mapping-0.5.5.1.json"
     },
     "wordpress-seo-wp-seo-4.0.2.json": {
         "name": "Yoast SEO",
         "version": "4.0.2",
+        "testedUpTo": "4.0.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-4.0.2.json"
     },
     "wordpress-seo-wp-seo-5.4.json": {
         "name": "Yoast SEO",
         "version": "5.4",
+        "testedUpTo": "5.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
     "wp-super-cache-wp-cache-1.4.8.json": {
         "name": "WP Super Cache",
         "version": "1.4.8",
+        "testedUpTo": "1.4.8",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.4.8.json"
     },
     "wp-super-cache-wp-cache-1.5.0.json": {
         "name": "WP Super Cache",
         "version": "1.5.0",
+        "testedUpTo": "1.5.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
     }
