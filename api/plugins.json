@@ -128,7 +128,7 @@
     "mailchimp-for-wp-mailchimp-for-wp-4.0.11.json": {
         "name": "MailChimp for WordPress",
         "version": "4.0.11",
-        "testedUpTo": "4.0.12",
+        "testedUpTo": "4.0.13",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.0.11.json"
     },
