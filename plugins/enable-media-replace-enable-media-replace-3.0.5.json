@@ -1,7 +1,7 @@
 {
     "name": "Enable Media Replace",
     "version": "3.0.5",
-    "testedUpTo": "3.0.6",
+    "testedUpTo": "3.1",
     "url": "https:\/\/wordpress.org\/plugins\/enable-media-replace",
     "shortcodes": {
         "file_modified": {
