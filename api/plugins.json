@@ -93,7 +93,7 @@
     "google-sitemap-generator-sitemap-4.0.8.json": {
         "name": "Google XML Sitemaps",
         "version": "4.0.8",
-        "testedUpTo": "4.0.8",
+        "testedUpTo": "4.0.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/google-sitemap-generator",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/google-sitemap-generator-sitemap-4.0.8.json"
     },
