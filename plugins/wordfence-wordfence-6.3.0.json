@@ -1,7 +1,7 @@
 {
     "name": "Wordfence Security",
     "version": "6.3.0",
-    "testedUpTo": "6.3.1",
+    "testedUpTo": "6.3.2",
     "url": "https:\/\/wordpress.org\/plugins\/wordfence",
     "primaryKeys": {
         "wfBadLeechers": {
