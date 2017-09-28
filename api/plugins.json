@@ -195,6 +195,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.13.json"
     },
+    "woocommerce-woocommerce-2.6.14.json": {
+        "name": "WooCommerce",
+        "version": "2.6.14",
+        "testedUpTo": "2.6.14",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-2.6.14.json"
+    },
     "woocommerce-woocommerce-3.0.0.json": {
         "name": "WooCommerce",
         "version": "3.0.0",
