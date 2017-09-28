@@ -1,7 +1,7 @@
 {
     "name": "WooCommerce",
     "version": "3.0.0",
-    "testedUpTo": "3.0.7",
+    "testedUpTo": "3.0.8",
     "url": "https:\/\/wordpress.org\/plugins\/woocommerce",
     "primaryKeys": {
         "woocommerce_api_keys": {
