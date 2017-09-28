@@ -1,7 +1,7 @@
 {
     "name": "Yoast SEO",
     "version": "4.1",
-    "testedUpTo": "4.3",
+    "testedUpTo": "4.4",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
     "primaryKeys": {
         "yoast_seo_links": {
