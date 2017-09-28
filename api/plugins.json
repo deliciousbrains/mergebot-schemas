@@ -251,6 +251,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-4.0.2.json"
     },
+    "wordpress-seo-wp-seo-4.1.json": {
+        "name": "Yoast SEO",
+        "version": "4.1",
+        "testedUpTo": "4.1",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-4.1.json"
+    },
     "wordpress-seo-wp-seo-5.4.json": {
         "name": "Yoast SEO",
         "version": "5.4",
