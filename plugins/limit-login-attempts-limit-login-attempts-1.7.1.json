@@ -1,6 +1,6 @@
 {
     "name": "Limit Login Attempts",
     "version": "1.7.1",
-    "testedUpTo": "2.0beta1",
+    "testedUpTo": "2.0beta2",
     "url": "https:\/\/wordpress.org\/plugins\/limit-login-attempts"
 }
