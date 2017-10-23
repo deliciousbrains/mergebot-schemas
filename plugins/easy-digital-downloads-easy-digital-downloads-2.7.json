@@ -1,7 +1,7 @@
 {
     "name": "Easy Digital Downloads",
     "version": "2.7",
-    "testedUpTo": "2.8.9",
+    "testedUpTo": "2.8.10",
     "url": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
     "primaryKeys": {
         "edd_customermeta": {
