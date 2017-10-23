@@ -1,7 +1,7 @@
 {
     "name": "Jetpack by WordPress.com",
     "version": "4.4.2",
-    "testedUpTo": "4.4.2",
+    "testedUpTo": "4.5",
     "url": "https:\/\/wordpress.org\/plugins\/jetpack",
     "shortcodes": {
         "gallery": {
