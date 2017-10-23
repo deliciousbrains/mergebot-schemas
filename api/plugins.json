@@ -23,7 +23,7 @@
     "all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json": {
         "name": "All in One SEO Pack",
         "version": "2.3.11.3",
-        "testedUpTo": "2.4.1.1",
+        "testedUpTo": "2.4.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
