@@ -121,7 +121,7 @@
     "limit-login-attempts-limit-login-attempts-1.7.1.json": {
         "name": "Limit Login Attempts",
         "version": "1.7.1",
-        "testedUpTo": "2.0beta2",
+        "testedUpTo": "2.0beta3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/limit-login-attempts",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/limit-login-attempts-limit-login-attempts-1.7.1.json"
     },
