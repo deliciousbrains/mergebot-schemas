@@ -94,6 +94,14 @@
         "woocommerce_tax_rate_locations:tax_rate_id": "woocommerce_tax_rates:tax_rate_id",
         "woocommerce_termmeta:woocommerce_term_id": "terms:term_id"
     },
+    "ignore": [
+        {
+            "woocommerce_sessions": "(.*)"
+        },
+        {
+            "usermeta:meta_key": "_woocommerce_persistent_cart_(.*)"
+        }
+    ],
     "metaTables": {
         "woocommerce_payment_tokenmeta": {
             "keys": [
