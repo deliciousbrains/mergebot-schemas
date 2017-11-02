@@ -44,7 +44,7 @@
     "contact-form-7-wp-contact-form-7-4.8.json": {
         "name": "Contact Form 7",
         "version": "4.8",
-        "testedUpTo": "4.9",
+        "testedUpTo": "4.9.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.8.json"
     },
@@ -166,6 +166,13 @@
         "testedUpTo": "3.6.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
+    },
+    "the-events-calendar-the-events-calendar-4.6.json": {
+        "name": "The Events Calendar",
+        "version": "4.6",
+        "testedUpTo": "4.6",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/the-events-calendar-the-events-calendar-4.6.json"
     },
     "tinymce-advanced-tinymce-advanced-4.4.3.json": {
         "name": "TinyMCE Advanced",
