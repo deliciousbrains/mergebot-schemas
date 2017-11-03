@@ -219,7 +219,7 @@
     "woocommerce-woocommerce-3.1.0.json": {
         "name": "WooCommerce",
         "version": "3.1.0",
-        "testedUpTo": "3.2.0",
+        "testedUpTo": "3.2.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
@@ -282,7 +282,7 @@
     "wp-super-cache-wp-cache-1.5.0.json": {
         "name": "WP Super Cache",
         "version": "1.5.0",
-        "testedUpTo": "1.5.6",
+        "testedUpTo": "1.5.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
     }
