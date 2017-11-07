@@ -16,7 +16,7 @@
     "akismet-akismet-3.2.json": {
         "name": "Akismet",
         "version": "3.2",
-        "testedUpTo": "4.0",
+        "testedUpTo": "4.0.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/akismet",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/akismet-akismet-3.2.json"
     },
