@@ -1,5 +1,11 @@
 {
     "primaryKeys": {
+        "blog_versions": {
+            "key": [
+                "blog_id"
+            ],
+            "auto_increment": false
+        },
         "blogs": {
             "key": [
                 "blog_id"
@@ -48,6 +54,16 @@
         "site": {
             "key": [
                 "id"
+            ]
+        },
+        "sitecategories": {
+            "key": [
+                "cat_ID"
+            ]
+        },
+        "sitecategories": {
+            "key": [
+                "cat_ID"
             ]
         },
         "sitemeta": {
