@@ -128,6 +128,18 @@
             "_icl_lang_duplicate_of": {
                 "meta_key": "_icl_lang_duplicate_of",
                 "meta_value": "posts"
+            },
+            "_wpml_trid": {
+                "meta_key": "_wpml_trid",
+                "meta_value": "posts"
+            },
+            "_wpml_translations": {
+                "meta_key": "_wpml_translations",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
             }
         }
     },
