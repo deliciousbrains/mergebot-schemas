@@ -130,5 +130,13 @@
                 "meta_value": "posts"
             }
         }
-    }
+    },
+    "tablePrefixes": [
+        {
+            "options:option_name": "icl_translators_cached"
+        },
+        {
+            "usermeta:meta_key": "language_pairs"
+        }
+    ]
 }
