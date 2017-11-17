@@ -1,0 +1,154 @@
+{
+    "name": "WPML Multilingual CMS",
+    "version": "3.7.1",
+    "testedUpTo": "3.7.1",
+    "url": "https:\/\/wpml.org\/",
+    "primaryKeys": {
+        "icl_content_status": {
+            "key": [
+                "rid"
+            ],
+            "auto_increment": false
+        },
+        "icl_core_status": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_flags": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_languages": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_languages_translations": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_locale_map": {
+            "key": [
+                "code",
+                "locale"
+            ],
+            "auto_increment": false
+        },
+        "icl_message_status": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_node": {
+            "key": [
+                "nid"
+            ],
+            "auto_increment": false
+        },
+        "icl_reminders": {
+            "key": [
+                "id"
+            ],
+            "auto_increment": false
+        },
+        "icl_string_positions": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_string_status": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_string_translations": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_strings": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_translate": {
+            "key": [
+                "tid"
+            ]
+        },
+        "icl_translate_job": {
+            "key": [
+                "job_id"
+            ]
+        },
+        "icl_translation_batches": {
+            "key": [
+                "id"
+            ]
+        },
+        "icl_translation_status": {
+            "key": [
+                "rid"
+            ]
+        },
+        "icl_translations": {
+            "key": [
+                "translation_id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "icl_content_status:nid": "icl_languages_translations:id",
+        "icl_core_status:rid": "icl_reminders:id",
+        "icl_message_status:rid": "icl_reminders:id",
+        "icl_string_positions:string_id": "icl_strings:id",
+        "icl_string_status:rid": "icl_reminders:id",
+        "icl_string_status:string_translation_id": "icl_string_translations:id",
+        "icl_string_translations:string_id": "icl_strings:id",
+        "icl_translate:job_id": "icl_translate_job:job_id",
+        "icl_translate_job:rid": "icl_reminders:id",
+        "icl_translation_status:translation_id": "icl_languages_translations:id",
+        "icl_translations:trid": "posts:ID"
+    },
+    "relationships": {
+        "options": {
+            "%_children_%": {
+                "option_name": "%_children_%",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "terms:term_id",
+                    "val": "terms:term_id"
+                }
+            }
+        },
+        "postmeta": {
+            "_icl_lang_duplicate_of": {
+                "meta_key": "_icl_lang_duplicate_of",
+                "meta_value": "posts"
+            },
+            "_wpml_trid": {
+                "meta_key": "_wpml_trid",
+                "meta_value": "posts"
+            },
+            "_wpml_translations": {
+                "meta_key": "_wpml_translations",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            }
+        }
+    },
+    "tablePrefixes": [
+        {
+            "options:option_name": "icl_translators_cached"
+        },
+        {
+            "usermeta:meta_key": "language_pairs"
+        }
+    ]
+}

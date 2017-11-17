@@ -23,7 +23,7 @@
     "all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json": {
         "name": "All in One SEO Pack",
         "version": "2.3.11.3",
-        "testedUpTo": "2.4.2",
+        "testedUpTo": "2.4.2.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
@@ -72,7 +72,7 @@
     "easy-digital-downloads-easy-digital-downloads-2.7.json": {
         "name": "Easy Digital Downloads",
         "version": "2.7",
-        "testedUpTo": "2.8.11",
+        "testedUpTo": "2.8.12",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
@@ -114,7 +114,7 @@
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",
-        "testedUpTo": "4.8",
+        "testedUpTo": "4.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
@@ -167,17 +167,24 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
+    "sitepress-multilingual-cms-sitepress-3.7.1.json": {
+        "name": "WPML Multilingual CMS",
+        "version": "3.7.1",
+        "testedUpTo": "3.7.1",
+        "pluginURL": "https:\/\/wpml.org\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/sitepress-multilingual-cms-sitepress-3.7.1.json"
+    },
     "the-events-calendar-the-events-calendar-4.6.json": {
         "name": "The Events Calendar",
         "version": "4.6",
-        "testedUpTo": "4.6.4",
+        "testedUpTo": "4.6.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/the-events-calendar-the-events-calendar-4.6.json"
     },
     "tinymce-advanced-tinymce-advanced-4.4.3.json": {
         "name": "TinyMCE Advanced",
         "version": "4.4.3",
-        "testedUpTo": "4.6.3",
+        "testedUpTo": "4.6.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
@@ -219,7 +226,7 @@
     "woocommerce-woocommerce-3.1.0.json": {
         "name": "WooCommerce",
         "version": "3.1.0",
-        "testedUpTo": "3.2.3",
+        "testedUpTo": "3.2.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
@@ -268,7 +275,7 @@
     "wordpress-seo-wp-seo-5.4.json": {
         "name": "Yoast SEO",
         "version": "5.4",
-        "testedUpTo": "5.7.1",
+        "testedUpTo": "5.8",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
