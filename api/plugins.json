@@ -118,6 +118,13 @@
         "pluginURL": "http:\/\/www.gravityforms.com\/add-ons\/stripe\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformsstripe-stripe-2.2.2.json"
     },
+    "gravityformszapier-zapier-2.1.4.json": {
+        "name": "Gravity Forms Zapier Add-on",
+        "version": "2.1.4",
+        "testedUpTo": "2.1.4",
+        "pluginURL": "http:\/\/www.gravityforms.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformszapier-zapier-2.1.4.json"
+    },
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",

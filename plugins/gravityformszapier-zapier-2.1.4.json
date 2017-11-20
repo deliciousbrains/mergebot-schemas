@@ -1,0 +1,16 @@
+{
+    "name": "Gravity Forms Zapier Add-on",
+    "version": "2.1.4",
+    "testedUpTo": "2.1.4",
+    "url": "http:\/\/www.gravityforms.com",
+    "primaryKeys": {
+        "rg_zapier": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "rg_zapier:form_id": "rg_form:id"
+    }
+}
