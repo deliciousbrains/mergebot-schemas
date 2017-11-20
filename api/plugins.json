@@ -104,12 +104,47 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/google-sitemap-generator",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/google-sitemap-generator-sitemap-4.0.8.json"
     },
+    "gravity-forms-list-field-date-picker-gravity-forms-list-field-datepicker-plugin-1.7.0.json": {
+        "name": "Date Picker in List Fields for Gravity Forms",
+        "version": "1.7.0",
+        "testedUpTo": "1.7.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/gravity-forms-list-field-date-picker",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravity-forms-list-field-date-picker-gravity-forms-list-field-datepicker-plugin-1.7.0.json"
+    },
+    "gravity-forms-list-field-select-drop-down-gravity-forms-list-field-drop-down-1.8.0.json": {
+        "name": "Drop Down Options in List Fields for Gravity Forms",
+        "version": "1.8.0",
+        "testedUpTo": "1.8.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/gravity-forms-list-field-select-drop-down",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravity-forms-list-field-select-drop-down-gravity-forms-list-field-drop-down-1.8.0.json"
+    },
     "gravityforms-gravityforms-2.1.1.json": {
         "name": "Gravity Forms",
         "version": "2.1.1",
         "testedUpTo": "2.1.1",
         "pluginURL": "http:\/\/www.gravityforms.com\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityforms-gravityforms-2.1.1.json"
+    },
+    "gravityformsmailchimp-mailchimp-4.2.4.json": {
+        "name": "Gravity Forms MailChimp Add-On",
+        "version": "4.2.4",
+        "testedUpTo": "4.2.4",
+        "pluginURL": "http:\/\/www.gravityforms.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformsmailchimp-mailchimp-4.2.4.json"
+    },
+    "gravityformspaypal-paypal-2.8.1.json": {
+        "name": "Gravity Forms PayPal Standard Add-On",
+        "version": "2.8.1",
+        "testedUpTo": "2.8.1",
+        "pluginURL": "http:\/\/www.gravityforms.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformspaypal-paypal-2.8.1.json"
+    },
+    "gravityformspaypalpaymentspro-paypalpaymentspro-2.2.1.json": {
+        "name": "Gravity Forms PayPal Payments Pro Add-On",
+        "version": "2.2.1",
+        "testedUpTo": "2.2.1",
+        "pluginURL": "http:\/\/www.gravityforms.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformspaypalpaymentspro-paypalpaymentspro-2.2.1.json"
     },
     "gravityformsstripe-stripe-2.2.2.json": {
         "name": "Gravity Forms Stripe Add-On",
