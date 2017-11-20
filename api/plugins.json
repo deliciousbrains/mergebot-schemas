@@ -146,6 +146,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
     },
+    "megamenu-megamenu-2.4.json": {
+        "name": "Max Mega Menu",
+        "version": "2.4",
+        "testedUpTo": "2.4",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/megamenu",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/megamenu-megamenu-2.4.json"
+    },
     "ninja-forms-ninja-forms-3.1.json": {
         "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
         "version": "3.1",
