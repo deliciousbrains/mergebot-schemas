@@ -1,0 +1,13 @@
+{
+    "name": "MailChimp for WordPress - Premium",
+    "version": "3.3.18",
+    "testedUpTo": "3.3.18",
+    "url": "https:\/\/mc4wp.com\/#utm_source=wp-plugin&#038;utm_medium=mailchimp-for-wp-pro&#038;utm_campaign=plugins-page",
+    "primaryKeys": {
+        "mc4wp_log": {
+            "key": [
+                "ID"
+            ]
+        }
+    }
+}

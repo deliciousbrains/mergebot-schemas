@@ -202,6 +202,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
     },
+    "mc4wp-premium-mc4wp-premium-3.3.18.json": {
+        "name": "MailChimp for WordPress - Premium",
+        "version": "3.3.18",
+        "testedUpTo": "3.3.18",
+        "pluginURL": "https:\/\/mc4wp.com\/#utm_source=wp-plugin&#038;utm_medium=mailchimp-for-wp-pro&#038;utm_campaign=plugins-page",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mc4wp-premium-mc4wp-premium-3.3.18.json"
+    },
     "megamenu-megamenu-2.4.json": {
         "name": "Max Mega Menu",
         "version": "2.4",
