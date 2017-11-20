@@ -90,6 +90,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/enable-media-replace",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/enable-media-replace-enable-media-replace-3.0.5.json"
     },
+    "genesis-simple-sidebars-plugin-2.1.0.json": {
+        "name": "Genesis Simple Sidebars",
+        "version": "2.1.0",
+        "testedUpTo": "2.1.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/genesis-simple-sidebars",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/genesis-simple-sidebars-plugin-2.1.0.json"
+    },
     "google-analytics-for-wordpress-googleanalytics-5.5.4.json": {
         "name": "Google Analytics by MonsterInsights",
         "version": "5.5.4",
