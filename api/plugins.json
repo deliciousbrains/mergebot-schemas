@@ -286,6 +286,20 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
+    "wp-retina-2x-pro-wp-retina-2x-pro-5.0.6.json": {
+        "name": "WP Retina 2x Pro",
+        "version": "5.0.6",
+        "testedUpTo": "5.0.6",
+        "pluginURL": "http:\/\/meowapps.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-retina-2x-pro-wp-retina-2x-pro-5.0.6.json"
+    },
+    "wp-retina-2x-wp-retina-2x-5.2.0.json": {
+        "name": "WP Retina 2x",
+        "version": "5.2.0",
+        "testedUpTo": "5.2.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-retina-2x",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-retina-2x-wp-retina-2x-5.2.0.json"
+    },
     "wp-super-cache-wp-cache-1.4.8.json": {
         "name": "WP Super Cache",
         "version": "1.4.8",
