@@ -286,6 +286,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
+    "wp-quicklatex-wp-quicklatex-3.8.0.json": {
+        "name": "WP QuickLaTeX",
+        "version": "3.8.0",
+        "testedUpTo": "3.8.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-quicklatex",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-quicklatex-wp-quicklatex-3.8.0.json"
+    },
     "wp-retina-2x-pro-wp-retina-2x-pro-5.0.6.json": {
         "name": "WP Retina 2x Pro",
         "version": "5.0.6",
