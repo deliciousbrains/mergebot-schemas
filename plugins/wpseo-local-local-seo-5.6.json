@@ -1,0 +1,48 @@
+{
+    "name": "Yoast SEO: Local",
+    "version": "5.6",
+    "testedUpTo": "5.6",
+    "url": "https:\/\/yoast.com\/wordpress\/local-seo\/",
+    "shortcodes": {
+        "wpseo_address": {
+            "parameters": [
+                {
+                    "name": "ID",
+                    "table": "posts"
+                },
+                {
+                    "name": "term_id",
+                    "table": "terms"
+                }
+            ]
+        },
+        "wpseo_all_locations": {
+            "parameters": [
+                {
+                    "name": "term_id",
+                    "table": "terms"
+                }
+            ]
+        },
+        "wpseo_local_show_logo": {
+            "parameters": [
+                {
+                    "name": "ID",
+                    "table": "posts"
+                }
+            ]
+        },
+        "wpseo_map": {
+            "parameters": [
+                {
+                    "name": "ID",
+                    "table": "posts"
+                },
+                {
+                    "name": "term_id",
+                    "table": "terms"
+                }
+            ]
+        }
+    }
+}
