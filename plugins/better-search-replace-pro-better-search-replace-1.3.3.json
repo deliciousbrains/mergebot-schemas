@@ -1,0 +1,11 @@
+{
+    "name": "Better Search Replace Pro",
+    "version": "1.3.3",
+    "testedUpTo": "1.3.3",
+    "url": "https:\/\/bettersearchreplace.com",
+    "ignore": [
+        {
+            "bsrtmp_(.*)": "(.*)"
+        }
+    ]
+}
