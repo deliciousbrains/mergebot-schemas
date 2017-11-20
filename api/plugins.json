@@ -27,6 +27,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
+    "better-search-replace-pro-better-search-replace-1.3.3.json": {
+        "name": "Better Search Replace Pro",
+        "version": "1.3.3",
+        "testedUpTo": "1.3.3",
+        "pluginURL": "https:\/\/bettersearchreplace.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/better-search-replace-pro-better-search-replace-1.3.3.json"
+    },
     "contact-form-7-wp-contact-form-7-4.6.json": {
         "name": "Contact Form 7",
         "version": "4.6",
@@ -292,5 +299,12 @@
         "testedUpTo": "1.5.7.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
+    },
+    "wpmandrill-wpmandrill-1.33.json": {
+        "name": "wpMandrill",
+        "version": "1.33",
+        "testedUpTo": "1.33",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wpmandrill",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wpmandrill-wpmandrill-1.33.json"
     }
 }
