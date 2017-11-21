@@ -342,6 +342,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-mu-domain-mapping",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-mu-domain-mapping-domain_mapping-0.5.5.1.json"
     },
+    "wordpress-seo-premium-wp-seo-premium-5.6.json": {
+        "name": "Yoast SEO Premium",
+        "version": "5.6",
+        "testedUpTo": "5.6",
+        "pluginURL": "https:\/\/yoast.com\/wordpress\/plugins\/seo\/#utm_source=wpadmin&#038;utm_medium=plugin&#038;utm_campaign=wpseoplugin",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-premium-wp-seo-premium-5.6.json"
+    },
     "wordpress-seo-wp-seo-4.0.2.json": {
         "name": "Yoast SEO",
         "version": "4.0.2",

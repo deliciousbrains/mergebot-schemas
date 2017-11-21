@@ -1,0 +1,55 @@
+{
+    "name": "Yoast SEO Premium",
+    "version": "5.6",
+    "testedUpTo": "5.6",
+    "url": "https:\/\/yoast.com\/wordpress\/plugins\/seo\/#utm_source=wpadmin&#038;utm_medium=plugin&#038;utm_campaign=wpseoplugin",
+    "primaryKeys": {
+        "yoast_seo_links": {
+            "key": [
+                "id"
+            ]
+        },
+        "yoast_seo_meta": {
+            "key": [
+                "object_id"
+            ],
+            "auto_increment": false
+        }
+    },
+    "foreignKeys": {
+        "yoast_seo_links:post_id": "posts:ID",
+        "yoast_seo_links:target_post_id": "posts:ID"
+    },
+    "relationships": {
+        "options": {
+            "wpseo_taxonomy_meta": {
+                "option_name": "wpseo_taxonomy_meta",
+                "option_value": "terms",
+                "serialized": {
+                    "key": "ignore",
+                    "val": {
+                        "key": "terms:term_id",
+                        "val": "ignore"
+                    }
+                }
+            }
+        }
+    },
+    "ignore": [
+        {
+            "options:option_name": "wpseo_sitemap_(.*)_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_category_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_post_cache_validator"
+        },
+        {
+            "options:option_name": "wpseo_sitemap_revision_cache_validator"
+        },
+        {
+            "options:option_name": "\\_transient\\_(.*)"
+        }
+    ]
+}
