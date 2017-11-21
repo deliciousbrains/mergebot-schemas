@@ -272,6 +272,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "woocommerce-variation-swatches-and-photos-woocommerce-swatches-3.0.4.json": {
+        "name": "WooCommerce Variation Swatches and Photos",
+        "version": "3.0.4",
+        "testedUpTo": "3.0.4",
+        "pluginURL": "https:\/\/woocommerce.com\/products\/variation-swatches-and-photos\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-variation-swatches-and-photos-woocommerce-swatches-3.0.4.json"
+    },
     "woocommerce-woocommerce-2.6.11.json": {
         "name": "WooCommerce",
         "version": "2.6.11",
