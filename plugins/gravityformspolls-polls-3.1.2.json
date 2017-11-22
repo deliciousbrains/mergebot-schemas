@@ -1,0 +1,15 @@
+{
+    "name": "Gravity Forms Polls Add-On",
+    "version": "3.1.2",
+    "testedUpTo": "3.1.2",
+    "shortcodes": {
+        "gfpolls_total": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "rg_form"
+                }
+            ]
+        }
+    }
+}
