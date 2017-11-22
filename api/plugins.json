@@ -272,6 +272,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "woocommerce-shipping-usps-woocommerce-shipping-usps-4.4.9.json": {
+        "name": "WooCommerce USPS Shipping",
+        "version": "4.4.9",
+        "testedUpTo": "4.4.9",
+        "pluginURL": "https:\/\/woocommerce.com\/products\/usps-shipping-method\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-shipping-usps-woocommerce-shipping-usps-4.4.9.json"
+    },
     "woocommerce-tab-manager-woocommerce-tab-manager-1.8.4.json": {
         "name": "WooCommerce Tab Manager",
         "version": "1.8.4",

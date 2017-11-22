@@ -1,0 +1,14 @@
+{
+    "name": "WooCommerce USPS Shipping",
+    "version": "4.4.9",
+    "testedUpTo": "4.4.9",
+    "url": "https:\/\/woocommerce.com\/products\/usps-shipping-method\/",
+    "relationships": {
+        "options": {
+            "woocommerce_uspa_{woocommerce_shipping_zone_methods:instance_id}_settings": {
+                "option_name": "woocommerce_uspa_{woocommerce_shipping_zone_methods:instance_id}_settings",
+                "option_value": "ignore"
+            }
+        }
+    }
+}
