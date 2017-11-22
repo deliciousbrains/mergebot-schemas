@@ -37,7 +37,7 @@
     "civil-footnotes-footnotes-1.3.json": {
         "name": "Civil Footnotes",
         "version": "1.3",
-        "testedUpTo": "1.3",
+        "testedUpTo": "1.3.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/civil-footnotes",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/civil-footnotes-footnotes-1.3.json"
     },
