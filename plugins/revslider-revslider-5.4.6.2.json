@@ -1,0 +1,30 @@
+{
+    "name": "Slider Revolution",
+    "version": "5.4.6.2",
+    "testedUpTo": "5.4.6.2",
+    "url": "http:\/\/revolution.themepunch.com\/",
+    "shortcodes": {
+        "rev_slider": {
+            "parameters": [
+                {
+                    "name": "alias",
+                    "table": "revslider_sliders"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "options": {
+            "rs_import_page_id": {
+                "option_name": "rs_import_page_id",
+                "option_value": "posts"
+            }
+        },
+        "postmeta": {
+            "eg_sources_revslider": {
+                "meta_key": "eg_sources_revslider",
+                "meta_value": "revslider_sliders"
+            }
+        }
+    }
+}

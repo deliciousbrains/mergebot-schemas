@@ -279,6 +279,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
+    "revslider-revslider-5.4.6.2.json": {
+        "name": "Slider Revolution",
+        "version": "5.4.6.2",
+        "testedUpTo": "5.4.6.2",
+        "pluginURL": "http:\/\/revolution.themepunch.com\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/revslider-revslider-5.4.6.2.json"
+    },
     "sitepress-multilingual-cms-sitepress-3.7.1.json": {
         "name": "WPML Multilingual CMS",
         "version": "3.7.1",
