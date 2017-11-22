@@ -3,6 +3,42 @@
     "version": "5.4.6.2",
     "testedUpTo": "5.4.6.2",
     "url": "http:\/\/revolution.themepunch.com\/",
+    "primaryKeys": {
+        "revslider_css": {
+            "key": [
+                "id"
+            ]
+        },
+        "revslider_layer_animations": {
+            "key": [
+                "id"
+            ]
+        },
+        "revslider_navigations": {
+            "key": [
+                "id"
+            ]
+        },
+        "revslider_sliders": {
+            "key": [
+                "id"
+            ]
+        },
+        "revslider_slides": {
+            "key": [
+                "id"
+            ]
+        },
+        "revslider_static_slides": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "revslider_slides:slider_id": "revslider_sliders:id",
+        "revslider_static_slides:slider_id": "revslider_sliders:id"
+    },
     "shortcodes": {
         "rev_slider": {
             "parameters": [
