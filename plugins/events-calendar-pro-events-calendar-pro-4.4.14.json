@@ -1,0 +1,14 @@
+{
+    "name": "The Events Calendar PRO",
+    "version": "4.4.14",
+    "testedUpTo": "4.4.14",
+    "url": "http:\/\/m.tri.be\/20",
+    "relationships": {
+        "postmeta": {
+            "_eventoriginalparent": {
+                "meta_key": "_eventoriginalparent",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
