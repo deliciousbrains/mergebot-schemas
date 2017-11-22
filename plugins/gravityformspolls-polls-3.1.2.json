@@ -2,6 +2,7 @@
     "name": "Gravity Forms Polls Add-On",
     "version": "3.1.2",
     "testedUpTo": "3.1.2",
+    "url": "http:\/\/www.rocketgenius.com";
     "shortcodes": {
         "gfpolls_total": {
             "parameters": [
