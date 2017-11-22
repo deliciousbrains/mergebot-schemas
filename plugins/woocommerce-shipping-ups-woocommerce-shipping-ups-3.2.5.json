@@ -1,0 +1,14 @@
+{
+    "name": "WooCommerce UPS Shipping",
+    "version": "3.2.5",
+    "testedUpTo": "3.2.5",
+    "url": "https:\/\/woocommerce.com\/products\/ups-shipping-method\/",
+    "relationships": {
+        "options": {
+            "woocommerce_ups_{woocommerce_shipping_zone_methods:instance_id}_settings": {
+                "option_name": "woocommerce_ups_{woocommerce_shipping_zone_methods:instance_id}_settings",
+                "option_value": "ignore"
+            }
+        }
+    }
+}
