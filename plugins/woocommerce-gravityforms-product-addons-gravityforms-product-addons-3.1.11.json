@@ -1,0 +1,18 @@
+{
+    "name": "WooCommerce - Gravity Forms Product Add-Ons",
+    "version": "3.1.11",
+    "testedUpTo": "3.1.11",
+    "url": "http:\/\/woothemes.com\/products\/gravity-forms-add-ons\/",
+    "relationships": {
+        "postmeta": {
+            "_gravity_form_data": {
+                "meta_key": "_gravity_form_data",
+                "meta_value": "rg_form",
+                "serialized": {
+                    "key": "id",
+                    "val": "rg_form:id"
+                }
+            }
+        }
+    }
+}
