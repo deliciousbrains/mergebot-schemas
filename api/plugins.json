@@ -272,6 +272,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "woocommerce-advanced-notifications-woocommerce-advanced-notifications-1.2.10.json": {
+        "name": "WooCommerce Advanced Notifications",
+        "version": "1.2.10",
+        "testedUpTo": "1.2.10",
+        "pluginURL": "https:\/\/woocommerce.com\/products\/advanced-notifications",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-advanced-notifications-woocommerce-advanced-notifications-1.2.10.json"
+    },
     "woocommerce-gateway-authorize-net-dpm-woocommerce-gateway-authorize-net-dpm-1.7.3.json": {
         "name": "WooCommerce Authorize.net DPM Gateway",
         "version": "1.7.3",
