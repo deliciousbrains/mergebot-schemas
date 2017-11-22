@@ -272,6 +272,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "woocommerce-tab-manager-woocommerce-tab-manager-1.8.4.json": {
+        "name": "WooCommerce Tab Manager",
+        "version": "1.8.4",
+        "testedUpTo": "1.8.4",
+        "pluginURL": "http:\/\/www.woocommerce.com\/products\/woocommerce-tab-manager\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-tab-manager-woocommerce-tab-manager-1.8.4.json"
+    },
     "woocommerce-variation-swatches-and-photos-woocommerce-swatches-3.0.4.json": {
         "name": "WooCommerce Variation Swatches and Photos",
         "version": "3.0.4",

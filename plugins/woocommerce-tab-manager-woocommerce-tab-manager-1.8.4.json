@@ -1,0 +1,25 @@
+{
+    "name": "WooCommerce Tab Manager",
+    "version": "1.8.4",
+    "testedUpTo": "1.8.4",
+    "url": "http:\/\/www.woocommerce.com\/products\/woocommerce-tab-manager\/",
+    "relationships": {
+        "postmeta": {
+            "_product_tabs": {
+                "meta_key": "_product_tabs",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "product_tab_{posts:ID}",
+                    "val": {
+                        "key": "id",
+                        "val": "terms:term_id"
+                    }
+                }
+            },
+            "_wc_tab_categories": {
+                "meta_key": "_wc_tab_categories",
+                "meta_value": "terms"
+            }
+        }
+    }
+}
