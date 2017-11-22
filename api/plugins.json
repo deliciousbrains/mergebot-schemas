@@ -128,7 +128,7 @@
     "gravity-forms-list-field-date-picker-gravity-forms-list-field-datepicker-plugin-1.7.0.json": {
         "name": "Date Picker in List Fields for Gravity Forms",
         "version": "1.7.0",
-        "testedUpTo": "1.7.0",
+        "testedUpTo": "1.7.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/gravity-forms-list-field-date-picker",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravity-forms-list-field-date-picker-gravity-forms-list-field-datepicker-plugin-1.7.0.json"
     },
