@@ -104,6 +104,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/enable-media-replace",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/enable-media-replace-enable-media-replace-3.0.5.json"
     },
+    "envira-gallery-envira-gallery-1.6.1.5.json": {
+        "name": "Envira Gallery",
+        "version": "1.6.1.5",
+        "testedUpTo": "1.6.1.5",
+        "pluginURL": "http:\/\/enviragallery.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/envira-gallery-envira-gallery-1.6.1.5.json"
+    },
     "events-calendar-pro-events-calendar-pro-4.4.14.json": {
         "name": "The Events Calendar PRO",
         "version": "4.4.14",

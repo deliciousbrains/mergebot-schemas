@@ -1,0 +1,41 @@
+{
+    "name": "Envira Gallery",
+    "version": "1.6.1.5",
+    "testedUpTo": "1.6.1.5",
+    "url": "http:\/\/enviragallery.com",
+    "shortcodes": {
+        "envira-gallery": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_eg_gallery_id": {
+                "meta_key": "_eg_gallery_id",
+                "meta_value": "posts"
+            },
+            "_eg_gallery_old": {
+                "meta_key": "_eg_gallery_old",
+                "meta_value": "posts"
+            },
+            "_eg_in_gallery": {
+                "meta_key": "_eg_in_gallery",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            },
+            "_eg_in_posts": {
+                "meta_key": "_eg_in_posts",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "posts:ID",
+                    "val": "posts:ID"
+                }
+            }
+        }
+    }
+}
