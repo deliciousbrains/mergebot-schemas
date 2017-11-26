@@ -72,7 +72,7 @@
     "duplicate-post-duplicate-post-3.1.2.json": {
         "name": "Duplicate Post",
         "version": "3.1.2",
-        "testedUpTo": "3.2",
+        "testedUpTo": "3.2.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/duplicate-post",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/duplicate-post-duplicate-post-3.1.2.json"
     },
