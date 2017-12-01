@@ -401,7 +401,7 @@
     "wordfence-wordfence-6.3.0.json": {
         "name": "Wordfence Security",
         "version": "6.3.0",
-        "testedUpTo": "6.3.21",
+        "testedUpTo": "6.3.22",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.0.json"
     },
