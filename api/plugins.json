@@ -289,7 +289,7 @@
     "the-events-calendar-the-events-calendar-4.6.json": {
         "name": "The Events Calendar",
         "version": "4.6",
-        "testedUpTo": "4.6.5",
+        "testedUpTo": "4.6.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/the-events-calendar-the-events-calendar-4.6.json"
     },
