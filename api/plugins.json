@@ -247,7 +247,7 @@
     "ninja-forms-ninja-forms-3.1.json": {
         "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
         "version": "3.1",
-        "testedUpTo": "3.2.3",
+        "testedUpTo": "3.2.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/ninja-forms",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ninja-forms-ninja-forms-3.1.json"
     },
