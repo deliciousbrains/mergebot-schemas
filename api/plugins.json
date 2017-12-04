@@ -450,7 +450,7 @@
     "wp-quicklatex-wp-quicklatex-3.8.0.json": {
         "name": "WP QuickLaTeX",
         "version": "3.8.0",
-        "testedUpTo": "3.8.0",
+        "testedUpTo": "3.8.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-quicklatex",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-quicklatex-wp-quicklatex-3.8.0.json"
     },
