@@ -72,7 +72,7 @@
     "duplicate-post-duplicate-post-3.1.2.json": {
         "name": "Duplicate Post",
         "version": "3.1.2",
-        "testedUpTo": "3.2",
+        "testedUpTo": "3.2.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/duplicate-post",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/duplicate-post-duplicate-post-3.1.2.json"
     },
@@ -86,7 +86,7 @@
     "easy-digital-downloads-easy-digital-downloads-2.7.json": {
         "name": "Easy Digital Downloads",
         "version": "2.7",
-        "testedUpTo": "2.8.13",
+        "testedUpTo": "2.8.14",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
@@ -401,7 +401,7 @@
     "wordfence-wordfence-6.3.0.json": {
         "name": "Wordfence Security",
         "version": "6.3.0",
-        "testedUpTo": "6.3.21",
+        "testedUpTo": "6.3.22",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.0.json"
     },
