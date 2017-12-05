@@ -205,7 +205,7 @@
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",
-        "testedUpTo": "5.2",
+        "testedUpTo": "5.2.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
@@ -268,7 +268,7 @@
     "relevanssi-relevanssi-3.5.8.json": {
         "name": "Relevanssi - A Better Search",
         "version": "3.5.8",
-        "testedUpTo": "4.0",
+        "testedUpTo": "4.0.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
