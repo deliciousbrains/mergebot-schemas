@@ -128,7 +128,7 @@
     "google-analytics-for-wordpress-googleanalytics-5.5.4.json": {
         "name": "Google Analytics by MonsterInsights",
         "version": "5.5.4",
-        "testedUpTo": "6.0.11",
+        "testedUpTo": "6.2.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/google-analytics-for-wordpress",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/google-analytics-for-wordpress-googleanalytics-5.5.4.json"
     },
