@@ -1,0 +1,29 @@
+{
+    "name": "Avada",
+    "version": "5.3.1",
+    "testedUpTo": "5.3.1",
+    "url": "http:\/\/avada.theme-fusion.com\/",
+    "shortcodes": {
+        "product": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_menu_item_object_id": {
+                "meta_key": "_menu_item_object_id",
+                "meta_value": "posts"
+            },
+            "_wxr_import_menu_item": {
+                "meta_key": "_wxr_import_menu_item",
+                "meta_value": "posts"
+            },
+            "pyre_displayed_menu": {
+                "meta_key": "pyre_displayed_menu",
+                "meta_value": "terms"
+            }
+        }
+    }
+}
