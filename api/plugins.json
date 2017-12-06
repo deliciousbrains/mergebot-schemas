@@ -279,6 +279,13 @@
         "pluginURL": "http:\/\/revolution.themepunch.com\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/revslider-revslider-5.4.6.2.json"
     },
+    "sfwd-lms-sfwd_lms-2.4.7.json": {
+        "name": "LearnDash LMS",
+        "version": "2.4.7",
+        "testedUpTo": "2.4.7",
+        "pluginURL": "http:\/\/www.learndash.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/sfwd-lms-sfwd_lms-2.4.7.json"
+    },
     "sitepress-multilingual-cms-sitepress-3.7.1.json": {
         "name": "WPML Multilingual CMS",
         "version": "3.7.1",

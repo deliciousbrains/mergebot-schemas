@@ -4,6 +4,16 @@
     "testedUpTo": "2.4.7",
     "url": "http:\/\/www.learndash.com",
     "primaryKeys": {
+        "learndash_user_activity": {
+            "key": [
+                "activity_id"
+            ]
+        },
+        "learndash_user_activity_meta": {
+            "key": [
+                "activity_meta_id"
+            ]
+        },
         "wp_pro_quiz_category": {
             "key": [
                 "category_id"
@@ -64,16 +74,19 @@
         }
     },
     "foreignKeys": {
+        "learndash_user_activity:post_id": "posts:ID",
+        "learndash_user_activity:user_id": "users:ID",
+        "learndash_user_activity_meta:activity_id": "learndash_user_activity:activity_id",
         "wp_pro_quiz_form:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_lock:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_lock:user_id": "users:ID",
         "wp_pro_quiz_prerequisite:quiz_id": "wp_pro_quiz_master:id",
-        "wp_pro_quiz_question:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_question:category_id": "wp_pro_quiz_category:category_id",
+        "wp_pro_quiz_question:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_statistic:question_id": "wp_pro_quiz_question:id",
         "wp_pro_quiz_statistic_ref:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_statistic_ref:user_id": "users:ID",
-        "wp_pro_quiz_toplist:quiz_id": "wp_pro_quiz_question:id",
+        "wp_pro_quiz_toplist:quiz_id": "wp_pro_quiz_master:id",
         "wp_pro_quiz_toplist:user_id": "users:ID"
     },
     "shortcodes": {
@@ -195,6 +208,46 @@
                 {
                     "name": "user_id",
                     "table": "users"
+                }
+            ]
+        },
+        "sfwd-certificates": {
+            "parameters": [
+                {
+                    "name": "tax_terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "sfwd-courses": {
+            "parameters": [
+                {
+                    "name": "tax_terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "sfwd-lessons": {
+            "parameters": [
+                {
+                    "name": "tax_terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "sfwd-quiz": {
+            "parameters": [
+                {
+                    "name": "tax_terms",
+                    "table": "terms"
+                }
+            ]
+        },
+        "sfwd-topic": {
+            "parameters": [
+                {
+                    "name": "tax_terms",
+                    "table": "terms"
                 }
             ]
         },
