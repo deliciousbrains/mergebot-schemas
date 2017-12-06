@@ -11,7 +11,13 @@ function build_api_for_schemas( $type = 'plugins' ) {
 		$contents = file_get_contents( $file );
 		$schema   = json_decode( $contents );
 
-		if ( ! isset( $schema->name ) ) {
+		if ( is_null( $schema ) ) {
+			continue;
+		}
+
+		$is_core = 'core' === $type;
+
+		if ( ! isset( $schema->name ) && ! $is_core ) {
 			continue;
 		}
 
@@ -21,11 +27,24 @@ function build_api_for_schemas( $type = 'plugins' ) {
 			continue;
 		}
 
+		$coreVersion = '';
+		if ( $is_core ) {
+			$filename    = str_replace( '.json', '', $schema_file );
+			$filename    = explode( '-', $filename );
+			$coreVersion = array_pop( $filename );
+		}
+
+		$name       = $is_core ? 'WordPress' : $schema->name;
+		$version    = $is_core ? $coreVersion : $schema->version;
+		$testedUpTo = $is_core ? $coreVersion : $schema->testedUpTo;
+		$url        = $is_core ? 'https://wordpress.org/download/release-archive/' : $schema->url;
+		$urlKey     = rtrim( $type, 's' ) . 'URL';
+
 		$plugins_index[ $schema_file ] = array(
-			'name'       => $schema->name,
-			'version'    => $schema->version,
-			'testedUpTo' => $schema->testedUpTo,
-			'pluginURL'  => $schema->url,
+			'name'       => $name,
+			'version'    => $version,
+			'testedUpTo' => $testedUpTo,
+			$urlKey      => $url,
 			'schemaURL'  => 'https://github.com/deliciousbrains/mergebot-schemas/blob/master/' . $type . '/' . $schema_file,
 		);
 	}
@@ -36,3 +55,4 @@ function build_api_for_schemas( $type = 'plugins' ) {
 
 build_api_for_schemas( 'plugins' );
 build_api_for_schemas( 'themes' );
+build_api_for_schemas( 'core' );

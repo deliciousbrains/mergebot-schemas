@@ -1,0 +1,51 @@
+{
+    "wordpress-4.3.json": {
+        "name": "WordPress",
+        "version": "4.3",
+        "testedUpTo": "4.3",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.3.json"
+    },
+    "wordpress-4.4.json": {
+        "name": "WordPress",
+        "version": "4.4",
+        "testedUpTo": "4.4",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.4.json"
+    },
+    "wordpress-4.5.json": {
+        "name": "WordPress",
+        "version": "4.5",
+        "testedUpTo": "4.5",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.5.json"
+    },
+    "wordpress-4.6.json": {
+        "name": "WordPress",
+        "version": "4.6",
+        "testedUpTo": "4.6",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.6.json"
+    },
+    "wordpress-4.7.json": {
+        "name": "WordPress",
+        "version": "4.7",
+        "testedUpTo": "4.7",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.7.json"
+    },
+    "wordpress-4.8.json": {
+        "name": "WordPress",
+        "version": "4.8",
+        "testedUpTo": "4.8",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.8.json"
+    },
+    "wordpress-4.9.json": {
+        "name": "WordPress",
+        "version": "4.9",
+        "testedUpTo": "4.9",
+        "coreURL": "https:\/\/wordpress.org\/download\/release-archive\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/core\/wordpress-4.9.json"
+    }
+}
