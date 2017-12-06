@@ -1,0 +1,266 @@
+{
+    "name": "LearnDash LMS",
+    "version": "2.4.7",
+    "testedUpTo": "2.4.7",
+    "url": "http:\/\/www.learndash.com",
+    "primaryKeys": {
+        "wp_pro_quiz_category": {
+            "key": [
+                "category_id"
+            ]
+        },
+        "wp_pro_quiz_form": {
+            "key": [
+                "form_id"
+            ]
+        },
+        "wp_pro_quiz_lock": {
+            "key": [
+                "quiz_id",
+                "lock_ip",
+                "user_id",
+                "lock_type"
+            ],
+            "auto_increment": false
+        },
+        "wp_pro_quiz_master": {
+            "key": [
+                "id"
+            ]
+        },
+        "wp_pro_quiz_prerequisite": {
+            "key": [
+                "prerequisite_quiz_id",
+                "quiz_id"
+            ],
+            "auto_increment": false
+        },
+        "wp_pro_quiz_question": {
+            "key": [
+                "id"
+            ]
+        },
+        "wp_pro_quiz_statistic": {
+            "key": [
+                "statistic_ref_id",
+                "question_id"
+            ],
+            "auto_increment": false
+        },
+        "wp_pro_quiz_statistic_ref": {
+            "key": [
+                "statistic_ref_id"
+            ]
+        },
+        "wp_pro_quiz_template": {
+            "key": [
+                "template_id"
+            ]
+        },
+        "wp_pro_quiz_toplist": {
+            "key": [
+                "toplist_id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "wp_pro_quiz_form:quiz_id": "wp_pro_quiz_master:id",
+        "wp_pro_quiz_lock:quiz_id": "wp_pro_quiz_master:id",
+        "wp_pro_quiz_lock:user_id": "users:ID",
+        "wp_pro_quiz_prerequisite:quiz_id": "wp_pro_quiz_master:id",
+        "wp_pro_quiz_question:quiz_id": "wp_pro_quiz_master:id",
+        "wp_pro_quiz_question:category_id": "wp_pro_quiz_category:category_id",
+        "wp_pro_quiz_statistic:question_id": "wp_pro_quiz_question:id",
+        "wp_pro_quiz_statistic_ref:quiz_id": "wp_pro_quiz_master:id",
+        "wp_pro_quiz_statistic_ref:user_id": "users:ID",
+        "wp_pro_quiz_toplist:quiz_id": "wp_pro_quiz_question:id",
+        "wp_pro_quiz_toplist:user_id": "users:ID"
+    },
+    "shortcodes": {
+        "course_content": {
+            "parameters": [
+                "course_id"
+            ]
+        },
+        "courseinfo": {
+            "parameters": [
+                "course_id",
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_course_certificate": {
+            "parameters": [
+                "course_id"
+            ]
+        },
+        "ld_course_expire_status": {
+            "parameters": [
+                "course_id",
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_course_info": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_course_list": {
+            "parameters": [
+                "post__in",
+                {
+                    "name": "tag_id",
+                    "table": "terms"
+                },
+                {
+                    "name": "tag__and",
+                    "table": "terms"
+                },
+                {
+                    "name": "tag__in",
+                    "table": "terms"
+                },
+                "terms_tag__not_in",
+                {
+                    "name": "category__and",
+                    "table": "terms"
+                },
+                {
+                    "name": "category__in",
+                    "table": "terms"
+                },
+                {
+                    "name": "category__not_in",
+                    "table": "terms"
+                },
+                {
+                    "name": "author__in",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_group": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_profile": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "ld_quiz": {
+            "parameters": [
+                "quiz_id"
+            ]
+        },
+        "ld_user_course_points": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "learndash_course_progress": {
+            "parameters": [
+                "course_id",
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "learndash_payment_buttons": {
+            "parameters": [
+                "course_id"
+            ]
+        },
+        "quizinfo": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "student": {
+            "parameters": [
+                "course_id",
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "user_groups": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "visitor": {
+            "parameters": [
+                "course_id"
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_ld_import_org": {
+                "meta_key": "_ld_import_org",
+                "meta_value": "posts"
+            },
+            "course_id": {
+                "meta_key": "course_id",
+                "meta_value": "posts"
+            },
+            "lesson_id": {
+                "meta_key": "lesson_id",
+                "meta_value": "posts"
+            },
+            "question_id": {
+                "meta_key": "question_id",
+                "meta_value": "quiz_question"
+            },
+            "quiz_post_id": {
+                "meta_key": "quiz_post_id",
+                "meta_value": "posts"
+            },
+            "quiz_pro_id": {
+                "meta_key": "quiz_pro_id",
+                "meta_value": "posts"
+            },
+            "quiz_pro_id_{posts:ID}": {
+                "meta_key": "quiz_pro_id_{posts:ID}",
+                "meta_value": "posts"
+            }
+        },
+        "usermeta": {
+            "course_completed_{posts:ID}": {
+                "meta_key": "course_completed_{posts:ID}",
+                "meta_value": "ignore"
+            },
+            "course_{posts:ID}_access_from": {
+                "meta_key": "course_{posts:ID}_access_from",
+                "meta_value": "ignore"
+            }
+        }
+    }
+}
