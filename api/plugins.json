@@ -188,6 +188,13 @@
         "pluginURL": "http:\/\/www.gravityforms.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformspaypalpaymentspro-paypalpaymentspro-2.2.1.json"
     },
+    "gravityformspolls-polls-3.1.2.json": {
+        "name": "Gravity Forms Polls Add-On",
+        "version": "3.1.2",
+        "testedUpTo": "3.1.2",
+        "pluginURL": "http:\/\/www.rocketgenius.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/gravityformspolls-polls-3.1.2.json"
+    },
     "gravityformsquiz-quiz-3.1.6.json": {
         "name": "Gravity Forms Quiz Add-On",
         "version": "3.1.6",
