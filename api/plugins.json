@@ -86,7 +86,7 @@
     "easy-digital-downloads-easy-digital-downloads-2.6.17.json": {
         "name": "Easy Digital Downloads",
         "version": "2.6.17",
-        "testedUpTo": "2.6.17",
+        "testedUpTo": "2.6.18",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.6.17.json"
     },
