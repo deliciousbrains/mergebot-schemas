@@ -1,7 +1,7 @@
 {
     "name": "Easy Digital Downloads",
     "version": "2.7",
-    "testedUpTo": "2.8.15",
+    "testedUpTo": "2.8.16",
     "url": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
     "basename": "easy-digital-downloads\/easy-digital-downloads.php",
     "primaryKeys": {
