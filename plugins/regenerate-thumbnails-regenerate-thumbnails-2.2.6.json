@@ -1,7 +1,7 @@
 {
     "name": "Regenerate Thumbnails",
     "version": "2.2.6",
-    "testedUpTo": "3.0.0",
+    "testedUpTo": "3.0.1",
     "url": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails",
     "basename": "regenerate-thumbnails\/regenerate-thumbnails.php"
 }
