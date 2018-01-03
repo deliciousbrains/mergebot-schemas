@@ -268,7 +268,7 @@
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",
-        "testedUpTo": "3.0.0",
+        "testedUpTo": "3.0.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/regenerate-thumbnails-regenerate-thumbnails-2.2.6.json"
     },
