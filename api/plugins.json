@@ -58,7 +58,7 @@
     "contact-form-7-wp-contact-form-7-4.8.json": {
         "name": "Contact Form 7",
         "version": "4.8",
-        "testedUpTo": "4.9.1",
+        "testedUpTo": "4.9.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.8.json"
     },
