@@ -2,5 +2,6 @@
     "name": "Regenerate Thumbnails",
     "version": "2.2.6",
     "testedUpTo": "2.3.1",
-    "url": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails"
+    "url": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails",
+    "basename": "regenerate-thumbnails\/regenerate-thumbnails.php"
 }

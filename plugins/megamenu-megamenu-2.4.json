@@ -2,5 +2,6 @@
     "name": "Max Mega Menu",
     "version": "2.4",
     "testedUpTo": "2.4.0.3",
-    "url": "https:\/\/wordpress.org\/plugins\/megamenu"
+    "url": "https:\/\/wordpress.org\/plugins\/megamenu",
+    "basename": "megamenu\/megamenu.php"
 }

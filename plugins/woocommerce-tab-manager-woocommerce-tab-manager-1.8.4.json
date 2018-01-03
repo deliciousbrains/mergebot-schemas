@@ -3,6 +3,7 @@
     "version": "1.8.4",
     "testedUpTo": "1.8.4",
     "url": "http:\/\/www.woocommerce.com\/products\/woocommerce-tab-manager\/",
+    "basename": "woocommerce-tab-manager\/woocommerce-tab-manager.php",
     "relationships": {
         "postmeta": {
             "_product_tabs": {

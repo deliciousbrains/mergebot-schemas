@@ -2,5 +2,6 @@
     "name": "WP Super Cache",
     "version": "1.4.8",
     "testedUpTo": "1.4.9",
-    "url": "https:\/\/wordpress.org\/plugins\/wp-super-cache"
+    "url": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
+    "basename": "wp-super-cache\/wp-cache.php"
 }

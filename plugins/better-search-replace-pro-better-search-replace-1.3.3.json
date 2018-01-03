@@ -3,6 +3,7 @@
     "version": "1.3.3",
     "testedUpTo": "1.3.3",
     "url": "https:\/\/bettersearchreplace.com",
+    "basename": "better-search-replace-pro\/better-search-replace.php",
     "ignore": [
         {
             "bsrtmp_(.*)": "(.*)"

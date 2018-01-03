@@ -3,6 +3,7 @@
     "version": "6.2.10",
     "testedUpTo": "6.2.10",
     "url": "https:\/\/wordpress.org\/plugins\/wordfence",
+    "basename": "wordfence\/wordfence.php",
     "primaryKeys": {
         "wfBadLeechers": {
             "key": [

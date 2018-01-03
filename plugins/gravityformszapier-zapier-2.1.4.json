@@ -3,6 +3,7 @@
     "version": "2.1.4",
     "testedUpTo": "2.1.4",
     "url": "http:\/\/www.gravityforms.com",
+    "basename": "gravityformszapier\/zapier.php",
     "primaryKeys": {
         "rg_zapier": {
             "key": [

@@ -3,6 +3,7 @@
     "version": "1.6.1.5",
     "testedUpTo": "1.6.1.5",
     "url": "http:\/\/enviragallery.com",
+    "basename": "envira-gallery\/envira-gallery.php",
     "shortcodes": {
         "envira-gallery": {
             "parameters": [

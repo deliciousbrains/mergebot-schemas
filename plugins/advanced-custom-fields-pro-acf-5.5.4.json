@@ -3,6 +3,7 @@
     "version": "5.5.4",
     "testedUpTo": "5.5.4",
     "url": "https:\/\/www.advancedcustomfields.com\/pro\/",
+    "basename": "advanced-custom-fields-pro\/acf.php",
     "shortcodes": {
         "acf": {
             "parameters": [

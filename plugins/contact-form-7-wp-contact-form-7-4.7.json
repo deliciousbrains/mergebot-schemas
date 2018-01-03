@@ -3,6 +3,7 @@
     "version": "4.7",
     "testedUpTo": "4.7",
     "url": "https:\/\/wordpress.org\/plugins\/contact-form-7",
+    "basename": "contact-form-7\/wp-contact-form-7.php",
     "shortcodes": {
         "contact-form": {
             "parameters": [

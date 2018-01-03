@@ -3,6 +3,7 @@
     "version": "3.5.8",
     "testedUpTo": "4.0.2",
     "url": "https:\/\/wordpress.org\/plugins\/relevanssi",
+    "basename": "relevanssi\/relevanssi.php",
     "primaryKeys": {
         "relevanssi": {
             "key": [

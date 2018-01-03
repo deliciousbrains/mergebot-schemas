@@ -2,5 +2,6 @@
     "name": "Gravity Forms Stripe Add-On",
     "version": "2.2.2",
     "testedUpTo": "2.2.2",
-    "url": "http:\/\/www.gravityforms.com\/add-ons\/stripe\/"
+    "url": "http:\/\/www.gravityforms.com\/add-ons\/stripe\/",
+    "basename": "gravityformsstripe\/stripe.php"
 }

@@ -3,6 +3,7 @@
     "version": "3.2.5",
     "testedUpTo": "3.2.5",
     "url": "https:\/\/woocommerce.com\/products\/ups-shipping-method\/",
+    "basename": "woocommerce-shipping-ups\/woocommerce-shipping-ups.php",
     "relationships": {
         "options": {
             "woocommerce_ups_{woocommerce_shipping_zone_methods:instance_id}_settings": {

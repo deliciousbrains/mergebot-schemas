@@ -3,6 +3,7 @@
     "version": "4.4.14",
     "testedUpTo": "4.4.14",
     "url": "http:\/\/m.tri.be\/20",
+    "basename": "events-calendar-pro\/events-calendar-pro.php",
     "relationships": {
         "postmeta": {
             "_eventoriginalparent": {

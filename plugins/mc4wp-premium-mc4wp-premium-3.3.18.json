@@ -3,6 +3,7 @@
     "version": "3.3.18",
     "testedUpTo": "3.3.18",
     "url": "https:\/\/mc4wp.com\/#utm_source=wp-plugin&#038;utm_medium=mailchimp-for-wp-pro&#038;utm_campaign=plugins-page",
+    "basename": "mc4wp-premium\/mc4wp-premium.php",
     "primaryKeys": {
         "mc4wp_log": {
             "key": [

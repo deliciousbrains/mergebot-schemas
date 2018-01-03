@@ -3,6 +3,7 @@
     "version": "0.5.5.1",
     "testedUpTo": "0.5.5.1",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-mu-domain-mapping",
+    "basename": "wordpress-mu-domain-mapping\/domain_mapping.php",
     "primaryKeys": {
         "domain_mapping": {
             "key": [

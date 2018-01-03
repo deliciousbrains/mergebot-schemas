@@ -3,6 +3,7 @@
     "version": "2.4.7",
     "testedUpTo": "2.4.7",
     "url": "http:\/\/www.learndash.com",
+    "basename": "sfwd-lms\/sfwd_lms.php",
     "primaryKeys": {
         "learndash_user_activity": {
             "key": [

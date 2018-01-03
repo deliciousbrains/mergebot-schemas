@@ -3,6 +3,7 @@
     "version": "2.1.1",
     "testedUpTo": "2.1.1",
     "url": "http:\/\/www.gravityforms.com\/",
+    "basename": "gravityforms\/gravityforms.php",
     "primaryKeys": {
         "gf_addon_feed": {
             "key": [
@@ -24,10 +25,22 @@
                 "id"
             ]
         },
+        "rg_form_meta": {
+            "key": [
+                "form_id"
+            ],
+            "auto_increment": false
+        },
         "rg_form_view": {
             "key": [
                 "id"
             ]
+        },
+        "rg_incomplete_submissions": {
+            "key": [
+                "uuid"
+            ],
+            "auto_increment": false
         },
         "rg_lead": {
             "key": [
@@ -39,12 +52,23 @@
                 "id"
             ]
         },
+        "rg_lead_detail_long": {
+            "key": [
+                "lead_detail_id"
+            ],
+            "auto_increment": false
+        },
         "rg_lead_meta": {
             "key": [
                 "id"
             ]
         },
         "rg_lead_notes": {
+            "key": [
+                "id"
+            ]
+        },
+        "rg_zapier": {
             "key": [
                 "id"
             ]
@@ -65,7 +89,8 @@
         "rg_lead_meta:form_id": "rg_form:id",
         "rg_lead_meta:lead_id": "rg_lead:id",
         "rg_lead_notes:lead_id": "rg_lead:id",
-        "rg_lead_notes:user_id": "users:ID"
+        "rg_lead_notes:user_id": "users:ID",
+        "rg_zapier:form_id": "rg_form:id"
     },
     "metaTables": {
         "rg_lead_meta": {

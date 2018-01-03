@@ -3,6 +3,7 @@
     "version": "4.0.2",
     "testedUpTo": "4.0.2",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
+    "basename": "wordpress-seo\/wp-seo.php",
     "relationships": {
         "options": {
             "wpseo_taxonomy_meta": {

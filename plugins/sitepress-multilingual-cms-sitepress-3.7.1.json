@@ -3,6 +3,7 @@
     "version": "3.7.1",
     "testedUpTo": "3.7.1",
     "url": "https:\/\/wpml.org\/",
+    "basename": "sitepress-multilingual-cms\/sitepress.php",
     "primaryKeys": {
         "icl_content_status": {
             "key": [
@@ -129,10 +130,6 @@
                 "meta_key": "_icl_lang_duplicate_of",
                 "meta_value": "posts"
             },
-            "_wpml_trid": {
-                "meta_key": "_wpml_trid",
-                "meta_value": "posts"
-            },
             "_wpml_translations": {
                 "meta_key": "_wpml_translations",
                 "meta_value": "posts",
@@ -140,6 +137,10 @@
                     "key": "ignore",
                     "val": "posts:ID"
                 }
+            },
+            "_wpml_trid": {
+                "meta_key": "_wpml_trid",
+                "meta_value": "posts"
             }
         }
     },

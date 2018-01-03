@@ -3,6 +3,7 @@
     "version": "4.0.11",
     "testedUpTo": "4.0.13",
     "url": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
+    "basename": "mailchimp-for-wp\/mailchimp-for-wp.php",
     "shortcodes": {
         "mc4wp_form": {
             "parameters": [

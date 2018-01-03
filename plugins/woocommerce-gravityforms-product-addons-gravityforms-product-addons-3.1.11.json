@@ -3,6 +3,7 @@
     "version": "3.1.11",
     "testedUpTo": "3.1.11",
     "url": "http:\/\/woothemes.com\/products\/gravity-forms-add-ons\/",
+    "basename": "woocommerce-gravityforms-product-addons\/gravityforms-product-addons.php",
     "relationships": {
         "postmeta": {
             "_gravity_form_data": {

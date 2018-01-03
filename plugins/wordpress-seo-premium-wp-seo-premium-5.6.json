@@ -3,6 +3,7 @@
     "version": "5.6",
     "testedUpTo": "5.6",
     "url": "https:\/\/yoast.com\/wordpress\/plugins\/seo\/#utm_source=wpadmin&#038;utm_medium=plugin&#038;utm_campaign=wpseoplugin",
+    "basename": "wordpress-seo-premium\/wp-seo-premium.php",
     "primaryKeys": {
         "yoast_seo_links": {
             "key": [

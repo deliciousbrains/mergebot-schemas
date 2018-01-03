@@ -3,6 +3,7 @@
     "version": "5.4.6.2",
     "testedUpTo": "5.4.6.2",
     "url": "http:\/\/revolution.themepunch.com\/",
+    "basename": "revslider\/revslider.php",
     "primaryKeys": {
         "revslider_css": {
             "key": [

@@ -3,6 +3,7 @@
     "version": "4.4.9",
     "testedUpTo": "4.4.9",
     "url": "https:\/\/woocommerce.com\/products\/usps-shipping-method\/",
+    "basename": "woocommerce-shipping-usps\/woocommerce-shipping-usps.php",
     "relationships": {
         "options": {
             "woocommerce_uspa_{woocommerce_shipping_zone_methods:instance_id}_settings": {

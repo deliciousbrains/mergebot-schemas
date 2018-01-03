@@ -3,6 +3,7 @@
     "version": "0.6.3",
     "testedUpTo": "0.6.3",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
+    "basename": "wordpress-importer\/wordpress-importer.php",
     "relationships": {
         "postmeta": {
             "_menu_item_menu_item_parent": {

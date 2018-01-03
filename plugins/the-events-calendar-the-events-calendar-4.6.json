@@ -3,6 +3,7 @@
     "version": "4.6",
     "testedUpTo": "4.6.6",
     "url": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
+    "basename": "the-events-calendar\/the-events-calendar.php",
     "ignore": [
         {
             "options:option_name": "tribe_last_save_post"

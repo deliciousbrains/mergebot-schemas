@@ -3,6 +3,7 @@
     "version": "5.6",
     "testedUpTo": "5.6",
     "url": "https:\/\/yoast.com\/wordpress\/local-seo\/",
+    "basename": "wpseo-local\/local-seo.php",
     "shortcodes": {
         "wpseo_address": {
             "parameters": [

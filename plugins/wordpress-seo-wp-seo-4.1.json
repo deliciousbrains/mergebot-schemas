@@ -3,6 +3,7 @@
     "version": "4.1",
     "testedUpTo": "5.3.3",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
+    "basename": "wordpress-seo\/wp-seo.php",
     "primaryKeys": {
         "yoast_seo_links": {
             "key": [

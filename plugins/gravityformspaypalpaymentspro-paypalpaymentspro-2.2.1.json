@@ -2,5 +2,6 @@
     "name": "Gravity Forms PayPal Payments Pro Add-On",
     "version": "2.2.1",
     "testedUpTo": "2.2.1",
-    "url": "http:\/\/www.gravityforms.com"
+    "url": "http:\/\/www.gravityforms.com",
+    "basename": "gravityformspaypalpaymentspro\/paypalpaymentspro.php"
 }

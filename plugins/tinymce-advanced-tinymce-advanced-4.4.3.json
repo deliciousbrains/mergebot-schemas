@@ -2,5 +2,6 @@
     "name": "TinyMCE Advanced",
     "version": "4.4.3",
     "testedUpTo": "4.6.7",
-    "url": "https:\/\/wordpress.org\/plugins\/tinymce-advanced"
+    "url": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
+    "basename": "tinymce-advanced\/tinymce-advanced.php"
 }

@@ -2,5 +2,6 @@
     "name": "Genesis Simple Sidebars",
     "version": "2.1.0",
     "testedUpTo": "2.1.0",
-    "url": "https:\/\/wordpress.org\/plugins\/genesis-simple-sidebars"
+    "url": "https:\/\/wordpress.org\/plugins\/genesis-simple-sidebars",
+    "basename": "genesis-simple-sidebars\/plugin.php"
 }

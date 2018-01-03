@@ -3,6 +3,7 @@
     "version": "2.7",
     "testedUpTo": "2.8.14",
     "url": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
+    "basename": "easy-digital-downloads\/easy-digital-downloads.php",
     "primaryKeys": {
         "edd_customermeta": {
             "key": [
