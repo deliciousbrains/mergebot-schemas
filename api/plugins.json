@@ -499,7 +499,7 @@
     "wp-super-cache-wp-cache-1.5.0.json": {
         "name": "WP Super Cache",
         "version": "1.5.0",
-        "testedUpTo": "1.5.8",
+        "testedUpTo": "1.5.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
     },
