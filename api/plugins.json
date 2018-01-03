@@ -2,7 +2,7 @@
     "advanced-custom-fields-acf-4.4.11.json": {
         "name": "Advanced Custom Fields",
         "version": "4.4.11",
-        "testedUpTo": "5.6.5",
+        "testedUpTo": "5.6.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/advanced-custom-fields",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/advanced-custom-fields-acf-4.4.11.json"
     },
@@ -16,14 +16,14 @@
     "akismet-akismet-3.2.json": {
         "name": "Akismet",
         "version": "3.2",
-        "testedUpTo": "4.0.1",
+        "testedUpTo": "4.0.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/akismet",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/akismet-akismet-3.2.json"
     },
     "all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json": {
         "name": "All in One SEO Pack",
         "version": "2.3.11.3",
-        "testedUpTo": "2.4.3",
+        "testedUpTo": "2.4.3.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
@@ -58,14 +58,14 @@
     "contact-form-7-wp-contact-form-7-4.8.json": {
         "name": "Contact Form 7",
         "version": "4.8",
-        "testedUpTo": "4.9.1",
+        "testedUpTo": "4.9.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/contact-form-7",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/contact-form-7-wp-contact-form-7-4.8.json"
     },
     "custom-post-type-ui-custom-post-type-ui-1.5.0.json": {
         "name": "Custom Post Type UI",
         "version": "1.5.0",
-        "testedUpTo": "1.5.0",
+        "testedUpTo": "1.5.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/custom-post-type-ui",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/custom-post-type-ui-custom-post-type-ui-1.5.0.json"
     },
@@ -86,14 +86,14 @@
     "easy-digital-downloads-easy-digital-downloads-2.6.17.json": {
         "name": "Easy Digital Downloads",
         "version": "2.6.17",
-        "testedUpTo": "2.6.17",
+        "testedUpTo": "2.6.18",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.6.17.json"
     },
     "easy-digital-downloads-easy-digital-downloads-2.7.json": {
         "name": "Easy Digital Downloads",
         "version": "2.7",
-        "testedUpTo": "2.8.14",
+        "testedUpTo": "2.8.17",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
@@ -240,7 +240,7 @@
     "mailchimp-for-wp-mailchimp-for-wp-4.1.0.json": {
         "name": "MailChimp for WordPress",
         "version": "4.1.0",
-        "testedUpTo": "4.1.11",
+        "testedUpTo": "4.1.12",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
     },
@@ -268,7 +268,7 @@
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",
-        "testedUpTo": "2.3.1",
+        "testedUpTo": "3.0.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/regenerate-thumbnails",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/regenerate-thumbnails-regenerate-thumbnails-2.2.6.json"
     },
@@ -282,7 +282,7 @@
     "relevanssi-relevanssi-3.5.8.json": {
         "name": "Relevanssi - A Better Search",
         "version": "3.5.8",
-        "testedUpTo": "4.0.2",
+        "testedUpTo": "4.0.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
@@ -408,7 +408,7 @@
     "woocommerce-woocommerce-3.1.0.json": {
         "name": "WooCommerce",
         "version": "3.1.0",
-        "testedUpTo": "3.2.5",
+        "testedUpTo": "3.2.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
@@ -464,7 +464,7 @@
     "wordpress-seo-wp-seo-5.4.json": {
         "name": "Yoast SEO",
         "version": "5.4",
-        "testedUpTo": "5.9.1",
+        "testedUpTo": "6.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
