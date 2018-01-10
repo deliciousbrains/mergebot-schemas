@@ -1,7 +1,7 @@
 {
     "name": "Yoast SEO",
     "version": "5.4",
-    "testedUpTo": "6.0",
+    "testedUpTo": "6.1",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
     "basename": "wordpress-seo\/wp-seo.php",
     "primaryKeys": {
