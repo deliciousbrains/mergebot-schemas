@@ -464,7 +464,7 @@
     "wordpress-seo-wp-seo-5.4.json": {
         "name": "Yoast SEO",
         "version": "5.4",
-        "testedUpTo": "6.0",
+        "testedUpTo": "6.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
