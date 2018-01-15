@@ -1,7 +1,7 @@
 {
     "name": "WP Retina 2x",
     "version": "5.2.0",
-    "testedUpTo": "5.2.0",
+    "testedUpTo": "5.2.2",
     "url": "https:\/\/wordpress.org\/plugins\/wp-retina-2x",
     "basename": "wp-retina-2x\/wp-retina-2x.php"
 }
