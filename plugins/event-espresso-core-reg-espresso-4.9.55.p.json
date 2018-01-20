@@ -1,0 +1,209 @@
+{
+    "name": "Event Espresso",
+    "version": "4.9.55.p",
+    "testedUpTo": "4.9.55.p",
+    "url": "http:\/\/eventespresso.com\/pricing\/?ee_ver=ee4&#038;utm_source=ee4_plugin_admin&#038;utm_medium=link&#038;utm_campaign=wordpress_plugins_page&#038;utm_content=support_link",
+    "basename": "event-espresso-core-reg\/espresso.php",
+    "primaryKeys": {
+        "esp_answer": {
+            "key": [
+                "ANS_ID"
+            ]
+        },
+        "esp_attendee_meta": {
+            "key": [
+                "ATTM_ID"
+            ]
+        },
+        "esp_checkin": {
+            "key": [
+                "CHK_ID"
+            ]
+        },
+        "esp_country": {
+            "key": [
+                "CNT_ISO"
+            ],
+            "auto_increment": false
+        },
+        "esp_currency": {
+            "key": [
+                "CUR_code"
+            ],
+            "auto_increment": false
+        },
+        "esp_currency_payment_method": {
+            "key": [
+                "CPM_ID"
+            ]
+        },
+        "esp_datetime": {
+            "key": [
+                "DTT_ID"
+            ]
+        },
+        "esp_datetime_ticket": {
+            "key": [
+                "DTK_ID"
+            ]
+        },
+        "esp_event_message_template": {
+            "key": [
+                "EMT_ID"
+            ]
+        },
+        "esp_event_meta": {
+            "key": [
+                "EVTM_ID"
+            ]
+        },
+        "esp_event_question_group": {
+            "key": [
+                "EQG_ID"
+            ]
+        },
+        "esp_event_venue": {
+            "key": [
+                "EVV_ID"
+            ]
+        },
+        "esp_extra_join": {
+            "key": [
+                "EXJ_ID"
+            ]
+        },
+        "esp_extra_meta": {
+            "key": [
+                "EXM_ID"
+            ]
+        },
+        "esp_line_item": {
+            "key": [
+                "LIN_ID"
+            ]
+        },
+        "esp_log": {
+            "key": [
+                "LOG_ID"
+            ]
+        },
+        "esp_message": {
+            "key": [
+                "MSG_ID"
+            ]
+        },
+        "esp_message_template": {
+            "key": [
+                "MTP_ID"
+            ]
+        },
+        "esp_message_template_group": {
+            "key": [
+                "GRP_ID"
+            ]
+        },
+        "esp_payment": {
+            "key": [
+                "PAY_ID"
+            ]
+        },
+        "esp_payment_method": {
+            "key": [
+                "PMD_ID"
+            ]
+        },
+        "esp_price": {
+            "key": [
+                "PRC_ID"
+            ]
+        },
+        "esp_price_type": {
+            "key": [
+                "PRT_ID"
+            ]
+        },
+        "esp_promotion": {
+            "key": [
+                "PRO_ID"
+            ]
+        },
+        "esp_promotion_object": {
+            "key": [
+                "POB_ID"
+            ]
+        },
+        "esp_question": {
+            "key": [
+                "QST_ID"
+            ]
+        },
+        "esp_question_group": {
+            "key": [
+                "QSG_ID"
+            ]
+        },
+        "esp_question_group_question": {
+            "key": [
+                "QGQ_ID"
+            ]
+        },
+        "esp_question_option": {
+            "key": [
+                "QSO_ID"
+            ]
+        },
+        "esp_registration": {
+            "key": [
+                "REG_ID"
+            ]
+        },
+        "esp_registration_payment": {
+            "key": [
+                "RPY_ID"
+            ]
+        },
+        "esp_state": {
+            "key": [
+                "STA_ID"
+            ]
+        },
+        "esp_status": {
+            "key": [
+                "STS_ID"
+            ],
+            "auto_increment": false
+        },
+        "esp_ticket": {
+            "key": [
+                "TKT_ID"
+            ]
+        },
+        "esp_ticket_price": {
+            "key": [
+                "TKP_ID"
+            ]
+        },
+        "esp_ticket_template": {
+            "key": [
+                "TTM_ID"
+            ]
+        },
+        "esp_transaction": {
+            "key": [
+                "TXN_ID"
+            ]
+        },
+        "esp_venue_meta": {
+            "key": [
+                "VNUM_ID"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "esp_attendee_meta:ATT_ID": "posts:ID",
+        "esp_message_template_group:MTP_user_id": "users:ID",
+        "esp_promotion_object:PRO_ID": "posts:ID",
+        "esp_registration:ATT_ID": "posts:ID",
+        "esp_registration_payment:PAY_ID": "posts:ID"
+    }
+}
