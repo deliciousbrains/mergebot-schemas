@@ -1,0 +1,7 @@
+{
+    "name": "Event Espresso - Calendar (EE 4.3+)",
+    "version": "3.2.11.p",
+    "testedUpTo": "3.2.11.p",
+    "url": "http:\/\/www.eventespresso.com",
+    "basename": "ee4-events-calendar\/espresso_calendar.php"
+}

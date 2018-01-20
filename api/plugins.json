@@ -125,6 +125,13 @@
         "pluginURL": "http:\/\/enviragallery.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/envira-gallery-envira-gallery-1.6.1.5.json"
     },
+    "event-espresso-core-reg-espresso-4.9.55.p.json": {
+        "name": "Event Espresso",
+        "version": "4.9.55.p",
+        "testedUpTo": "4.9.55.p",
+        "pluginURL": "http:\/\/eventespresso.com\/pricing\/?ee_ver=ee4&#038;utm_source=ee4_plugin_admin&#038;utm_medium=link&#038;utm_campaign=wordpress_plugins_page&#038;utm_content=support_link",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/event-espresso-core-reg-espresso-4.9.55.p.json"
+    },
     "events-calendar-pro-events-calendar-pro-4.4.14.json": {
         "name": "The Events Calendar PRO",
         "version": "4.4.14",

@@ -1,0 +1,7 @@
+{
+    "name": "Event Espresso - MER - Multi Event Registration (EE 4.7.0+)",
+    "version": "2.0.14.p",
+    "testedUpTo": "2.0.14.p",
+    "url": "http:\/\/www.eventespresso.com",
+    "basename": "eea-multi-event-registration\/eea-multi-event-registration.php"
+}

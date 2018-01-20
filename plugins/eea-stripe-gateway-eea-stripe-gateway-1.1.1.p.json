@@ -1,0 +1,7 @@
+{
+    "name": "Event Espresso - Stripe Gateway (EE 4.6.0+)",
+    "version": "1.1.1.p",
+    "testedUpTo": "1.1.1.p",
+    "url": "https:\/\/eventespresso.com",
+    "basename": "eea-stripe-gateway\/eea-stripe-gateway.php"
+}
