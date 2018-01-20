@@ -1,0 +1,90 @@
+{
+    "name": "AffiliateWP",
+    "version": "2.1.11",
+    "testedUpTo": "2.1.11",
+    "url": "https:\/\/affiliatewp.com",
+    "basename": "affiliate-wp\/affiliate-wp.php",
+    "primaryKeys": {
+        "affiliate_wp_affiliatemeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "affiliate_wp_affiliates": {
+            "key": [
+                "affiliate_id"
+            ]
+        },
+        "affiliate_wp_creatives": {
+            "key": [
+                "creative_id"
+            ]
+        },
+        "affiliate_wp_payouts": {
+            "key": [
+                "payout_id"
+            ]
+        },
+        "affiliate_wp_referrals": {
+            "key": [
+                "referral_id"
+            ]
+        },
+        "affiliate_wp_rest_consumers": {
+            "key": [
+                "consumer_id"
+            ]
+        },
+        "affiliate_wp_visits": {
+            "key": [
+                "visit_id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "affiliate_wp_affiliatemeta:affiliate_id": "affiliate_wp_affiliates:affiliate_id",
+        "affiliate_wp_affiliates:user_id": "users:ID",
+        "affiliate_wp_campaigns:affiliate_id": "affiliate_wp_affiliates:affiliate_id",
+        "affiliate_wp_payouts:affiliate_id": "affiliate_wp_affiliates:affiliate_id",
+        "affiliate_wp_referrals:affiliate_id": "affiliate_wp_affiliates:affiliate_id",
+        "affiliate_wp_referrals:payout_id": "affiliate_wp_payouts:payout_id",
+        "affiliate_wp_referrals:visit_id": "affiliate_wp_visits:visit_id",
+        "affiliate_wp_rest_consumers:user_id": "users:ID",
+        "affiliate_wp_visits:affiliate_id": "affiliate_wp_affiliates:affiliate_id",
+        "affiliate_wp_visits:referral_id": "affiliate_wp_referrals:referral_id"
+    },
+    "relationships": {
+        "postmeta": {
+            "_affwp_affiliate_id": {
+                "meta_key": "_affwp_affiliate_id",
+                "meta_value": "affiliate_wp_affiliates"
+            },
+            "_affwp_pms_affiliate_id": {
+                "meta_key": "_affwp_pms_affiliate_id",
+                "meta_value": "affiliate_wp_affiliates"
+            },
+            "affiliatewp_affiliate_id": {
+                "meta_key": "affiliatewp_affiliate_id",
+                "meta_value": "affiliate_wp_affiliates"
+            },
+            "affwp_cf7_form_id": {
+                "meta_key": "affwp_cf7_form_id",
+                "meta_value": "posts"
+            },
+            "affwp_coupon_affiliate": {
+                "meta_key": "affwp_coupon_affiliate",
+                "meta_value": "affiliate_wp_affiliates"
+            },
+            "affwp_discount_affiliate": {
+                "meta_key": "affwp_discount_affiliate",
+                "meta_value": "affiliate_wp_affiliates"
+            }
+        },
+        "usermeta": {
+            "affwp_discount_rcp_' . $discount_id": {
+                "meta_key": "affwp_discount_rcp_' . $discount_id",
+                "meta_value": "affiliate_wp_affiliates"
+            }
+        }
+    }
+}
