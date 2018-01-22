@@ -104,6 +104,48 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
+    "ee4-events-calendar-espresso_calendar-3.2.11.p.json": {
+        "name": "Event Espresso - Calendar (EE 4.3+)",
+        "version": "3.2.11.p",
+        "testedUpTo": "3.2.11.p",
+        "pluginURL": "http:\/\/www.eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ee4-events-calendar-espresso_calendar-3.2.11.p.json"
+    },
+    "eea-affiliatewp-eea-affiliate-wp-1.0.1.p.json": {
+        "name": "Event Espresso - AffiliateWP integration (EE4.8.30+)",
+        "version": "1.0.1.p",
+        "testedUpTo": "1.0.1.p",
+        "pluginURL": "http:\/\/www.eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/eea-affiliatewp-eea-affiliate-wp-1.0.1.p.json"
+    },
+    "eea-events-grid-view-template-espresso-grid-template-1.2.4.p.json": {
+        "name": "Event Espresso - Grid View Template (EE 4.4.9+)",
+        "version": "1.2.4.p",
+        "testedUpTo": "1.2.4.p",
+        "pluginURL": "https:\/\/eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/eea-events-grid-view-template-espresso-grid-template-1.2.4.p.json"
+    },
+    "eea-multi-event-registration-eea-multi-event-registration-2.0.14.p.json": {
+        "name": "Event Espresso - MER - Multi Event Registration (EE 4.7.0+)",
+        "version": "2.0.14.p",
+        "testedUpTo": "2.0.14.p",
+        "pluginURL": "http:\/\/www.eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/eea-multi-event-registration-eea-multi-event-registration-2.0.14.p.json"
+    },
+    "eea-promotions-eea-promotions-1.0.12.p.json": {
+        "name": "Event Espresso - Promotions (EE 4.9.10+)",
+        "version": "1.0.12.p",
+        "testedUpTo": "1.0.12.p",
+        "pluginURL": "http:\/\/www.eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/eea-promotions-eea-promotions-1.0.12.p.json"
+    },
+    "eea-stripe-gateway-eea-stripe-gateway-1.1.1.p.json": {
+        "name": "Event Espresso - Stripe Gateway (EE 4.6.0+)",
+        "version": "1.1.1.p",
+        "testedUpTo": "1.1.1.p",
+        "pluginURL": "https:\/\/eventespresso.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/eea-stripe-gateway-eea-stripe-gateway-1.1.1.p.json"
+    },
     "elfsight-instashow-elfsight-instashow-2.5.0.json": {
         "name": "Elfsight InstaShow",
         "version": "2.5.0",
