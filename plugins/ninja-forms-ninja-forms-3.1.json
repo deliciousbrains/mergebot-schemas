@@ -1,7 +1,7 @@
 {
     "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
     "version": "3.1",
-    "testedUpTo": "3.2.9",
+    "testedUpTo": "3.2.10",
     "url": "https:\/\/wordpress.org\/plugins\/ninja-forms",
     "basename": "ninja-forms\/ninja-forms.php",
     "primaryKeys": {
