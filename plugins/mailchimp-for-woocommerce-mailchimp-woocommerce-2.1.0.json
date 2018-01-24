@@ -1,0 +1,18 @@
+{
+    "name": "MailChimp for WooCommerce",
+    "version": "2.1.0",
+    "testedUpTo": "2.1.0",
+    "url": "https:\/\/wordpress.org\/plugins\/mailchimp-for-woocommerce",
+    "basename": "mailchimp-for-woocommerce\/mailchimp-woocommerce.php",
+    "foreignKeys": {
+        "mailchimp_carts:user_id": "users:ID"
+    },
+    "relationships": {
+        "options": {
+            "mailchimp-woocommerce-last_product_updated": {
+                "option_name": "mailchimp-woocommerce-last_product_updated",
+                "option_value": "posts"
+            }
+        }
+    }
+}

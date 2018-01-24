@@ -300,6 +300,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/limit-login-attempts",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/limit-login-attempts-limit-login-attempts-1.7.1.json"
     },
+    "mailchimp-for-woocommerce-mailchimp-woocommerce-2.1.0.json": {
+        "name": "MailChimp for WooCommerce",
+        "version": "2.1.0",
+        "testedUpTo": "2.1.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-woocommerce",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-woocommerce-mailchimp-woocommerce-2.1.0.json"
+    },
     "mailchimp-for-wp-mailchimp-for-wp-4.0.11.json": {
         "name": "MailChimp for WordPress",
         "version": "4.0.11",
