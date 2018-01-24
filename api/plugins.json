@@ -188,6 +188,13 @@
         "pluginURL": "http:\/\/m.tri.be\/20",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/events-calendar-pro-events-calendar-pro-4.4.14.json"
     },
+    "formidable-formidable-2.05.json": {
+        "name": "Formidable Forms &#8211; Form Builder for WordPress",
+        "version": "2.05",
+        "testedUpTo": "2.05",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/formidable",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/formidable-formidable-2.05.json"
+    },
     "genesis-simple-sidebars-plugin-2.1.0.json": {
         "name": "Genesis Simple Sidebars",
         "version": "2.1.0",

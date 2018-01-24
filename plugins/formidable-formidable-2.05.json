@@ -1,0 +1,38 @@
+{
+    "name": "Formidable Forms &#8211; Form Builder for WordPress",
+    "version": "2.05",
+    "testedUpTo": "2.05",
+    "url": "https:\/\/wordpress.org\/plugins\/formidable",
+    "basename": "formidable\/formidable.php",
+    "primaryKeys": {
+        "frm_fields": {
+            "key": [
+                "id"
+            ]
+        },
+        "frm_forms": {
+            "key": [
+                "id"
+            ]
+        },
+        "frm_item_metas": {
+            "key": [
+                "id"
+            ]
+        },
+        "frm_items": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "frm_fields:form_id": "frm_forms:id",
+        "frm_item_metas:field_id": "frm_fields:id",
+        "frm_item_metas:item_id": "frm_items:id",
+        "frm_items:form_id": "frm_forms:id",
+        "frm_items:post_id": "posts:ID",
+        "frm_items:user_id": "users:ID",
+        "frm_items:parent_item_id": "frm_items:id"
+    }
+}
