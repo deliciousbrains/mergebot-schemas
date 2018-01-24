@@ -342,6 +342,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/ninja-forms",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ninja-forms-ninja-forms-3.1.json"
     },
+    "post-views-counter-post-views-counter-1.2.0.json": {
+        "name": "Post Views Counter",
+        "version": "1.2.0",
+        "testedUpTo": "1.2.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.0.json"
+    },
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",

@@ -1,0 +1,24 @@
+{
+    "name": "Post Views Counter",
+    "version": "1.2.0",
+    "testedUpTo": "1.2.0",
+    "url": "https:\/\/wordpress.org\/plugins\/post-views-counter",
+    "basename": "post-views-counter\/post-views-counter.php",
+    "primaryKeys": {
+        "post_views": {
+            "key": [
+                "id",
+                "type",
+                "period"
+            ],
+            "auto_increment": false
+        }
+    },
+    "shortcodes": {
+        "post-views": {
+            "parameters": [
+                "id"
+            ]
+        }
+    }
+}
