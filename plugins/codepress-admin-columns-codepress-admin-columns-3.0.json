@@ -1,0 +1,15 @@
+{
+    "name": "Admin Columns",
+    "version": "3.0",
+    "testedUpTo": "3.0.7",
+    "url": "https:\/\/wordpress.org\/plugins\/codepress-admin-columns",
+    "basename": "codepress-admin-columns\/codepress-admin-columns.php",
+    "relationships": {
+        "usermeta": {
+            "(.*){blogs:blog_id}": {
+                "meta_key": "(.*){blogs:blog_id}",
+                "meta_value": "ignore"
+            }
+        }
+    }
+}
