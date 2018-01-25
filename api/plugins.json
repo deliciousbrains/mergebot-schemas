@@ -391,6 +391,13 @@
         "pluginURL": "http:\/\/www.learndash.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/sfwd-lms-sfwd_lms-2.4.7.json"
     },
+    "simple-tooltips-index-2.1.json": {
+        "name": "Simple Tooltips",
+        "version": "2.1",
+        "testedUpTo": "2.1",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/simple-tooltips",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/simple-tooltips-index-2.1.json"
+    },
     "sitepress-multilingual-cms-sitepress-3.7.1.json": {
         "name": "WPML Multilingual CMS",
         "version": "3.7.1",
