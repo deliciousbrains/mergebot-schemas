@@ -412,6 +412,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "updraftplus-updraftplus-1.12.0.json": {
+        "name": "UpdraftPlus WordPress Backup Plugin",
+        "version": "1.12.0",
+        "testedUpTo": "1.12.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/updraftplus",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/updraftplus-updraftplus-1.12.0.json"
+    },
     "user-role-editor-user-role-editor-4.39.json": {
         "name": "User Role Editor",
         "version": "4.39",
