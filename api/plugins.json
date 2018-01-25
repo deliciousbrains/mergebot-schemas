@@ -412,6 +412,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "user-role-editor-user-role-editor-4.39.json": {
+        "name": "User Role Editor",
+        "version": "4.39",
+        "testedUpTo": "4.39",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/user-role-editor",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/user-role-editor-user-role-editor-4.39.json"
+    },
     "widget-logic-widget_logic-5.9.0.json": {
         "name": "Widget Logic",
         "version": "5.9.0",
