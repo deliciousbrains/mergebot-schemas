@@ -391,6 +391,13 @@
         "pluginURL": "http:\/\/www.learndash.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/sfwd-lms-sfwd_lms-2.4.7.json"
     },
+    "shortcodes-ultimate-shortcodes-ultimate-5.0.0.json": {
+        "name": "Shortcodes Ultimate",
+        "version": "5.0.0",
+        "testedUpTo": "5.0.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/shortcodes-ultimate",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/shortcodes-ultimate-shortcodes-ultimate-5.0.0.json"
+    },
     "simple-custom-css-simple-custom-css-3.3.json": {
         "name": "Simple Custom CSS",
         "version": "3.3",
