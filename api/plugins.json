@@ -412,6 +412,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "widget-logic-widget_logic-5.9.0.json": {
+        "name": "Widget Logic",
+        "version": "5.9.0",
+        "testedUpTo": "5.9.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/widget-logic",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/widget-logic-widget_logic-5.9.0.json"
+    },
     "woocommerce-advanced-notifications-woocommerce-advanced-notifications-1.2.10.json": {
         "name": "WooCommerce Advanced Notifications",
         "version": "1.2.10",
