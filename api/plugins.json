@@ -580,6 +580,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-retina-2x",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-retina-2x-wp-retina-2x-5.2.0.json"
     },
+    "wp-rocket-wp-rocket-2.10.7.json": {
+        "name": "WP Rocket",
+        "version": "2.10.7",
+        "testedUpTo": "2.11.4",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-rocket",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-rocket-wp-rocket-2.10.7.json"
+    },
     "wp-super-cache-wp-cache-1.4.8.json": {
         "name": "WP Super Cache",
         "version": "1.4.8",

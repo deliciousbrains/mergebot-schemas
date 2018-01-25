@@ -1,0 +1,7 @@
+{
+    "name": "WP Rocket",
+    "version": "2.10.7",
+    "testedUpTo": "2.11.4",
+    "url": "https:\/\/wordpress.org\/plugins\/wp-rocket",
+    "basename": "wp-rocket\/wp-rocket.php"
+}
