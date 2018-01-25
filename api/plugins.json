@@ -307,6 +307,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/limit-login-attempts",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/limit-login-attempts-limit-login-attempts-1.7.1.json"
     },
+    "list-field-number-format-for-gravity-forms-list-field-number-format-for-gravity-forms-1.5.0.json": {
+        "name": "List Field Number Format for Gravity Forms",
+        "version": "1.5.0",
+        "testedUpTo": "1.5.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/list-field-number-format-for-gravity-forms",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/list-field-number-format-for-gravity-forms-list-field-number-format-for-gravity-forms-1.5.0.json"
+    },
     "mailchimp-for-woocommerce-mailchimp-woocommerce-2.1.0.json": {
         "name": "MailChimp for WooCommerce",
         "version": "2.1.0",
