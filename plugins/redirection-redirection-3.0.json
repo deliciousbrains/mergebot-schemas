@@ -1,0 +1,33 @@
+{
+    "name": "Redirection",
+    "version": "3.0",
+    "testedUpTo": "3.0",
+    "url": "https:\/\/wordpress.org\/plugins\/redirection",
+    "basename": "redirection\/redirection.php",
+    "primaryKeys": {
+        "redirection_404": {
+            "key": [
+                "id"
+            ]
+        },
+        "redirection_groups": {
+            "key": [
+                "id"
+            ]
+        },
+        "redirection_items": {
+            "key": [
+                "id"
+            ]
+        },
+        "redirection_logs": {
+            "key": [
+                "id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "redirection_items:group_id": "redirection_groups:id",
+        "redirection_logs:group_id": "redirection_groups:id"
+    }
+}

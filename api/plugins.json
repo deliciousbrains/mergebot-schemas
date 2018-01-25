@@ -356,6 +356,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.0.json"
     },
+    "redirection-redirection-3.0.json": {
+        "name": "Redirection",
+        "version": "3.0",
+        "testedUpTo": "3.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/redirection",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/redirection-redirection-3.0.json"
+    },
     "regenerate-thumbnails-regenerate-thumbnails-2.2.6.json": {
         "name": "Regenerate Thumbnails",
         "version": "2.2.6",
