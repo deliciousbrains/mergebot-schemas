@@ -1,0 +1,7 @@
+{
+    "name": "WP Maintenance Mode",
+    "version": "2.0.0",
+    "testedUpTo": "2.0.9",
+    "url": "https:\/\/wordpress.org\/plugins\/wp-maintenance-mode",
+    "basename": "wp-maintenance-mode\/wp-maintenance-mode.php"
+}

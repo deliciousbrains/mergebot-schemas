@@ -559,6 +559,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-seo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-seo-wp-seo-5.4.json"
     },
+    "wp-maintenance-mode-wp-maintenance-mode-2.0.0.json": {
+        "name": "WP Maintenance Mode",
+        "version": "2.0.0",
+        "testedUpTo": "2.0.9",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-maintenance-mode",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-maintenance-mode-wp-maintenance-mode-2.0.0.json"
+    },
     "wp-quicklatex-wp-quicklatex-3.8.0.json": {
         "name": "WP QuickLaTeX",
         "version": "3.8.0",
