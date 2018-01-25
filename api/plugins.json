@@ -405,6 +405,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/the-events-calendar-the-events-calendar-4.6.json"
     },
+    "tiny-compress-images-tiny-compress-images-2.2.0.json": {
+        "name": "Compress JPEG &amp; PNG images",
+        "version": "2.2.0",
+        "testedUpTo": "2.2.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/tiny-compress-images",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tiny-compress-images-tiny-compress-images-2.2.0.json"
+    },
     "tinymce-advanced-tinymce-advanced-4.4.3.json": {
         "name": "TinyMCE Advanced",
         "version": "4.4.3",
