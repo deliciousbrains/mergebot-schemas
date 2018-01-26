@@ -517,6 +517,13 @@
         "pluginURL": "https:\/\/woocommerce.com\/products\/usps-shipping-method\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-shipping-usps-woocommerce-shipping-usps-4.4.9.json"
     },
+    "woocommerce-social-login-woocommerce-social-login-2.4.0.json": {
+        "name": "WooCommerce Social Login",
+        "version": "2.4.0",
+        "testedUpTo": "2.4.0",
+        "pluginURL": "http:\/\/www.woocommerce.com\/products\/woocommerce-social-login\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-social-login-woocommerce-social-login-2.4.0.json"
+    },
     "woocommerce-subscriptions-woocommerce-subscriptions-2.2.13.json": {
         "name": "WooCommerce Subscriptions",
         "version": "2.2.13",

@@ -1,0 +1,7 @@
+{
+    "name": "WooCommerce Social Login",
+    "version": "2.4.0",
+    "testedUpTo": "2.4.0",
+    "url": "http:\/\/www.woocommerce.com\/products\/woocommerce-social-login\/",
+    "basename": "woocommerce-social-login\/woocommerce-social-login.php"
+}
