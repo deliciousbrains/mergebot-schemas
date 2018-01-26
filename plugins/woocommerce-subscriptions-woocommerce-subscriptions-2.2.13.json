@@ -1,7 +1,7 @@
 {
     "name": "WooCommerce Subscriptions",
     "version": "2.2.13",
-    "testedUpTo": "2.2.13",
+    "testedUpTo": "2.2.16",
     "url": "http:\/\/www.woocommerce.com\/products\/woocommerce-subscriptions\/",
     "basename": "woocommerce-subscriptions\/woocommerce-subscriptions.php",
     "shortcodes": {

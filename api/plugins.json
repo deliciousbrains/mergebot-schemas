@@ -520,7 +520,7 @@
     "woocommerce-subscriptions-woocommerce-subscriptions-2.2.13.json": {
         "name": "WooCommerce Subscriptions",
         "version": "2.2.13",
-        "testedUpTo": "2.2.13",
+        "testedUpTo": "2.2.16",
         "pluginURL": "http:\/\/www.woocommerce.com\/products\/woocommerce-subscriptions\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-subscriptions-woocommerce-subscriptions-2.2.13.json"
     },
