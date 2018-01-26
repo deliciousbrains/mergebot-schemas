@@ -1,0 +1,59 @@
+{
+    "name": "WooCommerce Subscriptions",
+    "version": "2.2.13",
+    "testedUpTo": "2.2.13",
+    "url": "http:\/\/www.woocommerce.com\/products\/woocommerce-subscriptions\/",
+    "basename": "woocommerce-subscriptions\/woocommerce-subscriptions.php",
+    "shortcodes": {
+        "subscriptions": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "options": {
+            "wcs_1_2_upgraded_order_ids": {
+                "option_name": "wcs_1_2_upgraded_order_ids",
+                "option_value": "posts"
+            },
+            "wcs_1_4_last_upgraded_user_id": {
+                "option_name": "wcs_1_4_last_upgraded_user_id",
+                "option_value": "users"
+            },
+            "wcs_1_4_upgraded_order_ids": {
+                "option_name": "wcs_1_4_upgraded_order_ids",
+                "option_value": "posts"
+            },
+            "wcs_2_2_9_repaired_subscriptions": {
+                "option_name": "wcs_2_2_9_repaired_subscriptions",
+                "option_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            }
+        },
+        "postmeta": {
+            "_customer_user": {
+                "meta_key": "_customer_user",
+                "meta_value": "users"
+            },
+            "_max_price_variation_id": {
+                "meta_key": "_max_price_variation_id",
+                "meta_value": "posts"
+            },
+            "_min_price_variation_id": {
+                "meta_key": "_min_price_variation_id",
+                "meta_value": "posts"
+            },
+            "_subscription_resubscribe": {
+                "meta_key": "_subscription_resubscribe",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
