@@ -468,6 +468,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/updraftplus",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/updraftplus-updraftplus-1.12.0.json"
     },
+    "upvote-upvote-1.0.json": {
+        "name": "Upvote",
+        "version": "1.0",
+        "testedUpTo": "1.0",
+        "pluginURL": "https:\/\/profiles.wordpress.org\/krunalprajapati41\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/upvote-upvote-1.0.json"
+    },
     "user-role-editor-user-role-editor-4.39.json": {
         "name": "User Role Editor",
         "version": "4.39",

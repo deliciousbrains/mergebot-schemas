@@ -1,0 +1,45 @@
+{
+    "name": "Upvote",
+    "version": "1.0",
+    "testedUpTo": "1.0",
+    "url": "https:\/\/profiles.wordpress.org\/krunalprajapati41\/",
+    "basename": "upvote\/upvote.php",
+    "shortcodes": {
+        "upvote_button": {
+            "parameters": [
+                {
+                    "name": "postid",
+                    "table": "posts"
+                }
+            ]
+        },
+        "upvote_count": {
+            "parameters": [
+                {
+                    "name": "postid",
+                    "table": "posts"
+                }
+            ]
+        },
+        "upvote_icon_button": {
+            "parameters": [
+                {
+                    "name": "postid",
+                    "table": "posts"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_upvote_users": {
+                "meta_key": "_upvote_users",
+                "meta_value": "users",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "users:ID"
+                }
+            }
+        }
+    }
+}
