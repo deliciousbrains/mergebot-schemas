@@ -300,6 +300,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
+    "layouts-dd-layouts-2.2.json": {
+        "name": "Toolset Layouts",
+        "version": "2.2",
+        "testedUpTo": "2.2",
+        "pluginURL": "http:\/\/wp-types.com\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/layouts-dd-layouts-2.2.json"
+    },
     "limit-login-attempts-limit-login-attempts-1.7.1.json": {
         "name": "Limit Login Attempts",
         "version": "1.7.1",

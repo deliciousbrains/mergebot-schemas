@@ -1,0 +1,15 @@
+{
+    "name": "Toolset Layouts",
+    "version": "2.2",
+    "testedUpTo": "2.2",
+    "url": "http:\/\/wp-types.com\/",
+    "basename": "layouts\/dd-layouts.php",
+    "relationships": {
+        "postmeta": {
+            "_toolset_user_editors_frontend_editor_preview_post": {
+                "meta_key": "_toolset_user_editors_frontend_editor_preview_post",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
