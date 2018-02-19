@@ -1,0 +1,32 @@
+{
+    "name": "Toolset CRED",
+    "version": "1.9.3.1",
+    "testedUpTo": "1.9.3.1",
+    "url": "https:\/\/wp-types.com\/home\/toolset-components\/#cred",
+    "basename": "cred-frontend-editor\/plugin.php",
+    "shortcodes": {
+        "cred-post-expiration": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "options": {
+            "_{posts:ID}_last_mail_error": {
+                "option_name": "_{posts:ID}_last_mail_error",
+                "option_value": "ignore"
+            }
+        },
+        "postmeta": {
+            "_cred_post_id": {
+                "meta_key": "_cred_post_id",
+                "meta_value": "users"
+            },
+            "_toolset_user_editors_frontend_editor_preview_post": {
+                "meta_key": "_toolset_user_editors_frontend_editor_preview_post",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
