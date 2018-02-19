@@ -1,0 +1,7 @@
+{
+    "name": "WooCommerce Stripe Payment Gateway",
+    "version": "4.0.0",
+    "testedUpTo": "4.0.0",
+    "url": "https:\/\/wordpress.org\/plugins\/woocommerce-gateway-stripe",
+    "basename": "woocommerce-gateway-stripe\/woocommerce-gateway-stripe.php"
+}

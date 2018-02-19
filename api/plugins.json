@@ -496,6 +496,13 @@
         "pluginURL": "https:\/\/woocommerce.com\/products\/authorize-net-dpm\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-gateway-authorize-net-dpm-woocommerce-gateway-authorize-net-dpm-1.7.3.json"
     },
+    "woocommerce-gateway-stripe-woocommerce-gateway-stripe-4.0.0.json": {
+        "name": "WooCommerce Stripe Payment Gateway",
+        "version": "4.0.0",
+        "testedUpTo": "4.0.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce-gateway-stripe",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-gateway-stripe-woocommerce-gateway-stripe-4.0.0.json"
+    },
     "woocommerce-gravityforms-product-addons-gravityforms-product-addons-3.1.11.json": {
         "name": "WooCommerce - Gravity Forms Product Add-Ons",
         "version": "3.1.11",
