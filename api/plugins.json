@@ -503,6 +503,13 @@
         "pluginURL": "http:\/\/woothemes.com\/products\/gravity-forms-add-ons\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-gravityforms-product-addons-gravityforms-product-addons-3.1.11.json"
     },
+    "woocommerce-name-your-price-woocommerce-name-your-price-2.6.3.json": {
+        "name": "WooCommerce Name Your Price",
+        "version": "2.6.3",
+        "testedUpTo": "2.6.3",
+        "pluginURL": "http:\/\/www.woothemes.com\/products\/name-your-price\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-name-your-price-woocommerce-name-your-price-2.6.3.json"
+    },
     "woocommerce-shipping-ups-woocommerce-shipping-ups-3.2.5.json": {
         "name": "WooCommerce UPS Shipping",
         "version": "3.2.5",
