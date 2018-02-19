@@ -692,6 +692,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wp-super-cache",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-super-cache-wp-cache-1.5.0.json"
     },
+    "wp-views-wp-views-2.5.2.json": {
+        "name": "Toolset Views",
+        "version": "2.5.2",
+        "testedUpTo": "2.5.2",
+        "pluginURL": "http:\/\/wp-types.com\/?utm_source=viewsplugin&#038;utm_campaign=views&#038;utm_medium=plugins-list-full-version&#038;utm_term=Visit%20plugin%20site",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wp-views-wp-views-2.5.2.json"
+    },
     "wpmandrill-wpmandrill-1.33.json": {
         "name": "wpMandrill",
         "version": "1.33",

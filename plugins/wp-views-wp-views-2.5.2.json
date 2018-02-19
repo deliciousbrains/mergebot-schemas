@@ -1,0 +1,142 @@
+{
+    "name": "Toolset Views",
+    "version": "2.5.2",
+    "testedUpTo": "2.5.2",
+    "url": "http:\/\/wp-types.com\/?utm_source=viewsplugin&#038;utm_campaign=views&#038;utm_medium=plugins-list-full-version&#038;utm_term=Visit%20plugin%20site",
+    "basename": "wp-views\/wp-views.php",
+    "shortcodes": {
+        "cred-form-message": {
+            "parameters": [
+                "form_id"
+            ]
+        },
+        "toolset-edit-user-link": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "users"
+                }
+            ]
+        },
+        "wpv-filter-end": {
+            "parameters": [
+                "view_id"
+            ]
+        },
+        "wpv-filter-start": {
+            "parameters": [
+                "view_id"
+            ]
+        },
+        "wpv-form-view": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-author": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-body": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-class": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-comments-number": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-date": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-edit-link": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-excerpt": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-featured-image": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-field": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-format": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-id": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-menu-order": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-next-link": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-previous-link": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-slug": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-type": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-post-url": {
+            "parameters": [
+                "id"
+            ]
+        },
+        "wpv-user": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "users"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "postmeta": {
+            "_toolset_user_editors_frontend_editor_preview_post": {
+                "meta_key": "_toolset_user_editors_frontend_editor_preview_post",
+                "meta_value": "posts"
+            },
+            "_view_loop_id": {
+                "meta_key": "_view_loop_id",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
