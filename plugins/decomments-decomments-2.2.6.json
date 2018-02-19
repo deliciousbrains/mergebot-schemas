@@ -1,0 +1,19 @@
+{
+    "name": "de:comments",
+    "version": "2.2.6",
+    "testedUpTo": "2.2.6",
+    "url": "http:\/\/decomments.com",
+    "basename": "decomments\/decomments.php",
+    "relationships": {
+        "commentmeta": {
+            "decom_attached_pictures": {
+                "meta_key": "decom_attached_pictures",
+                "meta_value": "posts",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "posts:ID"
+                }
+            }
+        }
+    }
+}

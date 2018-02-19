@@ -90,6 +90,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/custom-post-type-ui",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/custom-post-type-ui-custom-post-type-ui-1.5.0.json"
     },
+    "decomments-decomments-2.2.6.json": {
+        "name": "de:comments",
+        "version": "2.2.6",
+        "testedUpTo": "2.2.6",
+        "pluginURL": "http:\/\/decomments.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/decomments-decomments-2.2.6.json"
+    },
     "duplicate-post-duplicate-post-3.0.3.json": {
         "name": "Duplicate Post",
         "version": "3.0.3",
