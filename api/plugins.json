@@ -489,6 +489,13 @@
         "pluginURL": "https:\/\/woocommerce.com\/products\/advanced-notifications",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-advanced-notifications-woocommerce-advanced-notifications-1.2.10.json"
     },
+    "woocommerce-checkout-field-editor-pro-woocommerce-checkout-field-editor-pro-2.9.1.json": {
+        "name": "WooCommerce Checkout Field Editor Pro",
+        "version": "2.9.1",
+        "testedUpTo": "2.9.1",
+        "pluginURL": "https:\/\/www.themehigh.com\/product\/woocommerce-checkout-field-editor-pro\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-checkout-field-editor-pro-woocommerce-checkout-field-editor-pro-2.9.1.json"
+    },
     "woocommerce-gateway-authorize-net-dpm-woocommerce-gateway-authorize-net-dpm-1.7.3.json": {
         "name": "WooCommerce Authorize.net DPM Gateway",
         "version": "1.7.3",
