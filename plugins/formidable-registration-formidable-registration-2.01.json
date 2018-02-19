@@ -1,0 +1,37 @@
+{
+    "name": "Formidable Registration",
+    "version": "2.01",
+    "testedUpTo": "2.01",
+    "url": "https:\/\/formidableforms.com\/knowledgebase\/user-registration\/",
+    "basename": "formidable-registration\/formidable-registration.php",
+    "shortcodes": {
+        "frm-primary-blog": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        },
+        "frm-set-password-link": {
+            "parameters": [
+                {
+                    "name": "user_id",
+                    "table": "users"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "usermeta": {
+            "frmreg_entry_id": {
+                "meta_key": "frmreg_entry_id",
+                "meta_value": "frm_items"
+            },
+            "frmreg_form_id": {
+                "meta_key": "frmreg_form_id",
+                "meta_value": "frm_forms"
+            }
+        }
+    }
+}

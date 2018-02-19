@@ -202,6 +202,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/formidable",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/formidable-formidable-2.05.json"
     },
+    "formidable-registration-formidable-registration-2.01.json": {
+        "name": "Formidable Registration",
+        "version": "2.01",
+        "testedUpTo": "2.01",
+        "pluginURL": "https:\/\/formidableforms.com\/knowledgebase\/user-registration\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/formidable-registration-formidable-registration-2.01.json"
+    },
     "genesis-simple-sidebars-plugin-2.1.0.json": {
         "name": "Genesis Simple Sidebars",
         "version": "2.1.0",
