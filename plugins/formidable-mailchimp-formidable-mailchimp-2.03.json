@@ -1,0 +1,7 @@
+{
+    "name": "Formidable MailChimp",
+    "version": "2.03",
+    "testedUpTo": "2.03",
+    "url": "http:\/\/formidableforms.com\/",
+    "basename": "formidable-mailchimp\/formidable-mailchimp.php"
+}
