@@ -454,6 +454,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "types-access-types-access-2.4.3.5.json": {
+        "name": "Toolset Access",
+        "version": "2.4.3.5",
+        "testedUpTo": "2.4.3.5",
+        "pluginURL": "http:\/\/wp-types.com\/home\/types-access\/?utm_source=accessplugin&#038;utm_campaign=access&#038;utm_medium=release-notes-plugins-list&#038;utm_term=Visit%20plugin%20site",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/types-access-types-access-2.4.3.5.json"
+    },
     "unbounce-Unbounce-Page-1.0.0.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.0",
