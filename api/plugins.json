@@ -461,6 +461,13 @@
         "pluginURL": "http:\/\/wp-types.com\/home\/types-access\/?utm_source=accessplugin&#038;utm_campaign=access&#038;utm_medium=release-notes-plugins-list&#038;utm_term=Visit%20plugin%20site",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/types-access-types-access-2.4.3.5.json"
     },
+    "types-wpcf-2.2.json": {
+        "name": "Toolset Types &#8211; Custom Post Types, Custom Fields and Taxonomies",
+        "version": "2.2",
+        "testedUpTo": "2.2.21",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/types",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/types-wpcf-2.2.json"
+    },
     "unbounce-Unbounce-Page-1.0.0.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.0",
