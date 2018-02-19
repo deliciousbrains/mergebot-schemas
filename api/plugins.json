@@ -545,6 +545,13 @@
         "pluginURL": "https:\/\/woocommerce.com\/products\/variation-swatches-and-photos\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-variation-swatches-and-photos-woocommerce-swatches-3.0.4.json"
     },
+    "woocommerce-views-views-woocommerce-2.7.5.json": {
+        "name": "Toolset WooCommerce Views",
+        "version": "2.7.5",
+        "testedUpTo": "2.7.5",
+        "pluginURL": "http:\/\/wp-types.com\/documentation\/views-inside\/woocommerce-views\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-views-views-woocommerce-2.7.5.json"
+    },
     "woocommerce-woocommerce-2.6.11.json": {
         "name": "WooCommerce",
         "version": "2.6.11",

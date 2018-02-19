@@ -1,0 +1,15 @@
+{
+    "name": "Toolset WooCommerce Views",
+    "version": "2.7.5",
+    "testedUpTo": "2.7.5",
+    "url": "http:\/\/wp-types.com\/documentation\/views-inside\/woocommerce-views\/",
+    "basename": "woocommerce-views\/views-woocommerce.php",
+    "relationships": {
+        "options": {
+            "woocommerce_shop_page_id": {
+                "option_name": "woocommerce_shop_page_id",
+                "option_value": "posts"
+            }
+        }
+    }
+}
