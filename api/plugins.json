@@ -454,6 +454,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
+    "toolset-maps-toolset-maps-loader-1.4.1.json": {
+        "name": "Toolset Maps",
+        "version": "1.4.1",
+        "testedUpTo": "1.4.1",
+        "pluginURL": "https:\/\/wp-types.com\/documentation\/user-guides\/display-on-google-maps\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/toolset-maps-toolset-maps-loader-1.4.1.json"
+    },
     "types-access-types-access-2.4.3.5.json": {
         "name": "Toolset Access",
         "version": "2.4.3.5",
