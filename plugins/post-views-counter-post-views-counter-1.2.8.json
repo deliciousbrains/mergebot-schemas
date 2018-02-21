@@ -1,0 +1,36 @@
+{
+    "name": "Post Views Counter",
+    "version": "1.2.8",
+    "testedUpTo": "1.2.11",
+    "url": "https:\/\/wordpress.org\/plugins\/post-views-counter",
+    "basename": "post-views-counter\/post-views-counter.php",
+    "primaryKeys": {
+        "post_views": {
+            "key": [
+                "id",
+                "type",
+                "period"
+            ],
+            "auto_increment": false
+        }
+    },
+    "shortcodes": {
+        "post-views": {
+            "parameters": [
+                "id"
+            ]
+        }
+    },
+    "relationships": {
+        "sitemeta": {
+            "post_views_counter_activated_blogs": {
+                "meta_key": "post_views_counter_activated_blogs",
+                "meta_value": "blogs",
+                "serialized": {
+                    "key": "ignore",
+                    "val": "blogs:blog_id"
+                }
+            }
+        }
+    }
+}

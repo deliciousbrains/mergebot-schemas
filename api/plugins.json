@@ -398,6 +398,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.0.json"
     },
+    "post-views-counter-post-views-counter-1.2.8.json": {
+        "name": "Post Views Counter",
+        "version": "1.2.8",
+        "testedUpTo": "1.2.11",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.8.json"
+    },
     "redirection-redirection-3.0.json": {
         "name": "Redirection",
         "version": "3.0",
