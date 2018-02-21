@@ -685,6 +685,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.1.0.json"
     },
+    "woocommerce-woocommerce-3.3.0.json": {
+        "name": "WooCommerce",
+        "version": "3.3.0",
+        "testedUpTo": "3.3.2-rc.1",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.3.0.json"
+    },
     "wordfence-wordfence-6.2.10.json": {
         "name": "Wordfence Security",
         "version": "6.2.10",
