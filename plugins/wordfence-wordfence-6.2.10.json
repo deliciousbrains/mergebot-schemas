@@ -86,6 +86,11 @@
         "wfHits:userID": "users:ID",
         "wfLogins:userID": "users:ID"
     },
+    "ignore": [
+        {
+            "(?!wfConfig)wf(\\w+)": "(.*)"
+        }
+    ],
     "metaTables": {
         "wfConfig": {
             "keys": [
