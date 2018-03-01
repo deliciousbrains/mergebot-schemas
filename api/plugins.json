@@ -125,6 +125,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/disable-comments",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/disable-comments-disable-comments-1.7.json"
     },
+    "display-posts-shortcode-display-posts-shortcode-2.9.0.json": {
+        "name": "Display Posts Shortcode",
+        "version": "2.9.0",
+        "testedUpTo": "2.9.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/display-posts-shortcode",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/display-posts-shortcode-display-posts-shortcode-2.9.0.json"
+    },
     "duplicate-post-duplicate-post-3.0.3.json": {
         "name": "Duplicate Post",
         "version": "3.0.3",

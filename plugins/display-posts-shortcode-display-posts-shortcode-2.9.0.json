@@ -1,0 +1,25 @@
+{
+    "name": "Display Posts Shortcode",
+    "version": "2.9.0",
+    "testedUpTo": "2.9.0",
+    "url": "https:\/\/wordpress.org\/plugins\/display-posts-shortcode",
+    "basename": "display-posts-shortcode\/display-posts-shortcode.php",
+    "shortcodes": {
+        "display-posts": {
+            "parameters": [
+                {
+                    "name": "category_id",
+                    "table": "terms"
+                },
+                {
+                    "name": "id",
+                    "table": "posts"
+                },
+                {
+                    "name": "exclude",
+                    "table": "posts"
+                }
+            ]
+        }
+    }
+}
