@@ -118,6 +118,13 @@
         "pluginURL": "http:\/\/decomments.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/decomments-decomments-2.2.6.json"
     },
+    "disable-comments-disable-comments-1.7.json": {
+        "name": "Disable Comments",
+        "version": "1.7",
+        "testedUpTo": "1.7",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/disable-comments",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/disable-comments-disable-comments-1.7.json"
+    },
     "duplicate-post-duplicate-post-3.0.3.json": {
         "name": "Duplicate Post",
         "version": "3.0.3",
