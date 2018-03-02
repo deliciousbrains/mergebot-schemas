@@ -1,7 +1,7 @@
 {
     "name": "Google Analytics by MonsterInsights",
     "version": "5.5.4",
-    "testedUpTo": "7.0.0",
+    "testedUpTo": "7.0.3",
     "url": "https:\/\/wordpress.org\/plugins\/google-analytics-for-wordpress",
     "basename": "google-analytics-for-wordpress\/googleanalytics.php"
 }
