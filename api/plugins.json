@@ -2,7 +2,7 @@
     "add-to-any-add-to-any-1.7.json": {
         "name": "AddToAny Share Buttons",
         "version": "1.7",
-        "testedUpTo": "1.7.4",
+        "testedUpTo": "1.7.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/add-to-any",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/add-to-any-add-to-any-1.7.json"
     },
