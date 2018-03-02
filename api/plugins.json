@@ -601,6 +601,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.0.json"
     },
+    "under-construction-page-under-construction-2.85.json": {
+        "name": "Under Construction",
+        "version": "2.85",
+        "testedUpTo": "2.85",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/under-construction-page",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/under-construction-page-under-construction-2.85.json"
+    },
     "updraftplus-updraftplus-1.12.0.json": {
         "name": "UpdraftPlus WordPress Backup Plugin",
         "version": "1.12.0",
