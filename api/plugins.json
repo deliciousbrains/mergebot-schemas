@@ -625,7 +625,7 @@
     "updraftplus-updraftplus-1.12.0.json": {
         "name": "UpdraftPlus WordPress Backup Plugin",
         "version": "1.12.0",
-        "testedUpTo": "1.12.0",
+        "testedUpTo": "1.14.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/updraftplus",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/updraftplus-updraftplus-1.12.0.json"
     },

@@ -1,7 +1,7 @@
 {
     "name": "UpdraftPlus WordPress Backup Plugin",
     "version": "1.12.0",
-    "testedUpTo": "1.12.0",
+    "testedUpTo": "1.14.4",
     "url": "https:\/\/wordpress.org\/plugins\/updraftplus",
     "basename": "updraftplus\/updraftplus.php"
 }
