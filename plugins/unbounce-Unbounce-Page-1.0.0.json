@@ -1,7 +1,7 @@
 {
     "name": "Unbounce Landing Pages",
     "version": "1.0.0",
-    "testedUpTo": "1.0.0",
+    "testedUpTo": "1.0.1",
     "url": "https:\/\/wordpress.org\/plugins\/unbounce",
     "basename": "unbounce\/Unbounce-Page.php"
 }
