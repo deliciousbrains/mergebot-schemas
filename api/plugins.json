@@ -447,6 +447,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.8.json"
     },
+    "q2w3-fixed-widget-q2w3-fixed-widget-5.1.json": {
+        "name": "Q2W3 Fixed Widget",
+        "version": "5.1",
+        "testedUpTo": "5.1",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/q2w3-fixed-widget",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/q2w3-fixed-widget-q2w3-fixed-widget-5.1.json"
+    },
     "redirection-redirection-3.0.json": {
         "name": "Redirection",
         "version": "3.0",
