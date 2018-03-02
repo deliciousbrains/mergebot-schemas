@@ -513,7 +513,7 @@
     "tiny-compress-images-tiny-compress-images-2.2.0.json": {
         "name": "Compress JPEG &amp; PNG images",
         "version": "2.2.0",
-        "testedUpTo": "2.2.2",
+        "testedUpTo": "2.2.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tiny-compress-images",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tiny-compress-images-tiny-compress-images-2.2.0.json"
     },
