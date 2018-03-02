@@ -412,6 +412,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/megamenu",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/megamenu-megamenu-2.4.json"
     },
+    "memphis-documents-library-memphis-documents-3.8.json": {
+        "name": "Memphis Documents Library",
+        "version": "3.8",
+        "testedUpTo": "3.8",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/memphis-documents-library",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/memphis-documents-library-memphis-documents-3.8.json"
+    },
     "ninja-forms-ninja-forms-3.1.json": {
         "name": "Ninja Forms &#8211; The Easy and Powerful Forms Builder",
         "version": "3.1",
