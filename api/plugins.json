@@ -121,7 +121,7 @@
     "disable-comments-disable-comments-1.7.json": {
         "name": "Disable Comments",
         "version": "1.7",
-        "testedUpTo": "1.7",
+        "testedUpTo": "1.7.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/disable-comments",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/disable-comments-disable-comments-1.7.json"
     },
