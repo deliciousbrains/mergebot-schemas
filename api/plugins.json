@@ -674,7 +674,7 @@
     "woocommerce-gateway-stripe-woocommerce-gateway-stripe-4.0.0.json": {
         "name": "WooCommerce Stripe Payment Gateway",
         "version": "4.0.0",
-        "testedUpTo": "4.0.1",
+        "testedUpTo": "4.0.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce-gateway-stripe",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-gateway-stripe-woocommerce-gateway-stripe-4.0.0.json"
     },
