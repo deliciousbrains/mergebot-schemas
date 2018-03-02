@@ -548,7 +548,7 @@
     "unbounce-Unbounce-Page-1.0.0.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.0",
-        "testedUpTo": "1.0.3",
+        "testedUpTo": "1.0.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.0.json"
     },
