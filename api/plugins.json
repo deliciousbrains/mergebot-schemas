@@ -590,7 +590,7 @@
     "types-wpcf-2.2.json": {
         "name": "Toolset Types &#8211; Custom Post Types, Custom Fields and Taxonomies",
         "version": "2.2",
-        "testedUpTo": "2.2.21",
+        "testedUpTo": "2.2.22",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/types",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/types-wpcf-2.2.json"
     },

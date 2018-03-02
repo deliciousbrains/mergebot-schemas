@@ -1,7 +1,7 @@
 {
     "name": "Toolset Types &#8211; Custom Post Types, Custom Fields and Taxonomies",
     "version": "2.2",
-    "testedUpTo": "2.2.21",
+    "testedUpTo": "2.2.22",
     "url": "https:\/\/wordpress.org\/plugins\/types",
     "basename": "types\/wpcf.php",
     "shortcodes": {
