@@ -457,7 +457,7 @@
     "relevanssi-relevanssi-3.5.8.json": {
         "name": "Relevanssi - A Better Search",
         "version": "3.5.8",
-        "testedUpTo": "4.0.3",
+        "testedUpTo": "4.0.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/relevanssi",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/relevanssi-relevanssi-3.5.8.json"
     },
