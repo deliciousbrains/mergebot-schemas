@@ -1,7 +1,7 @@
 {
     "name": "Wordfence Security",
     "version": "6.3.0",
-    "testedUpTo": "7.0.3",
+    "testedUpTo": "7.0.4",
     "url": "https:\/\/wordpress.org\/plugins\/wordfence",
     "basename": "wordfence\/wordfence.php",
     "primaryKeys": {
