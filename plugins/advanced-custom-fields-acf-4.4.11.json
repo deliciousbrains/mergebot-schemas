@@ -1,7 +1,7 @@
 {
     "name": "Advanced Custom Fields",
     "version": "4.4.11",
-    "testedUpTo": "5.6.7",
+    "testedUpTo": "5.6.9",
     "url": "https:\/\/wordpress.org\/plugins\/advanced-custom-fields",
     "basename": "advanced-custom-fields\/acf.php",
     "shortcodes": {
