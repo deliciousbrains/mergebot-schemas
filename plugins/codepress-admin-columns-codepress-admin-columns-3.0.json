@@ -1,7 +1,7 @@
 {
     "name": "Admin Columns",
     "version": "3.0",
-    "testedUpTo": "3.1.1",
+    "testedUpTo": "3.1.2",
     "url": "https:\/\/wordpress.org\/plugins\/codepress-admin-columns",
     "basename": "codepress-admin-columns\/codepress-admin-columns.php",
     "relationships": {
