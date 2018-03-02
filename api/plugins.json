@@ -527,7 +527,7 @@
     "simple-tooltips-index-2.1.json": {
         "name": "Simple Tooltips",
         "version": "2.1",
-        "testedUpTo": "2.1",
+        "testedUpTo": "2.1.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/simple-tooltips",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/simple-tooltips-index-2.1.json"
     },
