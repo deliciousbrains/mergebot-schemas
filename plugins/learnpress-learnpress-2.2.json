@@ -1,0 +1,126 @@
+{
+    "name": "LearnPress &#8211; WordPress LMS Plugin",
+    "version": "2.2",
+    "testedUpTo": "2.2",
+    "url": "https:\/\/wordpress.org\/plugins\/learnpress",
+    "basename": "learnpress\/learnpress.php",
+    "primaryKeys": {
+        "learnpress_order_itemmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "learnpress_order_items": {
+            "key": [
+                "order_item_id"
+            ]
+        },
+        "learnpress_question_answers": {
+            "key": [
+                "question_answer_id"
+            ]
+        },
+        "learnpress_quiz_questions": {
+            "key": [
+                "quiz_question_id"
+            ]
+        },
+        "learnpress_review_logs": {
+            "key": [
+                "review_log_id"
+            ]
+        },
+        "learnpress_section_items": {
+            "key": [
+                "section_item_id"
+            ]
+        },
+        "learnpress_sections": {
+            "key": [
+                "section_id"
+            ]
+        },
+        "learnpress_sessions": {
+            "key": [
+                "session_id"
+            ]
+        },
+        "learnpress_user_itemmeta": {
+            "key": [
+                "meta_id"
+            ]
+        },
+        "learnpress_user_items": {
+            "key": [
+                "user_item_id"
+            ]
+        }
+    },
+    "foreignKeys": {
+        "learnpress_order_itemmeta:learnpress_order_item_id": "learnpress_order_items:order_item_id",
+        "learnpress_order_items:order_id": "posts:ID",
+        "learnpress_question_answers:question_id": "learnpress_quiz_questions:quiz_question_id",
+        "learnpress_quiz_questions:question_id": "posts:ID",
+        "learnpress_quiz_questions:quiz_id": "posts:ID",
+        "learnpress_review_logs:course_id": "posts:ID",
+        "learnpress_review_logs:user_id": "users:ID",
+        "learnpress_section_items:item_id": "learnpress_order_items:order_item_id",
+        "learnpress_section_items:section_id": "learnpress_sections:section_id",
+        "learnpress_user_itemmeta:learnpress_user_item_id": "learnpress_user_items:user_item_id",
+        "learnpress_user_items:item_id": "learnpress_order_items:order_item_id",
+        "learnpress_user_items:ref_id": "posts:ID",
+        "learnpress_user_items:user_id": "users:ID"
+    },
+    "shortcodes": {
+        "learn_press_confirm_order": {
+            "parameters": [
+                {
+                    "name": "order_id",
+                    "table": "posts"
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "commentmeta": {
+            "_lpr_old_course": {
+                "meta_key": "_lpr_old_course",
+                "meta_value": "posts"
+            }
+        },
+        "options": {
+            "learn_press_(.*)_page_id": {
+                "option_name": "learn_press_(.*)_page_id",
+                "option_value": "posts"
+            }
+        },
+        "postmeta": {
+            "_learn_press_customer_id": {
+                "meta_key": "_learn_press_customer_id",
+                "meta_value": "users"
+            },
+            "_lp_cert": {
+                "meta_key": "_lp_cert",
+                "meta_value": "posts"
+            },
+            "_lp_co_teacher": {
+                "meta_key": "_lp_co_teacher",
+                "meta_value": "users"
+            },
+            "_lp_course_forum": {
+                "meta_key": "_lp_course_forum",
+                "meta_value": "posts"
+            },
+            "_user_id": {
+                "meta_key": "_user_id",
+                "meta_value": "users"
+            }
+        },
+        "usermeta": {
+            "_lpr_order_id": {
+                "meta_key": "_lpr_order_id",
+                "meta_value": "posts"
+            }
+        }
+    }
+}
