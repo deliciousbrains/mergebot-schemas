@@ -587,6 +587,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/types",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/types-wpcf-2.2.json"
     },
+    "uber-login-logo-uber-login-logo-1.5.0.json": {
+        "name": "Uber Login Logo",
+        "version": "1.5.0",
+        "testedUpTo": "1.5.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/uber-login-logo",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/uber-login-logo-uber-login-logo-1.5.0.json"
+    },
     "unbounce-Unbounce-Page-1.0.0.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.0",
