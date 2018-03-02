@@ -16,7 +16,7 @@
     "advanced-custom-fields-acf-4.4.11.json": {
         "name": "Advanced Custom Fields",
         "version": "4.4.11",
-        "testedUpTo": "5.6.8",
+        "testedUpTo": "5.6.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/advanced-custom-fields",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/advanced-custom-fields-acf-4.4.11.json"
     },
