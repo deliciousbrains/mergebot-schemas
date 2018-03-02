@@ -1,0 +1,15 @@
+{
+    "name": "Unbounce Landing Pages",
+    "version": "1.0.34",
+    "testedUpTo": "1.0.34",
+    "url": "https:\/\/wordpress.org\/plugins\/unbounce",
+    "basename": "unbounce\/Unbounce-Page.php",
+    "relationships": {
+        "options": {
+            "ubconfig::ub_user_id_key": {
+                "option_name": "ubconfig::ub_user_id_key",
+                "option_value": "users"
+            }
+        }
+    }
+}

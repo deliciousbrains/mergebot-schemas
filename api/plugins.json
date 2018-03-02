@@ -608,6 +608,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.0.json"
     },
+    "unbounce-Unbounce-Page-1.0.34.json": {
+        "name": "Unbounce Landing Pages",
+        "version": "1.0.34",
+        "testedUpTo": "1.0.34",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.34.json"
+    },
     "under-construction-page-under-construction-2.85.json": {
         "name": "Under Construction",
         "version": "2.85",
