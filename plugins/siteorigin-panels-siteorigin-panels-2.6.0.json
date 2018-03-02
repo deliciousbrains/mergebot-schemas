@@ -1,0 +1,15 @@
+{
+    "name": "Page Builder by SiteOrigin",
+    "version": "2.6.0",
+    "testedUpTo": "2.6.0",
+    "url": "https:\/\/wordpress.org\/plugins\/siteorigin-panels",
+    "basename": "siteorigin-panels\/siteorigin-panels.php",
+    "relationships": {
+        "options": {
+            "siteorigin_panels_home_page_id": {
+                "option_name": "siteorigin_panels_home_page_id",
+                "option_value": "posts"
+            }
+        }
+    }
+}

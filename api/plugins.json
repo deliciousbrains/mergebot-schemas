@@ -503,6 +503,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/simple-tooltips",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/simple-tooltips-index-2.1.json"
     },
+    "siteorigin-panels-siteorigin-panels-2.6.0.json": {
+        "name": "Page Builder by SiteOrigin",
+        "version": "2.6.0",
+        "testedUpTo": "2.6.0",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/siteorigin-panels",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/siteorigin-panels-siteorigin-panels-2.6.0.json"
+    },
     "sitepress-multilingual-cms-sitepress-3.7.1.json": {
         "name": "WPML Multilingual CMS",
         "version": "3.7.1",
