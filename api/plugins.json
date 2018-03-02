@@ -380,7 +380,7 @@
     "mailchimp-for-woocommerce-mailchimp-woocommerce-2.1.0.json": {
         "name": "MailChimp for WooCommerce",
         "version": "2.1.0",
-        "testedUpTo": "2.1.3",
+        "testedUpTo": "2.1.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-woocommerce-mailchimp-woocommerce-2.1.0.json"
     },
