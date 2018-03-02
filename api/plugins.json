@@ -503,6 +503,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/shortcodes-ultimate",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/shortcodes-ultimate-shortcodes-ultimate-5.0.0.json"
     },
+    "simple-301-redirects-wp-simple-301-redirects-1.07.json": {
+        "name": "Simple 301 Redirects",
+        "version": "1.07",
+        "testedUpTo": "1.07",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/simple-301-redirects",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/simple-301-redirects-wp-simple-301-redirects-1.07.json"
+    },
     "simple-custom-css-simple-custom-css-3.3.json": {
         "name": "Simple Custom CSS",
         "version": "3.3",
