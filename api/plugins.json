@@ -107,7 +107,7 @@
     "custom-post-type-ui-custom-post-type-ui-1.5.0.json": {
         "name": "Custom Post Type UI",
         "version": "1.5.0",
-        "testedUpTo": "1.5.6",
+        "testedUpTo": "1.5.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/custom-post-type-ui",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/custom-post-type-ui-custom-post-type-ui-1.5.0.json"
     },
