@@ -807,7 +807,7 @@
     "wordpress-importer-wordpress-importer-0.6.3.json": {
         "name": "WordPress Importer",
         "version": "0.6.3",
-        "testedUpTo": "0.6.3",
+        "testedUpTo": "0.6.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-importer-wordpress-importer-0.6.3.json"
     },
