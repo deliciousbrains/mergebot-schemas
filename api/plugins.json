@@ -548,7 +548,7 @@
     "so-widgets-bundle-so-widgets-bundle-1.11.0.json": {
         "name": "SiteOrigin Widgets Bundle",
         "version": "1.11.0",
-        "testedUpTo": "1.11.4",
+        "testedUpTo": "1.11.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/so-widgets-bundle",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/so-widgets-bundle-so-widgets-bundle-1.11.0.json"
     },
