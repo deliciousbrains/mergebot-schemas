@@ -1,7 +1,7 @@
 {
     "name": "WordPress Importer",
     "version": "0.6.3",
-    "testedUpTo": "0.6.3",
+    "testedUpTo": "0.6.4",
     "url": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
     "basename": "wordpress-importer\/wordpress-importer.php",
     "relationships": {
