@@ -653,7 +653,7 @@
     "under-construction-page-under-construction-2.85.json": {
         "name": "Under Construction",
         "version": "2.85",
-        "testedUpTo": "2.85",
+        "testedUpTo": "2.90",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/under-construction-page",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/under-construction-page-under-construction-2.85.json"
     },
