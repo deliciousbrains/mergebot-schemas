@@ -1,7 +1,7 @@
 {
     "name": "MailChimp for WooCommerce",
     "version": "2.1.0",
-    "testedUpTo": "2.1.4",
+    "testedUpTo": "2.1.5",
     "url": "https:\/\/wordpress.org\/plugins\/mailchimp-for-woocommerce",
     "basename": "mailchimp-for-woocommerce\/mailchimp-woocommerce.php",
     "foreignKeys": {
