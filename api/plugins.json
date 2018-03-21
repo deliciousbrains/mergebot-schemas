@@ -622,6 +622,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/uber-login-logo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/uber-login-logo-uber-login-logo-1.5.0.json"
     },
+    "ubermenu-ubermenu-3.3.1.1.json": {
+        "name": "UberMenu 3 - The Ultimate WordPress Mega Menu",
+        "version": "3.3.1.1",
+        "testedUpTo": "3.3.1.1",
+        "pluginURL": "http:\/\/wpmegamenu.com",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/ubermenu-ubermenu-3.3.1.1.json"
+    },
     "unbounce-Unbounce-Page-1.0.0.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.0",
