@@ -496,6 +496,13 @@
         "pluginURL": "http:\/\/revolution.themepunch.com\/",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/revslider-revslider-5.4.6.2.json"
     },
+    "searchwp-searchwp-2.9.12.json": {
+        "name": "SearchWP",
+        "version": "2.9.12",
+        "testedUpTo": "2.9.12",
+        "pluginURL": "https:\/\/searchwp.com\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/searchwp-searchwp-2.9.12.json"
+    },
     "sfwd-lms-sfwd_lms-2.4.7.json": {
         "name": "LearnDash LMS",
         "version": "2.4.7",
