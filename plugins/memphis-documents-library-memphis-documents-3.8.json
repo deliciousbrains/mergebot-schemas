@@ -1,7 +1,7 @@
 {
     "name": "Memphis Documents Library",
     "version": "3.8",
-    "testedUpTo": "3.8.1",
+    "testedUpTo": "3.8.2",
     "url": "https:\/\/wordpress.org\/plugins\/memphis-documents-library",
     "basename": "memphis-documents-library\/memphis-documents.php"
 }
