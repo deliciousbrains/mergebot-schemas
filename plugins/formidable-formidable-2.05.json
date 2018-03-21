@@ -1,7 +1,7 @@
 {
     "name": "Formidable Forms &#8211; Form Builder for WordPress",
     "version": "2.05",
-    "testedUpTo": "3.0.05",
+    "testedUpTo": "3.0.06",
     "url": "https:\/\/wordpress.org\/plugins\/formidable",
     "basename": "formidable\/formidable.php",
     "primaryKeys": {

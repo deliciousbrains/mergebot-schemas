@@ -1,7 +1,7 @@
 {
     "name": "User Role Editor",
     "version": "4.39",
-    "testedUpTo": "4.40",
+    "testedUpTo": "4.40.1",
     "url": "https:\/\/wordpress.org\/plugins\/user-role-editor",
     "basename": "user-role-editor\/user-role-editor.php"
 }

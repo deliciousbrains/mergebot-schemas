@@ -44,7 +44,7 @@
     "all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json": {
         "name": "All in One SEO Pack",
         "version": "2.3.11.3",
-        "testedUpTo": "2.4.5.1",
+        "testedUpTo": "2.4.6.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/all-in-one-seo-pack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/all-in-one-seo-pack-all_in_one_seo_pack-2.3.11.3.json"
     },
@@ -107,7 +107,7 @@
     "custom-post-type-ui-custom-post-type-ui-1.5.0.json": {
         "name": "Custom Post Type UI",
         "version": "1.5.0",
-        "testedUpTo": "1.5.6",
+        "testedUpTo": "1.5.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/custom-post-type-ui",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/custom-post-type-ui-custom-post-type-ui-1.5.0.json"
     },
@@ -156,7 +156,7 @@
     "easy-digital-downloads-easy-digital-downloads-2.7.json": {
         "name": "Easy Digital Downloads",
         "version": "2.7",
-        "testedUpTo": "2.8.18",
+        "testedUpTo": "2.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/easy-digital-downloads",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/easy-digital-downloads-easy-digital-downloads-2.7.json"
     },
@@ -212,7 +212,7 @@
     "enable-media-replace-enable-media-replace-3.0.5.json": {
         "name": "Enable Media Replace",
         "version": "3.0.5",
-        "testedUpTo": "3.2",
+        "testedUpTo": "3.2.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/enable-media-replace",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/enable-media-replace-enable-media-replace-3.0.5.json"
     },
@@ -240,7 +240,7 @@
     "formidable-formidable-2.05.json": {
         "name": "Formidable Forms &#8211; Form Builder for WordPress",
         "version": "2.05",
-        "testedUpTo": "3.0.05",
+        "testedUpTo": "3.0.06",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/formidable",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/formidable-formidable-2.05.json"
     },
@@ -352,7 +352,7 @@
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",
-        "testedUpTo": "5.9-beta",
+        "testedUpTo": "5.9",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
@@ -401,7 +401,7 @@
     "mailchimp-for-wp-mailchimp-for-wp-4.1.0.json": {
         "name": "MailChimp for WordPress",
         "version": "4.1.0",
-        "testedUpTo": "4.1.15",
+        "testedUpTo": "4.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/mailchimp-for-wp-mailchimp-for-wp-4.1.0.json"
     },
@@ -415,14 +415,14 @@
     "megamenu-megamenu-2.4.json": {
         "name": "Max Mega Menu",
         "version": "2.4",
-        "testedUpTo": "2.4.1.4",
+        "testedUpTo": "2.4.1.5",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/megamenu",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/megamenu-megamenu-2.4.json"
     },
     "memphis-documents-library-memphis-documents-3.8.json": {
         "name": "Memphis Documents Library",
         "version": "3.8",
-        "testedUpTo": "3.8",
+        "testedUpTo": "3.8.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/memphis-documents-library",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/memphis-documents-library-memphis-documents-3.8.json"
     },
@@ -436,7 +436,7 @@
     "post-expirator-post-expirator-2.3.0.json": {
         "name": "Post Expirator",
         "version": "2.3.0",
-        "testedUpTo": "2.3.0",
+        "testedUpTo": "2.3.1.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-expirator",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-expirator-post-expirator-2.3.0.json"
     },
@@ -464,7 +464,7 @@
     "q2w3-fixed-widget-q2w3-fixed-widget-5.1.json": {
         "name": "Q2W3 Fixed Widget",
         "version": "5.1",
-        "testedUpTo": "5.1",
+        "testedUpTo": "5.1.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/q2w3-fixed-widget",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/q2w3-fixed-widget-q2w3-fixed-widget-5.1.json"
     },
@@ -555,7 +555,7 @@
     "siteorigin-panels-siteorigin-panels-2.6.0.json": {
         "name": "Page Builder by SiteOrigin",
         "version": "2.6.0",
-        "testedUpTo": "2.6.0",
+        "testedUpTo": "2.6.3",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/siteorigin-panels",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/siteorigin-panels-siteorigin-panels-2.6.0.json"
     },
@@ -569,7 +569,7 @@
     "so-widgets-bundle-so-widgets-bundle-1.11.0.json": {
         "name": "SiteOrigin Widgets Bundle",
         "version": "1.11.0",
-        "testedUpTo": "1.11.0",
+        "testedUpTo": "1.11.6",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/so-widgets-bundle",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/so-widgets-bundle-so-widgets-bundle-1.11.0.json"
     },
@@ -618,7 +618,7 @@
     "uber-login-logo-uber-login-logo-1.5.0.json": {
         "name": "Uber Login Logo",
         "version": "1.5.0",
-        "testedUpTo": "1.5.0",
+        "testedUpTo": "1.5.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/uber-login-logo",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/uber-login-logo-uber-login-logo-1.5.0.json"
     },
@@ -667,7 +667,7 @@
     "user-role-editor-user-role-editor-4.39.json": {
         "name": "User Role Editor",
         "version": "4.39",
-        "testedUpTo": "4.40",
+        "testedUpTo": "4.40.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/user-role-editor",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/user-role-editor-user-role-editor-4.39.json"
     },
@@ -814,7 +814,7 @@
     "woocommerce-woocommerce-3.3.0.json": {
         "name": "WooCommerce",
         "version": "3.3.0",
-        "testedUpTo": "3.3.3",
+        "testedUpTo": "3.3.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.3.0.json"
     },
@@ -828,14 +828,14 @@
     "wordfence-wordfence-6.3.0.json": {
         "name": "Wordfence Security",
         "version": "6.3.0",
-        "testedUpTo": "7.1.0",
+        "testedUpTo": "7.1.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordfence",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordfence-wordfence-6.3.0.json"
     },
     "wordpress-importer-wordpress-importer-0.6.3.json": {
         "name": "WordPress Importer",
         "version": "0.6.3",
-        "testedUpTo": "0.6.3",
+        "testedUpTo": "0.6.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/wordpress-importer",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/wordpress-importer-wordpress-importer-0.6.3.json"
     },

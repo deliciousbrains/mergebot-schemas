@@ -1,7 +1,7 @@
 {
     "name": "WooCommerce",
     "version": "3.3.0",
-    "testedUpTo": "3.3.3",
+    "testedUpTo": "3.3.4",
     "url": "https:\/\/wordpress.org\/plugins\/woocommerce",
     "basename": "woocommerce\/woocommerce.php",
     "primaryKeys": {
