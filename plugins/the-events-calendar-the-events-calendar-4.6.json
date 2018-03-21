@@ -1,7 +1,7 @@
 {
     "name": "The Events Calendar",
     "version": "4.6",
-    "testedUpTo": "4.6.11.1",
+    "testedUpTo": "4.6.12",
     "url": "https:\/\/wordpress.org\/plugins\/the-events-calendar",
     "basename": "the-events-calendar\/the-events-calendar.php",
     "ignore": [
