@@ -454,6 +454,13 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.8.json"
     },
+    "posts-table-pro-posts-data-table-pro-1.6.json": {
+        "name": "Posts Table Pro",
+        "version": "1.6",
+        "testedUpTo": "1.6",
+        "pluginURL": "https:\/\/barn2.co.uk\/wordpress-plugins\/posts-table-pro\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/posts-table-pro-posts-data-table-pro-1.6.json"
+    },
     "q2w3-fixed-widget-q2w3-fixed-widget-5.1.json": {
         "name": "Q2W3 Fixed Widget",
         "version": "5.1",
