@@ -422,7 +422,7 @@
     "memphis-documents-library-memphis-documents-3.8.json": {
         "name": "Memphis Documents Library",
         "version": "3.8",
-        "testedUpTo": "3.8.1",
+        "testedUpTo": "3.8.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/memphis-documents-library",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/memphis-documents-library-memphis-documents-3.8.json"
     },
