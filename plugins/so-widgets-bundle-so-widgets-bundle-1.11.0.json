@@ -1,7 +1,7 @@
 {
     "name": "SiteOrigin Widgets Bundle",
     "version": "1.11.0",
-    "testedUpTo": "1.11.2",
+    "testedUpTo": "1.11.3",
     "url": "https:\/\/wordpress.org\/plugins\/so-widgets-bundle",
     "basename": "so-widgets-bundle\/so-widgets-bundle.php"
 }
