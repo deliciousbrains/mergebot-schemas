@@ -1,7 +1,7 @@
 {
     "name": "MailChimp for WordPress",
     "version": "4.1.0",
-    "testedUpTo": "4.1.15",
+    "testedUpTo": "4.2",
     "url": "https:\/\/wordpress.org\/plugins\/mailchimp-for-wp",
     "basename": "mailchimp-for-wp\/mailchimp-for-wp.php",
     "shortcodes": {
