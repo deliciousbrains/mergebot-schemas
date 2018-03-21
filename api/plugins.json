@@ -517,6 +517,13 @@
         "pluginURL": "http:\/\/www.learndash.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/sfwd-lms-sfwd_lms-2.4.7.json"
     },
+    "shiftnav-pro-shiftnav-1.6.2.json": {
+        "name": "ShiftNav Pro - Responsive Mobile Menu",
+        "version": "1.6.2",
+        "testedUpTo": "1.6.2",
+        "pluginURL": "http:\/\/shiftnav.io",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/shiftnav-pro-shiftnav-1.6.2.json"
+    },
     "shortcodes-ultimate-shortcodes-ultimate-5.0.0.json": {
         "name": "Shortcodes Ultimate",
         "version": "5.0.0",

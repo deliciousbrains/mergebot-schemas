@@ -1,0 +1,17 @@
+{
+    "name": "ShiftNav Pro - Responsive Mobile Menu",
+    "version": "1.6.2",
+    "testedUpTo": "1.6.2",
+    "url": "http:\/\/shiftnav.io",
+    "basename": "shiftnav-pro\/shiftnav.php",
+    "shortcodes": {
+        "shiftnav-basic-user-profile": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "table": "users"
+                }
+            ]
+        }
+    }
+}
