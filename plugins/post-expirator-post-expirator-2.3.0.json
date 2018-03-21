@@ -1,7 +1,7 @@
 {
     "name": "Post Expirator",
     "version": "2.3.0",
-    "testedUpTo": "2.3.1",
+    "testedUpTo": "2.3.1.1",
     "url": "https:\/\/wordpress.org\/plugins\/post-expirator",
     "basename": "post-expirator\/post-expirator.php",
     "relationships": {
