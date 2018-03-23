@@ -55,6 +55,13 @@
         "pluginURL": "https:\/\/bettersearchreplace.com",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/better-search-replace-pro-better-search-replace-1.3.3.json"
     },
+    "breadcrumb-navxt-breadcrumb-navxt-6.0.0.json": {
+        "name": "Breadcrumb NavXT",
+        "version": "6.0.0",
+        "testedUpTo": "6.0.4",
+        "pluginURL": "https:\/\/wordpress.org\/plugins\/breadcrumb-navxt",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/breadcrumb-navxt-breadcrumb-navxt-6.0.0.json"
+    },
     "civil-footnotes-footnotes-1.3.json": {
         "name": "Civil Footnotes",
         "version": "1.3",
