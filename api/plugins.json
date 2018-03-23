@@ -1,4 +1,11 @@
 {
+    "Post-Parents-master-post_parents-0.2.0.json": {
+        "name": "Post Parents",
+        "version": "0.2.0",
+        "testedUpTo": "0.2.0",
+        "pluginURL": "http:\/\/mtekk.us\/code\/",
+        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/Post-Parents-master-post_parents-0.2.0.json"
+    },
     "add-to-any-add-to-any-1.7.json": {
         "name": "AddToAny Share Buttons",
         "version": "1.7",
