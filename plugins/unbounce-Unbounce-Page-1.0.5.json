@@ -1,7 +1,7 @@
 {
     "name": "Unbounce Landing Pages",
     "version": "1.0.5",
-    "testedUpTo": "1.0.13",
+    "testedUpTo": "1.0.14",
     "url": "https:\/\/wordpress.org\/plugins\/unbounce",
     "basename": "unbounce\/Unbounce-Page.php",
     "relationships": {
