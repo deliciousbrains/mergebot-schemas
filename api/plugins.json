@@ -650,17 +650,10 @@
         "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.0.json"
     },
-    "unbounce-Unbounce-Page-1.0.34.json": {
-        "name": "Unbounce Landing Pages",
-        "version": "1.0.34",
-        "testedUpTo": "1.0.34",
-        "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
-        "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.34.json"
-    },
     "unbounce-Unbounce-Page-1.0.5.json": {
         "name": "Unbounce Landing Pages",
         "version": "1.0.5",
-        "testedUpTo": "1.0.33",
+        "testedUpTo": "1.0.34",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/unbounce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/unbounce-Unbounce-Page-1.0.5.json"
     },
