@@ -366,7 +366,7 @@
     "jetpack-jetpack-4.4.2.json": {
         "name": "Jetpack by WordPress.com",
         "version": "4.4.2",
-        "testedUpTo": "5.9",
+        "testedUpTo": "6.0-beta",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/jetpack",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/jetpack-jetpack-4.4.2.json"
     },
