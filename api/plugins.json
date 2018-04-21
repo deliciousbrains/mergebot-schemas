@@ -254,7 +254,7 @@
     "formidable-formidable-2.05.json": {
         "name": "Formidable Forms &#8211; Form Builder for WordPress",
         "version": "2.05",
-        "testedUpTo": "3.01.01",
+        "testedUpTo": "3.01.02",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/formidable",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/formidable-formidable-2.05.json"
     },
