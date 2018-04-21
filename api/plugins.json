@@ -814,7 +814,7 @@
     "woocommerce-woocommerce-3.0.0.json": {
         "name": "WooCommerce",
         "version": "3.0.0",
-        "testedUpTo": "3.0.9",
+        "testedUpTo": "3.0.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/woocommerce",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/woocommerce-woocommerce-3.0.0.json"
     },
