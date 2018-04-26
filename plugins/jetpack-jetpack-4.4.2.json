@@ -1,7 +1,7 @@
 {
     "name": "Jetpack by WordPress.com",
     "version": "4.4.2",
-    "testedUpTo": "6.0",
+    "testedUpTo": "6.1-beta",
     "url": "https:\/\/wordpress.org\/plugins\/jetpack",
     "basename": "jetpack\/jetpack.php",
     "shortcodes": {
