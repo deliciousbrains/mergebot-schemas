@@ -429,7 +429,7 @@
     "megamenu-megamenu-2.4.json": {
         "name": "Max Mega Menu",
         "version": "2.4",
-        "testedUpTo": "2.4.1.5.1",
+        "testedUpTo": "2.4.2",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/megamenu",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/megamenu-megamenu-2.4.json"
     },
