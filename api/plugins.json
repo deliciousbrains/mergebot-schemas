@@ -464,7 +464,7 @@
     "post-views-counter-post-views-counter-1.2.8.json": {
         "name": "Post Views Counter",
         "version": "1.2.8",
-        "testedUpTo": "1.2.11",
+        "testedUpTo": "1.2.12",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/post-views-counter",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/post-views-counter-post-views-counter-1.2.8.json"
     },
