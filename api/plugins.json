@@ -541,7 +541,7 @@
     "shortcodes-ultimate-shortcodes-ultimate-5.0.0.json": {
         "name": "Shortcodes Ultimate",
         "version": "5.0.0",
-        "testedUpTo": "5.0.3",
+        "testedUpTo": "5.0.4",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/shortcodes-ultimate",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/shortcodes-ultimate-shortcodes-ultimate-5.0.0.json"
     },
