@@ -1,7 +1,7 @@
 {
     "name": "Post Views Counter",
     "version": "1.2.8",
-    "testedUpTo": "1.2.12",
+    "testedUpTo": "1.2.13",
     "url": "https:\/\/wordpress.org\/plugins\/post-views-counter",
     "basename": "post-views-counter\/post-views-counter.php",
     "primaryKeys": {
