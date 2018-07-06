@@ -681,7 +681,7 @@
     "user-role-editor-user-role-editor-4.39.json": {
         "name": "User Role Editor",
         "version": "4.39",
-        "testedUpTo": "4.43",
+        "testedUpTo": "4.44",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/user-role-editor",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/user-role-editor-user-role-editor-4.39.json"
     },
