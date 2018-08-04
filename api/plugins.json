@@ -604,7 +604,7 @@
     "tinymce-advanced-tinymce-advanced-4.4.3.json": {
         "name": "TinyMCE Advanced",
         "version": "4.4.3",
-        "testedUpTo": "4.7.11",
+        "testedUpTo": "4.8.0",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/tinymce-advanced",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/tinymce-advanced-tinymce-advanced-4.4.3.json"
     },
