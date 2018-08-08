@@ -569,7 +569,7 @@
     "siteorigin-panels-siteorigin-panels-2.6.0.json": {
         "name": "Page Builder by SiteOrigin",
         "version": "2.6.0",
-        "testedUpTo": "2.8.0",
+        "testedUpTo": "2.8.1",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/siteorigin-panels",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/siteorigin-panels-siteorigin-panels-2.6.0.json"
     },
