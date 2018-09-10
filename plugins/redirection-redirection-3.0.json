@@ -1,7 +1,7 @@
 {
     "name": "Redirection",
     "version": "3.0",
-    "testedUpTo": "3.4",
+    "testedUpTo": "3.4.1",
     "url": "https:\/\/wordpress.org\/plugins\/redirection",
     "basename": "redirection\/redirection.php",
     "primaryKeys": {
