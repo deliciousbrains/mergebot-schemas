@@ -16,7 +16,7 @@
     "addthis-addthis_social_widget-6.1.0.json": {
         "name": "Share Buttons by AddThis",
         "version": "6.1.0",
-        "testedUpTo": "6.1.6",
+        "testedUpTo": "6.1.7",
         "pluginURL": "https:\/\/wordpress.org\/plugins\/addthis",
         "schemaURL": "https:\/\/github.com\/deliciousbrains\/mergebot-schemas\/blob\/master\/plugins\/addthis-addthis_social_widget-6.1.0.json"
     },
