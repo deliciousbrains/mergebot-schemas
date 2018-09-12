@@ -1,7 +1,7 @@
 {
     "name": "Share Buttons by AddThis",
     "version": "6.1.0",
-    "testedUpTo": "6.1.6",
+    "testedUpTo": "6.1.7",
     "url": "https:\/\/wordpress.org\/plugins\/addthis",
     "basename": "addthis\/addthis_social_widget.php"
 }
